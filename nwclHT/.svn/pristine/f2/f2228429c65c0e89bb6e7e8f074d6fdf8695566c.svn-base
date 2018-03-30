@@ -1,0 +1,4 @@
+#database config
+database.url = jdbc\:mysql\://127.0.0.1\:3306/nwcl?useUnicode\=true&characterEncoding\=UTF8&zeroDateTimeBehavior\=convertToNull&autoReconnect\=true&failOverReadOnly\=false&maxReconnects\=10
+database.userName = nwcl
+database.password = *&^Wj19840113

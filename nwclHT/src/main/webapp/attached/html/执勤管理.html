@@ -1,0 +1,90 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/bagl/zqgl.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>执勤管理</title>
+    
+    <link href="./执勤管理_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./执勤管理_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./执勤管理_files/执勤管理.html" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MDU4MTc4MTUPZBYCAgEPZBYEAgkPPCsAEQIADxYEHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AgFkARAWABYAFgAWAmYPZBYEAgEPD2QWAh4Hb25jbGljawUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYQZg9kFgICAQ8PFgIeBFRleHQFATFkZAICDw8WAh8DBQ/mtbfmt4DlrZDlhazlj7hkZAIDD2QWBGYPFQEBMWQCAQ8PFgIfAwUKMjAxMS0wMS0xNWRkAgQPDxYCHwMFCeWFs+S6kemVv2RkAgUPDxYCHwMFBuW3oemAu2RkAgYPDxYCHwMFD+WNjuWuuemBk+mZhOi/kWRkAgcPDxYCHwMFGOacquWPkeeOsOacieWPr+eWkeS6uuWRmGRkAggPZBYCAgEPDxYCHwMFATFkZAICDw8WAh4HVmlzaWJsZWhkZAILDw8WBB4IUGFnZVNpemUCDx4LUmVjb3JkY291bnQCAWRkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBRNHcmlkVmlldzEkY3RsMDIkZGVsBQlHcmlkVmlldzEPPCsADAMGFQECaWQHFCsAARQrAAECAQgCAWRyiV6S2bhY1/Q2Lb0fgID2LLIV7n163t2HlR9Q5pxVtw==">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EABEDD43">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            执勤管理
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px;">
+                            快速检索：<select name="query_tj" id="query_tj">
+	<option selected="selected" value="zqr">值勤人</option>
+	<option value="qtype">值勤类型</option>
+	<option value="place">值勤地点</option>
+
+</select>
+                            <input name="query_content" type="text" id="query_content" class="mytext" style="width:100px;">
+                        </td>
+                        <td align="right">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="button" name="AddBtn" value="增加" class="mybtn" onclick="javascript:popAdd(&#39;zqgl_view.aspx&#39;);">
+                            <input type="submit" name="DelBtn" value="删除" onclick="return confirm(&#39;确认要执行删除吗？&#39;);" id="DelBtn" class="mybtn">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 7px; padding-right: 7px" height="25" colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./执勤管理_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:30px;">
+                                <input id="chkall" type="checkbox" onclick="chkAll();" title="全选或全不选" style="width: 16;
+                                    height: 16">
+                            </td><td>所属公司</td><td style="width:90px;">值勤日期</td><td style="width:70px;">值勤人</td><td style="width:110px;">值勤类型</td><td>值勤地点</td><td>值勤记录</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl02_Label1">1</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl02_del" type="checkbox" name="GridView1$ctl02$del"></span>
+                            </td><td>海淀子公司</td><td align="center">
+                                <a href="http://hkoffice.uicp.net:91/pms/bagl/zqgl.aspx#" onclick="javascript:popMod(&#39;zqgl_view.aspx?id=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl02_Labelsdate">2011-01-15</span></a>
+                            </td><td>关云长</td><td>巡逻</td><td>华容道附近</td><td>未发现有可疑人员</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

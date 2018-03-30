@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<mappers>
+		<mapper resource="mybatis/mapper/AdminMapper.xml" />
+		<mapper resource="mybatis/mapper/AdminCommunityMapper.xml" />
+		<mapper resource="mybatis/mapper/BizUserMapper.xml" />
+		<mapper resource="mybatis/mapper/BizUserRoomMapper.xml" />
+
+		<mapper resource="mybatis/mapper/RoomPhoneMapper.xml" />
+		<mapper resource="mybatis/mapper/RoomMapper.xml" />
+
+		<mapper resource="mybatis/mapper/BuildingMapper.xml" />
+
+		<mapper resource="mybatis/mapper/BerificationCodeMapper.xml" />
+		<mapper resource="mybatis/mapper/AuthorizeCodeMapper.xml" />
+
+		<mapper resource="mybatis/mapper/ArticleReleaseMapper.xml" />
+		<mapper resource="mybatis/mapper/ArticleReleaseImgMapper.xml" />
+
+		<mapper resource="mybatis/mapper/MaintenanceMapper.xml" />
+		<mapper resource="mybatis/mapper/PropertyPayMentMapper.xml" />
+		<mapper resource="mybatis/mapper/MaintenanceImgMapper.xml" />
+		<mapper resource="mybatis/mapper/MaintenanceRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/MaintenancePriceMapper.xml" />
+		<mapper resource="mybatis/mapper/MaintenanceServiceTypeMapper.xml" />
+		<mapper resource="mybatis/mapper/MaintenanceOfferMapper.xml" />
+
+		<mapper resource="mybatis/mapper/AnnouncementMapper.xml" />
+		<mapper resource="mybatis/mapper/AnnouncementImgMapper.xml" />
+		<mapper resource="mybatis/mapper/AnnouncementModelMapper.xml" />
+		<mapper resource="mybatis/mapper/AnnouncementRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/AnnouncementSendMapper.xml" />
+
+		<mapper resource="mybatis/mapper/ConvenienceTelephoneMapper.xml" />
+		<mapper resource="mybatis/mapper/ConvenienceTelephoneTypeMapper.xml" />
+
+		<mapper resource="mybatis/mapper/SchedulingMapper.xml" />
+		<mapper resource="mybatis/mapper/HousekeeperMapper.xml" />
+		<mapper resource="mybatis/mapper/HousekeeperSchedulingMapper.xml" />
+		<mapper resource="mybatis/mapper/HousekeeperUserMessageMapper.xml" />
+		<mapper resource="mybatis/mapper/HousekeeperDetailMapper.xml" />
+
+		<mapper resource="mybatis/mapper/BorrowMapper.xml" />
+		<mapper resource="mybatis/mapper/ThingMapper.xml" />
+		<mapper resource="mybatis/mapper/BorrowThingMapper.xml" />
+
+		<mapper resource="mybatis/mapper/HangPictureImgMapper.xml" />
+		<mapper resource="mybatis/mapper/HangPictureMapper.xml" />
+		<mapper resource="mybatis/mapper/HangPictureRatingMapper.xml" />
+
+		<mapper resource="mybatis/mapper/UserMessageMapper.xml" />
+		<mapper resource="mybatis/mapper/UserWebmasterMessageMapper.xml" />
+		<mapper resource="mybatis/mapper/UserOpinionMapper.xml" />
+		<mapper resource="mybatis/mapper/UserOpinionImgMapper.xml" />
+
+		<mapper resource="mybatis/mapper/ActivityMapper.xml" />
+		<mapper resource="mybatis/mapper/ActivityRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/ActivityRegisterMapper.xml" />
+
+		<mapper resource="mybatis/mapper/LectureHallIntroducingImgMapper.xml" />
+		<mapper resource="mybatis/mapper/LectureHallIntroducingMapper.xml" />
+		<mapper resource="mybatis/mapper/LectureHallMapper.xml" />
+		<mapper resource="mybatis/mapper/LectureHallRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/LectureHallRegisterMapper.xml" />
+		<mapper resource="mybatis/mapper/LectureShareItemMapper.xml" />
+
+		<mapper resource="mybatis/mapper/LikeShareMapper.xml" />
+		<mapper resource="mybatis/mapper/LikeShareImgMapper.xml" />
+		<mapper resource="mybatis/mapper/LikeShareRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/LikeShareZanMapper.xml" />
+
+		<mapper resource="mybatis/mapper/VisitorsMapper.xml" />
+		<mapper resource="mybatis/mapper/VisitorsStatisticsMapper.xml" />
+		<mapper resource="mybatis/mapper/VisitorsStatisticsDetailMapper.xml" />
+		<mapper resource="mybatis/mapper/VisitorPassportRecordMapper.xml" />
+
+		<mapper resource="mybatis/mapper/NeighborHelpMapper.xml" />
+		<mapper resource="mybatis/mapper/NeighborHelpImgMapper.xml" />
+		<mapper resource="mybatis/mapper/NeighborHelpMessageMapper.xml" />
+		<mapper resource="mybatis/mapper/NeighborHelpZanMapper.xml" />
+		<mapper resource="mybatis/mapper/OwnersMarketZanMapper.xml" />
+
+		<mapper resource="mybatis/mapper/RecommendMapper.xml" />
+		<mapper resource="mybatis/mapper/RecommendImgMapper.xml" />
+		<mapper resource="mybatis/mapper/RecommendRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/RecommendZanMapper.xml" />
+		<mapper resource="mybatis/mapper/RecommendTypeMapper.xml" />
+
+		<mapper resource="mybatis/mapper/IdlethingMapper.xml" />
+		<mapper resource="mybatis/mapper/IdlethingImgMapper.xml" />
+		<mapper resource="mybatis/mapper/IdlethingRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/IdlethingZanMapper.xml" />
+		<mapper resource="mybatis/mapper/IdlethingTypeMapper.xml" />
+
+		<mapper resource="mybatis/mapper/LinglingDeviceMapper.xml" />
+		<mapper resource="mybatis/mapper/LinglingManagerMapper.xml" />
+		<mapper resource="mybatis/mapper/LinglingOwnerMapper.xml" />
+		<mapper resource="mybatis/mapper/LinglingResidentialMapper.xml" />
+		<mapper resource="mybatis/mapper/LinglingServerAddrMapper.xml" />
+
+		<mapper resource="mybatis/mapper/ServiceUserMapper.xml" />
+		<mapper resource="mybatis/mapper/RepairmanDetailMapper.xml" />
+		<mapper resource="mybatis/mapper/RepairmanTypeMapper.xml" />
+		<mapper resource="mybatis/mapper/RepairmanTypeRelationMapper.xml" />
+
+		<mapper resource="mybatis/mapper/HonourEnjoyImgMapper.xml" />
+		<mapper resource="mybatis/mapper/HonourEnjoyMapper.xml" />
+		<mapper resource="mybatis/mapper/HonourEnjoyProductMapper.xml" />
+		<mapper resource="mybatis/mapper/HonourEnjoyRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/HonourEnjoyRelationMapper.xml" />
+		<mapper resource="mybatis/mapper/HonourEnjoyUserMapper.xml" />
+
+		<mapper resource="mybatis/mapper/SensitiveMapper.xml" />
+
+		<mapper resource="mybatis/mapper/IndexesImgMapper.xml" />
+
+		<mapper resource="mybatis/mapper/MarketConferenceMapper.xml" />
+
+		<mapper resource="mybatis/mapper/ApplyBoothMapper.xml" />
+		<mapper resource="mybatis/mapper/ApplyBoothImgMapper.xml" />
+
+		<mapper resource="mybatis/mapper/QuestionItemMapper.xml" />
+		<mapper resource="mybatis/mapper/QuestionMapper.xml" />
+		<mapper resource="mybatis/mapper/QuestionnaireMapper.xml" />
+		<mapper resource="mybatis/mapper/RoomQuestionnaireAnswerMapper.xml" />
+		<mapper resource="mybatis/mapper/RoomQuestionnaireMapper.xml" />
+
+		<mapper resource="mybatis/mapper/CommunityMapper.xml" />
+		<mapper resource="mybatis/mapper/BuildingMapper.xml" />
+
+		<mapper resource="mybatis/mapper/PropertyMapper.xml" />
+
+		<mapper resource="mybatis/mapper/PayOrderMapper.xml" />
+
+
+		<mapper resource="mybatis/mapper/CouponMapper.xml" />
+		<mapper resource="mybatis/mapper/BuserCouponMapper.xml" />
+
+		<mapper resource="mybatis/mapper/MaintenanceProspectingImgMapper.xml" />
+		<mapper resource="mybatis/mapper/HangPictureCompleteImgMapper.xml" />
+
+		<mapper resource="mybatis/mapper/NotifyImgMapper.xml" />
+		<mapper resource="mybatis/mapper/NotifyMapper.xml" />
+		<mapper resource="mybatis/mapper/NotifySendMapper.xml" />
+
+		<mapper resource="mybatis/mapper/OwnersMarketImgMapper.xml" />
+		<mapper resource="mybatis/mapper/OwnersMarketRatingMapper.xml" />
+		<mapper resource="mybatis/mapper/OwnersMarketMapper.xml" />
+		<mapper resource="mybatis/mapper/RoleMapper.xml" />
+		<mapper resource="mybatis/mapper/MemuMapper.xml" />
+		<mapper resource="mybatis/mapper/RoleResourceMapper.xml" />
+
+		<mapper resource="mybatis/mapper/DepartmentMapper.xml" />
+		<mapper resource="mybatis/mapper/EmployeeMapper.xml" />
+		<mapper resource="mybatis/mapper/QuestionnaireClassifyMapper.xml" />
+
+		<mapper resource="mybatis/mapper/RepairmanStatusMapper.xml" />
+		<mapper resource="mybatis/mapper/LabelMapper.xml" />
+		<mapper resource="mybatis/mapper/LectureHallMessageMapper.xml" />
+		<mapper resource="mybatis/mapper/DoorControlMapper.xml" />
+		<mapper resource="mybatis/mapper/DoorRecordMapper.xml" />
+		<mapper resource="mybatis/mapper/ReadingRecordMapper.xml" />
+		<mapper resource="mybatis/mapper/CouponImgMapper.xml" />
+		<mapper resource="mybatis/mapper/DoorTypeMapper.xml" />
+		<mapper resource="mybatis/mapper/LingLingOwnerv3Mapper.xml" />
+		<mapper resource="mybatis/mapper/LingLingVisitiorv3Mapper.xml" />
+		<mapper resource="mybatis/mapper/LingLingDevicev3Mapper.xml" />
+
+		<mapper resource="mybatis/mapper/VideoManagementMapper.xml" />
+		<mapper resource="mybatis/mapper/VideoResourceMapper.xml" />
+
+		<mapper resource="mybatis/mapper/ServiceClockAttendanceMapper.xml" />
+		<mapper resource="mybatis/mapper/ServiceClockRoleConfigMapper.xml" />
+		<mapper resource="mybatis/mapper/ServiceWordRecordImgMapper.xml" />
+		<mapper resource="mybatis/mapper/ServiceWordRecordMapper.xml" />
+		
+		
+		
+		<mapper resource="mybatis/mapper/CarInfoMapper.xml" />
+		<mapper resource="mybatis/mapper/CarParkRecordMapper.xml" />
+		<mapper resource="mybatis/mapper/CarPayItemMapper.xml" />
+		<mapper resource="mybatis/mapper/CarPayMapper.xml" />
+		<mapper resource="mybatis/mapper/CarPayRecordMapper.xml" />
+	</mappers>
+</configuration>

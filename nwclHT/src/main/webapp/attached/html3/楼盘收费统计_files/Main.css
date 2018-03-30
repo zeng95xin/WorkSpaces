@@ -1,0 +1,219 @@
+BODY {
+	MARGIN: 0px; BACKGROUND-REPEAT: no-repeat; FONT-SIZE: 10pt
+}
+BODY.main {
+	BACKGROUND-COLOR: #ecece8
+}
+BODY.msg {
+	BACKGROUND-IMAGE: url(../images/msgbg.jpg)
+}
+.fr {
+	BORDER-LEFT: #8ca1ae 3px solid; BORDER-TOP: #8ca1ae 2px solid
+}
+TR.hkHeadStyle {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #cae2eb; HEIGHT: 23px; COLOR: #000000; FONT-WEIGHT: bold
+}
+TR.hkHeadStyle TD {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid
+}
+TR.hkRowStyle {
+	BACKGROUND-COLOR: #ffffff; HEIGHT: 19px
+}
+TR.hkRowStyle TD {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid
+}
+TR.hkAltRowStyle {
+	BACKGROUND-COLOR: #ebfbf0; HEIGHT: 19px; COLOR: #000000
+}
+TR.hkAltRowStyle TD {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid
+}
+TR.hkEmpRowStyle {
+	BACKGROUND-COLOR: #ffffff; HEIGHT: 25px; COLOR: #ff0000
+}
+TR.hkEmpRowStyle TD {
+	PADDING-LEFT: 6px
+}
+TR.hkBottomStyle {
+	BACKGROUND-COLOR: #e0e0e0; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-COLLAPSE: collapse; HEIGHT: 24px
+}
+TR.hkBottomStyle TD {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid
+}
+TR.pagebottom {
+	BACKGROUND-COLOR: #ecece8; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-COLLAPSE: collapse; HEIGHT: 24px
+}
+TR.pagebottom TD {
+	BORDER-BOTTOM: #a1a7ab 1px solid
+}
+.hidden {
+	DISPLAY: none
+}
+TR.print_title {
+	BACKGROUND-COLOR: #ffffff; HEIGHT: 22px; FONT-WEIGHT: lighter
+}
+TR.print_bottom {
+	BACKGROUND-COLOR: #cccccc; HEIGHT: 20px
+}
+TR.print_list_gray {
+	BACKGROUND-COLOR: #ffffff; HEIGHT: 20px
+}
+INPUT.mybtn {
+	BACKGROUND-IMAGE: url(../images/buttonbl_bg.gif); BORDER-BOTTOM: #a8a8a8 1px outset; BORDER-LEFT: #a8a8a8 1px outset; PADDING-BOTTOM: 2px; LINE-HEIGHT: 15px; MARGIN: 1px 0px 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 4px; DISPLAY: inline; HEIGHT: 20px; FONT-SIZE: 12px; BORDER-TOP: #a8a8a8 1px outset; FONT-WEIGHT: normal; BORDER-RIGHT: #a8a8a8 1px outset; PADDING-TOP: 1px
+}
+.pagebtn {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #fff 1px solid; WIDTH: 30px; LETTER-SPACING: normal; BACKGROUND: #336699; HEIGHT: 20px; COLOR: #ffffff; MARGIN-LEFT: 2px; FONT-SIZE: 10pt; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 2px
+}
+INPUT.mytext {
+	BORDER-BOTTOM: #b0c5e6 1px solid; BORDER-LEFT: #b0c5e6 1px solid; FONT: 12px "Tahoma","宋体"; BORDER-TOP: #b0c5e6 1px solid; BORDER-RIGHT: #b0c5e6 1px solid
+}
+TEXTAREA.mytextarea {
+	BORDER-BOTTOM: #b0c5e6 1px solid; BORDER-LEFT: #b0c5e6 1px solid; FONT: 12px "Tahoma","宋体"; BORDER-TOP: #b0c5e6 1px solid; BORDER-RIGHT: #b0c5e6 1px solid
+}
+INPUT.pagetext {
+	BORDER-BOTTOM: #b4b4b4 1px solid; BORDER-LEFT: #b4b4b4 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 2px; WIDTH: 40px; PADDING-RIGHT: 2px; HEIGHT: 19px; FONT-SIZE: 10pt; BORDER-TOP: #b4b4b4 1px solid; BORDER-RIGHT: #b4b4b4 1px solid; PADDING-TOP: 2px
+}
+.wordtext {
+	BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BACKGROUND-COLOR: #e3e0dc; WIDTH: 23px; HEIGHT: auto; FONT-SIZE: 10pt; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid
+}
+INPUT.logintext {
+	BORDER-BOTTOM: #525050 1px solid; BORDER-LEFT: #525050 1px solid; FONT: 14px "Tahoma","宋体"; BORDER-TOP: #525050 1px solid; BORDER-RIGHT: #525050 1px solid
+}
+.dj_text {
+	BORDER-BOTTOM: #d8d8d8 1px solid; BACKGROUND-COLOR: #f4f4f4; FONT-FAMILY: 宋体; BORDER-TOP-WIDTH: 0px; FONT-SIZE: 10pt; BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT: #d8d8d8 0px solid
+}
+A.gvlink:link {
+	COLOR: #3366ff; TEXT-DECORATION: underline
+}
+A.gvlink:visited {
+	COLOR: #3366ff; TEXT-DECORATION: underline
+}
+A.gvlink:active {
+	COLOR: #3366ff; TEXT-DECORATION: underline
+}
+A.gvlink:hover {
+	COLOR: #3366ff; TEXT-DECORATION: underline
+}
+A.top_text {
+	FONT: 10pt 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+A.top_text:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.top_text:active {
+	COLOR: #000000
+}
+A.blue:link {
+	COLOR: #000099; FONT-SIZE: 10pt; TEXT-DECORATION: underline
+}
+A.blue:visited {
+	COLOR: #000099; FONT-SIZE: 10pt; TEXT-DECORATION: underline
+}
+A.blue:hover {
+	COLOR: #000099; FONT-SIZE: 10pt; TEXT-DECORATION: underline
+}
+A.blue:active {
+	COLOR: #000099; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.black:link {
+	COLOR: #000000; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.black:visited {
+	COLOR: #000000; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.black:hover {
+	COLOR: #000000; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.black:active {
+	COLOR: #000000; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.yellow:link {
+	COLOR: yellow; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.yellow:visited {
+	COLOR: yellow; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.yellow:hover {
+	COLOR: #dc143c; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.yellow:active {
+	COLOR: yellow; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+.page_text {
+	FONT: 10pt 宋体; COLOR: #333333
+}
+A.page_text {
+	FONT: 10pt 宋体; COLOR: #333333
+}
+A.page_text:hover {
+	COLOR: #333333
+}
+A.page_text:active {
+	COLOR: #333333
+}
+A.mail_top {
+	FONT: 10pt 宋体; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mail_top:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mail_top:active {
+	COLOR: #ffffff
+}
+TABLE {
+	FONT-SIZE: 10pt
+}
+TABLE.form TD {
+	BORDER-BOTTOM: #c0c0c0 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.form {
+	BORDER-BOTTOM: #cc6600 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-COLLAPSE: collapse; BORDER-TOP: #cc6600 3px solid
+}
+.form-title {
+	BORDER-LEFT: #c0c0c0 1px solid; BACKGROUND-COLOR: #ebfbf0; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid
+}
+.form-item {
+	TEXT-ALIGN: right; BORDER-LEFT: #c0c0c0 1px solid; BACKGROUND-COLOR: #ebfbf0; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid
+}
+.form-txt {
+	PADDING-BOTTOM: 9px; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #fffaf0; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 9px
+}
+.td_title {
+	BACKGROUND-IMAGE: url(../images/bg.gif); TEXT-ALIGN: center; BACKGROUND-COLOR: #4579b5; COLOR: #000000; FONT-SIZE: 12px
+}
+.td_base {
+	LINE-HEIGHT: 20px; BACKGROUND-COLOR: #4579b5; PADDING-LEFT: 10px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tr_top {
+	BACKGROUND-IMAGE: url(../images/top_line.jpg)
+}
+.bg {
+	BACKGROUND-IMAGE: url(../images/menu_bg.jpg); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left bottom
+}
+.topic {
+	BACKGROUND-COLOR: #d7e9f8; PADDING-LEFT: 12px; COLOR: #000000; FONT-WEIGHT: bold
+}
+.table {
+	BORDER-LEFT: #a1a7ab 1px solid; BORDER-RIGHT: #a1a7ab 1px solid
+}
+.line {
+	BORDER-LEFT: #8f9396 1px solid; WIDTH: 2px; HEIGHT: 17px; BORDER-RIGHT: #dad9d7 1px solid
+}
+.hr1 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-COLOR: #cccccc; WIDTH: 100%; HEIGHT: 1px; COLOR: #cccccc; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.hr2 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; HEIGHT: 1px; BORDER-TOP: #0066cc 1px dashed; BORDER-RIGHT: medium none
+}
+.hr3 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; HEIGHT: 1px; BORDER-TOP: #555555 1px solid; BORDER-RIGHT: medium none
+}
+.hr4 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; HEIGHT: 3px; BORDER-TOP: red 3px double; BORDER-RIGHT: medium none
+}
+.hr5 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; HEIGHT: 5px; BORDER-TOP: green 5px ridge; BORDER-RIGHT: medium none
+}
+.hr6 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; HEIGHT: 10px; BORDER-TOP: skyblue 10px groove; BORDER-RIGHT: medium none
+}

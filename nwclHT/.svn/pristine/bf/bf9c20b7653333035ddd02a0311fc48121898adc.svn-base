@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+<display-name>nwclHT</display-name>
+	<welcome-file-list>
+		<welcome-file>/login</welcome-file>
+	</welcome-file-list>
+	<context-param>
+		<param-name>webAppRootKey</param-name>
+		<param-value>nwclHT</param-value>
+	</context-param>
+	<!-- Spring配置 -->
+	<servlet>
+		<servlet-name>nwclHT</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:spring/spring-mvc.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>nwclHT</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 登录验证码servlet -->
+	<servlet>
+		<servlet-name>LoginCodeServlet</servlet-name>
+		<servlet-class>com.bola.nwcl.web.servlets.LoginCodeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginCodeServlet</servlet-name>
+		<url-pattern>/loginCodeServlet</url-pattern>
+	</servlet-mapping>
+
+	<!-- jstl 包-->
+	<jsp-config>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+			<taglib-location>/WEB-INF/tld/c.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/xml</taglib-uri>
+			<taglib-location>/WEB-INF/tld/x.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/fmt</taglib-uri>
+			<taglib-location>/WEB-INF/tld/fmt.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/sql</taglib-uri>
+			<taglib-location>/WEB-INF/tld/sql.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+	
+	<!-- 加载spring其他配置文件 -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath*:spring/*</param-value>
+	</context-param>
+	
+	<filter>
+		<filter-name>characterEncodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>characterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<session-config>
+		<session-timeout>20160</session-timeout>
+	</session-config>
+	<!-- <filter>
+		<filter-name>springSessionRepositoryFilter</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>springSessionRepositoryFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+	
+	<!-- 监听器 -->
+	<listener>
+		<listener-class>com.bola.nwcl.web.listener.SessionListener</listener-class>
+	</listener>
+	<!-- 过滤器 -->
+	<filter>
+		<filter-name>SessionValidate</filter-name>
+		<filter-class>com.bola.nwcl.web.filter.SessionValidate</filter-class>
+		<init-param>
+			<param-name>urls</param-name>
+			<param-value>
+			/web/admin/getRefresh,/login,/web/admin/logout,/loginCodeServlet,/north,/west,/east,/south,/index,/web/admin/editCurrentUserPwdPage,/web/menu/tree,/clock,/error,/web/indexPage
+			</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>SessionValidate</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- 加载日志配置文件 -->
+	<listener>
+		<listener-class>com.bola.nwcl.common.log.LogbackConfigListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>logbackConfigLocation</param-name>
+			<param-value>/WEB-INF/log/logback-${spring.profiles.active}.xml</param-value>
+	</context-param>
+	
+	<!-- 404  500自定义页面 -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/jsp/404.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/WEB-INF/jsp/500.jsp</location>
+	</error-page>
+	<welcome-file-list>
+    	<welcome-file>admin.jsp</welcome-file>
+  	</welcome-file-list>
+</web-app>

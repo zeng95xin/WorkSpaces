@@ -1,0 +1,283 @@
+﻿
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>临客收费修改</title>
+    
+    <link href="./临客收费修改_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./临客收费修改_files/MyJs.js"></script>
+    <script type="text/javascript" src="./临客收费修改_files/WebCalendar.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./临客收费修改_files/临客收费修改.html" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D14408BD">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            临客收费修改
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                    <tbody><tr>
+                        <td colspan="8" style="height: 5px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            选择房产:
+                        </td>
+                        <td>
+                            <select name="xq" id="xq" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="1">中东首座</option>
+	<option value="2">盈科大厦</option>
+	<option value="3">孔雀英国宫</option>
+	<option value="4">电子大厦</option>
+	<option value="8">菜批市场</option>
+	<option value="19">东风仓库</option>
+	<option value="20">地下车库</option>
+	<option value="23">asdas</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            收款单号:
+                        </td>
+                        <td>
+                            <input name="skdh" type="text" id="skdh" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            收款人:
+                        </td>
+                        <td>
+                            <select name="skr" id="skr" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="10001">人事专员</option>
+	<option value="1001">顺馨商贸</option>
+	<option value="1002">建荣百货</option>
+	<option value="1003">诗雨商贸</option>
+	<option value="1004">祥玉商贸</option>
+	<option value="1005">李国锋</option>
+	<option value="1006">渤海物流</option>
+	<option value="1007">亿佳欣商贸</option>
+	<option value="1009">黄金纸业</option>
+	<option value="1010">三丰商贸</option>
+	<option value="1099">汉兴纸业</option>
+	<option value="admin">系统管理员</option>
+	<option value="cc">曹操</option>
+	<option value="crm">CRM管理员</option>
+	<option value="dc">貂禅</option>
+	<option value="eam">资产系统管理员</option>
+	<option value="eam1">资产简化版用户</option>
+	<option value="eam2">资产标准版用户</option>
+	<option value="fgsjl">诸葛经理</option>
+	<option value="flow">工作流用户</option>
+	<option value="gy">关羽</option>
+	<option value="key">UsbKey用户</option>
+	<option value="kms">幼儿园系统管理员</option>
+	<option value="kms_cgy">龙采购</option>
+	<option value="kms_cwb">夏财务</option>
+	<option value="kms_dqzx">田主管</option>
+	<option value="kms_dqzx2">段主管</option>
+	<option value="kms_xa">西安幼儿园园长</option>
+	<option value="kms_yey">李园长</option>
+	<option value="kms_zc">云总裁</option>
+	<option value="kms_zysyb">林总监</option>
+	<option value="kms1">幼儿园标准版用户</option>
+	<option value="lb">刘备</option>
+	<option value="new">供应商</option>
+	<option value="oa">OA管理员</option>
+	<option value="pms">物业系统管理员</option>
+	<option value="pms1">物业用户1</option>
+	<option value="pms2">物业用户2</option>
+	<option value="pms3">物业用户3</option>
+	<option value="portal">Portal管理员</option>
+	<option value="report5">Report管理员2</option>
+	<option value="report8">Report管理员</option>
+	<option value="scm">SCM管理员</option>
+	<option value="sq">孙权</option>
+	<option value="vip">VIP管理员</option>
+	<option value="web">Web用户</option>
+	<option value="xh">徐晃</option>
+	<option value="zf">张飞</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            收款方式:
+                        </td>
+                        <td>
+                            <select name="skfs" id="skfs" class="mytext" style="width:110px;">
+	<option selected="selected" value="">全部</option>
+	<option value="现金">现金</option>
+	<option value="支票">支票</option>
+	<option value="银行卡">银行卡</option>
+	<option value="银行转帐">银行转帐</option>
+	<option value="支付宝">支付宝</option>
+	<option value="微信">微信</option>
+	<option value="其它">其它</option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            备注:
+                        </td>
+                        <td>
+                            <input name="bz" type="text" id="bz" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            收费日期:
+                        </td>
+                        <td colspan="5">
+                            <input name="txtSdate" type="text" id="txtSdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">至<input name="txtEdate" type="text" id="txtEdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="submit" name="Button1" value="清空" id="Button1" class="mybtn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="8" style="height: 5px">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td height="25" colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./临客收费修改_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td>收款单号</td><td style="width:80px;">收费日期</td><td>房产名称</td><td>临客姓名</td><td>费项名称</td><td>收费金额</td><td>收款方式</td><td style="width:90px;">收款人</td><td>备注</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl02_Label1">1</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK16053100001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl02_Labelsdate">A01LK16053100001</span></a>
+                            </td><td align="center">2016-05-31</td><td>中东首座</td><td>孙权</td><td>停车罚款</td><td align="right">100.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl03_Label1">2</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK15110200001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl03_Labelsdate">A01LK15110200001</span></a>
+                            </td><td align="center">2015-11-02</td><td>中东首座</td><td>张飞</td><td>广告罚款</td><td align="right">50.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl04_Label1">3</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK15102300003&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl04_Labelsdate">A01LK15102300003</span></a>
+                            </td><td align="center">2015-10-23</td><td>中东首座</td><td>孙权</td><td>其它</td><td align="right">61.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl05_Label1">4</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK15102300002&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl05_Labelsdate">A01LK15102300002</span></a>
+                            </td><td align="center">2015-10-23</td><td>中东首座</td><td>刘备</td><td>押金</td><td align="right">50.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl06_Label1">5</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK15102300001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl06_Labelsdate">A01LK15102300001</span></a>
+                            </td><td align="center">2015-10-23</td><td>中东首座</td><td>孙权</td><td>广告罚款</td><td align="right">90.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl07_Label1">6</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK130730001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl07_Labelsdate">A01LK130730001</span></a>
+                            </td><td align="center">2013-07-30</td><td>中东首座</td><td>魏延</td><td>停车罚款</td><td align="right">500.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl08_Label1">7</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A02LK130403004&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl08_Labelsdate">A02LK130403004</span></a>
+                            </td><td align="center">2013-04-03</td><td>孔雀英国宫</td><td>诸葛先生</td><td>罚款</td><td align="right">500.00</td><td align="center">银行卡</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl09_Label1">8</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK130403003&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl09_Labelsdate">A01LK130403003</span></a>
+                            </td><td align="center">2013-04-03</td><td>中东首座</td><td>孙权</td><td>罚款</td><td align="right">1000.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl10_Label1">9</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=B01LK130403002&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl10_Labelsdate">B01LK130403002</span></a>
+                            </td><td align="center">2013-04-03</td><td>盈科大厦</td><td>孙小姐</td><td>罚款</td><td align="right">58.78</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl11_Label1">10</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=B01LK130403001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl11_Labelsdate">B01LK130403001</span></a>
+                            </td><td align="center">2013-04-03</td><td>盈科大厦</td><td>张经理</td><td>罚款</td><td align="right">100.00</td><td align="center">现金</td><td>物业系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl12_Label1">11</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK120224003&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl12_Labelsdate">A01LK120224003</span></a>
+                            </td><td align="center">2012-12-24</td><td>中东首座</td><td>刘玄德</td><td>罚款</td><td align="right">30.00</td><td align="center">现金</td><td>系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl13_Label1">12</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK121014001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl13_Labelsdate">A01LK121014001</span></a>
+                            </td><td align="center">2012-12-14</td><td>中东首座</td><td>孙权</td><td>罚款</td><td align="right">50.00</td><td align="center">现金</td><td>系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl14_Label1">13</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK120218001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl14_Labelsdate">A01LK120218001</span></a>
+                            </td><td align="center">2012-02-18</td><td>中东首座</td><td>刘备</td><td>罚款</td><td align="right">372.58</td><td align="center">现金</td><td>系统管理员</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl15_Label1">14</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Lksfxg.aspx#" onclick="javascript:popMod(&#39;Lksfxg_View.aspx?id=A01LK120203002&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl15_Labelsdate">A01LK120203002</span></a>
+                            </td><td align="center">2012-02-03</td><td>中东首座</td><td>孙权</td><td>罚款</td><td align="right">50.00</td><td align="center">现金</td><td>系统管理员</td><td>&nbsp;</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

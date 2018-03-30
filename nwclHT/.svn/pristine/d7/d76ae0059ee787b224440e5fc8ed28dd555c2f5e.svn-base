@@ -1,0 +1,150 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0050)http://hkoffice.uicp.net:91/pms/fxsz/Lkfxsz_r.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>临客费项设置</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<SCRIPT for=document type=text/javascript event=onkeydown 
+src="临客费项设置_files/EnterCode.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="临客费项设置_files/Choose.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css href="临客费项设置_files/Main.css">
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 onsubmit="javascript:return WebForm_OnSubmit();" method=post 
+name=form1 action=Lkfxsz_r.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=/wEPDwUKMTM0NDk1OTkyNg9kFgICAQ9kFgICCQ8QZBAVBQAP5pyd6Ziz5a2Q5YWs5Y+4D+a1t+a3gOWtkOWFrOWPuA/lrqPmrablrZDlhazlj7gP5aSn5YW05a2Q5YWs5Y+4FQUAA0EwMQNBMDQDQTA4A0EwORQrAwVnZ2dnZxYBZmRk4VZ00UT0N5scje/VE1TixHpHZVs0J7K7zjdgsV6jEAc= 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="临客费项设置_files/WebResource.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=57809F42 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD><BR>&nbsp;<SPAN style="COLOR: red; FONT-SIZE: medium" 
+      id=labelstatus>-&gt; 修改状态</SPAN> </TD>
+    <TD align=right><BR><INPUT id=SaveBtn class=mybtn disabled name=SaveBtn value=保存 type=submit> 
+<INPUT id=AddBtn class=mybtn name=AddBtn value=增加 type=submit> <INPUT id=DelBtn class=mybtn disabled name=DelBtn value=删除 type=submit> 
+  </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=center>
+      <TABLE border=0 cellSpacing=1 cellPadding=0 width=600>
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 30px" colSpan=4>&nbsp; </TD></TR>
+        <TR>
+          <TD style="HEIGHT: 30px" align=right>所属子公司<FONT color=red>*</FONT>： 
+          </TD>
+          <TD colSpan=3><SELECT style="WIDTH: 450px" id=ssgs 
+            onchange="javascript:setTimeout('__doPostBack(\'ssgs\',\'\')', 0)" 
+            name=ssgs> <OPTION selected value=""></OPTION> <OPTION 
+              value=A01>朝阳子公司</OPTION> <OPTION value=A04>海淀子公司</OPTION> <OPTION 
+              value=A08>宣武子公司</OPTION> <OPTION value=A09>大兴子公司</OPTION></SELECT> 
+          </TD></TR>
+        <TR>
+          <TD style="WIDTH: 90px; HEIGHT: 30px" align=right>费项名称<FONT 
+            color=red>*</FONT>： </TD>
+          <TD><INPUT style="WIDTH: 150px" id=fxmc class=mytext name=fxmc> </TD>
+          <TD style="WIDTH: 90px" align=right>单位价格<FONT color=red>*</FONT>： 
+</TD>
+          <TD><INPUT style="WIDTH: 150px" id=dwjg class=mytext name=dwjg> 
+        </TD></TR>
+        <TR>
+          <TD style="HEIGHT: 30px" align=right>上级费项： </TD>
+          <TD colSpan=3><SELECT style="WIDTH: 450px" id=sjfxid 
+            name=sjfxid></SELECT> </TD></TR>
+        <TR>
+          <TD style="HEIGHT: 30px" align=right>费项说明： </TD>
+          <TD colSpan=3><INPUT style="WIDTH: 450px" id=fxsm class=mytext 
+            name=fxsm> </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV style="DISPLAY: none; COLOR: red" id=ValidationSummary1></DIV><SPAN 
+style="VISIBILITY: hidden; COLOR: red" id=RequiredFieldValidator2>&nbsp; 
+</SPAN><SPAN style="VISIBILITY: hidden; COLOR: red" 
+id=RequiredFieldValidator1>&nbsp; </SPAN><SPAN 
+style="VISIBILITY: hidden; COLOR: red" id=RequiredFieldValidator4>&nbsp; 
+</SPAN><SPAN style="DISPLAY: none; COLOR: red" 
+id=RegularExpressionValidator7></SPAN>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary1"));
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator2"), document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator4"), document.getElementById("RegularExpressionValidator7"));
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var ValidationSummary1 = document.all ? document.all["ValidationSummary1"] : document.getElementById("ValidationSummary1");
+ValidationSummary1.showmessagebox = "True";
+ValidationSummary1.showsummary = "False";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "ssgs";
+RequiredFieldValidator2.errormessage = "请选择所属子公司";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "fxmc";
+RequiredFieldValidator1.errormessage = "请输入费项名称";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator4 = document.all ? document.all["RequiredFieldValidator4"] : document.getElementById("RequiredFieldValidator4");
+RequiredFieldValidator4.controltovalidate = "dwjg";
+RequiredFieldValidator4.errormessage = "请输入单位价格";
+RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator4.initialvalue = "";
+var RegularExpressionValidator7 = document.all ? document.all["RegularExpressionValidator7"] : document.getElementById("RegularExpressionValidator7");
+RegularExpressionValidator7.controltovalidate = "dwjg";
+RegularExpressionValidator7.errormessage = "单位价格必须为数值型";
+RegularExpressionValidator7.display = "None";
+RegularExpressionValidator7.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator7.validationexpression = "\\d+\\.\\d+|\\d{0,9}";
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</SCRIPT>
+</FORM></BODY></HTML>

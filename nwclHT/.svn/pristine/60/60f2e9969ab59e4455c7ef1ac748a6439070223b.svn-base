@@ -1,0 +1,250 @@
+﻿
+<!-- saved from url=(0047)http://hkoffice.uicp.net:91/pms/fysq/gtmxz.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>公摊台帐修改</title>
+    
+    <link href="./公摊台帐修改_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./公摊台帐修改_files/MyJs.js"></script>
+    <script type="text/javascript" src="./公摊台帐修改_files/WebCalendar.js"></script>
+    <script type="text/javascript" src="./公摊台帐修改_files/Choose.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./公摊台帐修改_files/公摊台帐修改.html" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./公摊台帐修改_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./公摊台帐修改_files/WebResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="55BE1CE2">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            公摊台帐修改
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td align="right" style="height: 25">
+                            选择房产:
+                        </td>
+                        <td>
+                            <select name="xq" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;xq\&#39;,\&#39;\&#39;)&#39;, 0)" id="xq" title="选择房产" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="1">中东首座</option>
+	<option value="2">盈科大厦</option>
+	<option value="3">孔雀英国宫</option>
+	<option value="4">电子大厦</option>
+	<option value="8">菜批市场</option>
+	<option value="19">东风仓库</option>
+	<option value="20">地下车库</option>
+	<option value="23">asdas</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            楼宇:
+                        </td>
+                        <td>
+                            <select name="ly" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ly\&#39;,\&#39;\&#39;)&#39;, 0)" id="ly" style="width:110px;">
+
+</select>
+                        </td>
+                        <td align="right">
+                            单元/楼层:
+                        </td>
+                        <td>
+                            <select name="dy" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;dy\&#39;,\&#39;\&#39;)&#39;, 0)" id="dy" style="width:110px;">
+
+</select>
+                        </td>
+                        <td align="right">
+                            房间:
+                        </td>
+                        <td>
+                            <select name="cellname" id="cellname" class="mytext" style="width:110px;">
+	<option selected="selected" value=""></option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 25px;" align="right">
+                            选择费项:
+                        </td>
+                        <td>
+                            <select name="fx" id="fx" style="width:110px;">
+	<option selected="selected" value="">所有费项</option>
+	<option value="2">电费(公摊)</option>
+	<option value="1">水费(公摊)</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            生成日期:
+                        </td>
+                        <td colspan="5">
+                            <input name="txtSdate" type="text" value="2001-01-01" id="txtSdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:90px;">
+                            至
+                            <input name="txtEdate" type="text" value="2017-03-23" id="txtEdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:90px;">
+                            <input type="submit" name="QueryBtn" value="查 询" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;QueryBtn&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="QueryBtn" class="mybtn">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 7px; padding-right: 7px" height="25" colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView2" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./公摊台帐修改_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:100px;">所属公司</td><td>台帐名称</td><td style="width:100px;">费用名称</td><td style="width:90px;">生成人</td><td style="width:80px;">生成日期</td><td>备注</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView2_ctl02_Label1">1</span>
+                            </td><td>海淀子公司</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/gtmxz.aspx#" onclick="javascript:popWin_w(&#39;Gtmxz_View.aspx?id=6&amp;mc=A04-gt电费(公摊)20120320&#39;)" class="gvlink">
+                                    <span id="GridView2_ctl02_Labelsdate">A04-gt电费(公摊)20120320</span></a>
+                            </td><td>电费(公摊)</td><td>系统管理员</td><td align="center">2012-03-20</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView2_ctl03_Label1">2</span>
+                            </td><td>海淀子公司</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/gtmxz.aspx#" onclick="javascript:popWin_w(&#39;Gtmxz_View.aspx?id=4&amp;mc=A04-gt电费(公摊)20120000&#39;)" class="gvlink">
+                                    <span id="GridView2_ctl03_Labelsdate">A04-gt电费(公摊)20120000</span></a>
+                            </td><td>电费(公摊)</td><td>系统管理员</td><td align="center">2012-02-18</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView2_ctl04_Label1">3</span>
+                            </td><td>海淀子公司</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/gtmxz.aspx#" onclick="javascript:popWin_w(&#39;Gtmxz_View.aspx?id=3&amp;mc=A04-gt水费(按月)20110001&#39;)" class="gvlink">
+                                    <span id="GridView2_ctl04_Labelsdate">A04-gt水费(按月)20110001</span></a>
+                            </td><td>水费(公摊)</td><td>系统管理员</td><td align="center">2011-11-16</td><td>&nbsp;</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView2_ctl05_Label1">4</span>
+                            </td><td>海淀子公司</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/gtmxz.aspx#" onclick="javascript:popWin_w(&#39;Gtmxz_View.aspx?id=2&amp;mc=A04-gt电费(按月)20110000&#39;)" class="gvlink">
+                                    <span id="GridView2_ctl05_Labelsdate">A04-gt电费(按月)20110000</span></a>
+                            </td><td>电费(公摊)</td><td>系统管理员</td><td align="center">2011-11-03</td><td>&nbsp;</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView2_ctl06_Label1">5</span>
+                            </td><td>海淀子公司</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/gtmxz.aspx#" onclick="javascript:popWin_w(&#39;Gtmxz_View.aspx?id=1&amp;mc=A04-gt水费(按月)20110000&#39;)" class="gvlink">
+                                    <span id="GridView2_ctl06_Labelsdate">A04-gt水费(按月)20110000</span></a>
+                            </td><td>水费(公摊)</td><td>系统管理员</td><td align="center">2011-11-03</td><td>&nbsp;</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    <div id="ValidationSummary2" style="color:Red;display:none;">
+
+</div>
+    <span id="RequiredFieldValidator13" style="color:Red;visibility:hidden;">&nbsp;
+    </span>
+    <span id="RequiredFieldValidator1" style="color:Red;visibility:hidden;">&nbsp;
+    </span>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary2"));
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator13"), document.getElementById("RequiredFieldValidator1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ValidationSummary2 = document.all ? document.all["ValidationSummary2"] : document.getElementById("ValidationSummary2");
+ValidationSummary2.showmessagebox = "True";
+ValidationSummary2.showsummary = "False";
+var RequiredFieldValidator13 = document.all ? document.all["RequiredFieldValidator13"] : document.getElementById("RequiredFieldValidator13");
+RequiredFieldValidator13.controltovalidate = "txtSdate";
+RequiredFieldValidator13.errormessage = "请选择开始日期";
+RequiredFieldValidator13.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator13.initialvalue = "";
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "txtEdate";
+RequiredFieldValidator1.errormessage = "请选择结束日期";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+
+
+</body></html>

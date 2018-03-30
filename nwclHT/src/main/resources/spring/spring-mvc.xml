@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+       <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+			http://www.springframework.org/schema/context 
+			http://www.springframework.org/schema/context/spring-context-4.0.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+			http://www.springframework.org/schema/context 
+			http://www.springframework.org/schema/context/spring-context-4.0.xsd"
+       default-autowire="byName">
+    <context:annotation-config />
+    <!-- 扫描指定的包中的类上的注解 -->
+    <context:component-scan base-package="com.bola.nwcl.web" />
+    <context:component-scan base-package="com.bola.nwcl.api"/>
+    <context:component-scan base-package="com.bola.nwcl.admin"/>
+    <context:component-scan base-package="com.bola.nwcl.common.util.sensitive"/>
+    
+  	<mvc:annotation-driven>  
+ 	<!--处理responseBody 里面日期类型  处理返回时间为时间戳的问题 -->
+        <mvc:message-converters>  
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">  
+                <property name="objectMapper">  
+                    <bean class="com.fasterxml.jackson.databind.ObjectMapper">  
+                        <property name="dateFormat">  
+                            <bean class="java.text.SimpleDateFormat">  
+                                <constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss" />  
+                            </bean>  
+                        </property>  
+                    </bean>
+                </property>  
+            </bean>  
+        </mvc:message-converters>  
+    </mvc:annotation-driven>
+    
+	<!-- Spring MVC JSON配置 -->
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<!-- <bean id="fastJsonHttpMessageConverter" class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter"> -->
+				<bean id="fastJsonHttpMessageConverter" class="com.bola.nwcl.common.util.FastJsonHttpMessageConverter">
+					<property name="supportedMediaTypes">
+						<list>
+							<value>text/html;charset=UTF-8</value><!-- 避免IE出现下载JSON文件的情况 -->
+						</list>
+					</property>
+				</bean>
+			</list>
+		</property>
+	</bean>
+	<!-- 支持上传文件 -->  
+    <!-- 配置MultipartResolver 用于文件上传 使用spring的CommosMultipartResolver -->  
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="UTF-8" />
+        <property name="maxUploadSize" value="50000000"/>
+    </bean>
+    
+    <!-- <bean id="sensitiveWordInit" class="com.bola.nwcl.common.util.sensitive.SensitiveWordInit" scope="singleton">
+    	<property name="sensitiveManager">
+    		<bean class="com.bola.nwcl.biz.impl.SensitiveManagerImpl" autowire="default"></bean>
+    	</property>
+    </bean>
+    <bean id="sensitivewordFilter" class="com.bola.nwcl.common.util.sensitive.SensitivewordFilter" scope="singleton">
+    	<property name="sensitiveWordInit" ref="sensitiveWordInit"></property>
+    </bean> -->
+	
+    <!-- 对静态资源文件的访问 -->      
+	<mvc:resources mapping="/images/**" location="/images/"/>   
+	<mvc:resources mapping="/js/**" location="/js/"/>  
+	<mvc:resources mapping="/css/**" location="/css/"/>  
+	<mvc:resources mapping="/style/**" location="/style/"/>  
+	<mvc:resources mapping="/upload/**" location="/upload/"/>  
+	<mvc:resources mapping="/swf/**" location="/swf/"/>  
+	<mvc:resources mapping="/layout/**" location="/layout/"/>
+	<mvc:resources mapping="/attached/**" location="/attached/"/>
+	<mvc:resources mapping="/resources/**" location="/resources/" order="0"/>
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/jsp/"
+          p:suffix=".jsp">
+    </bean>
+</beans>

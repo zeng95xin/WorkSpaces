@@ -1,0 +1,61 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/yzgl/yzdr.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <link href="./业主数据导入_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./业主数据导入_files/MyJs.js"></script>
+    <title>业主数据导入</title>
+</head>
+<body class="main">
+    <form name="form1" method="post" action="./业主数据导入_files/业主数据导入.html" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjI4MTU0NDAyZGTgSM9TNqtE2PA3kAdHFsb/HllkY9naR9jcnawHkiQqKg==">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5A48B25C">
+</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            业主数据导入
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td height="25">
+                &nbsp;<font color="red"><b>重点提醒：强烈建议在执行导入前备份下数据库！同时仔细检查导入Excel文档中的业主编码，切勿出现重复的业主编码！！！</b></font>
+            </td>
+        </tr>
+        <tr>
+            <td height="25">
+                &nbsp;<font color="blue">操作步骤：1.生成Excel模板》2.参考帮助文档，手工填写Excel模板》3.执行导入</font><font color="red">(重复导入时系统将以最后一次导入的数据为准进行更新)</font>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <table width="98%" border="0" cellpadding="5" cellspacing="0" class="form">
+                    <tbody><tr>
+                        <td width="20%" class="form-item">
+                            <b>业主信息：</b>
+                        </td>
+                        <td width="80%">
+                            <input type="submit" name="ExpBtn" value="生成Excel模板" id="ExpBtn" class="mybtn" style="width: 100">
+                            <input type="button" name="AddBtn" value="导入业主信息" class="mybtn" onclick="javascript:popWin_w(&#39;yzdr_view.aspx&#39;);" style="width: 100">
+                            <img alt="点击查看导入帮助" onclick="javascript:popPrn(&#39;../../Help/pms/yzxx.htm&#39;);" src="./业主数据导入_files/help.gif" border="0">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

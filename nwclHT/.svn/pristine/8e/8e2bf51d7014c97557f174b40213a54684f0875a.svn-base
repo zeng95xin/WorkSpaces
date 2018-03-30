@@ -1,0 +1,175 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/cwgl/cwzl.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>车位出租合同</title>
+    
+    <link href="./车位出租合同_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./车位出租合同_files/MyJs.js"></script>
+    <script type="text/javascript" src="./车位出租合同_files/WebCalendar.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./车位出租合同_files/车位出租合同.html" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="50C126A7">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            车位出租合同
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 25px;">
+                &nbsp;签订日期：<input name="qdrq_s" type="text" value="2001-01-01" id="qdrq_s" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">至<input name="qdrq_e" type="text" value="2017-03-24" id="qdrq_e" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">
+                停租日期：<input name="tzrq_s" type="text" id="tzrq_s" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">至<input name="tzrq_e" type="text" id="tzrq_e" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">
+                合同状态：<select name="htzt" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;htzt\&#39;,\&#39;\&#39;)&#39;, 0)" id="htzt">
+	<option selected="selected" value="">全部</option>
+	<option value="未生效">未生效</option>
+	<option value="已生效">已生效</option>
+	<option value="已终止">已终止</option>
+
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 25px;">
+                &nbsp;合同编号、车位编号或车牌号码：<input name="cwbh" type="text" id="cwbh" class="mytext" style="width:200px;">
+                <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                <input type="button" name="AddBtn" value="增加" class="mybtn" onclick="javascript:popAdd(&#39;Cwzl_Add.aspx&#39;);">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 7px; padding-right: 7px" height="25" colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./车位出租合同_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td>所属公司</td><td>房产</td><td>合同编号</td><td style="width:65px;">车位编号</td><td style="width:60px;">使用人</td><td>车牌号码</td><td>停车证号</td><td style="width:80px;">租期</td><td style="width:50px;">状态</td><td style="width:80px;">签订日期</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl02_Label1">1</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl02_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwzl.aspx#" onclick="javascript:popMod(&#39;Cwzl_Mod.aspx?id=7&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl02_Labelsdate">0008-20121224</span>
+                                </a>
+                            </td><td>0008</td><td>大乔</td><td align="center">京F57899</td><td>&nbsp;</td><td align="center">
+                                <span id="GridView1_ctl02_Label2">2012-01-01</span><br>
+                                <span id="GridView1_ctl02_Label3">2012-10-31</span>
+                            </td><td align="center">已生效</td><td align="center">2012-12-24</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl03_Label1">2</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl03_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwzl.aspx#" onclick="javascript:popMod(&#39;Cwzl_Mod.aspx?id=3&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl03_Labelsdate">0006-20121223</span>
+                                </a>
+                            </td><td>0006</td><td>赵云</td><td align="center">京F8711</td><td>T2012</td><td align="center">
+                                <span id="GridView1_ctl03_Label2">2012-12-01</span><br>
+                                <span id="GridView1_ctl03_Label3">2013-02-28</span>
+                            </td><td align="center">已生效</td><td align="center">2012-12-23</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl04_Label1">3</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl04_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwzl.aspx#" onclick="javascript:popMod(&#39;Cwzl_Mod.aspx?id=4&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl04_Labelsdate">0007-20121223</span>
+                                </a>
+                            </td><td>0007</td><td>黄盖</td><td align="center">京E38749</td><td>T2010</td><td align="center">
+                                <span id="GridView1_ctl04_Label2">2013-01-01</span><br>
+                                <span id="GridView1_ctl04_Label3">2013-12-31</span>
+                            </td><td align="center">已生效</td><td align="center">2012-12-23</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl05_Label1">4</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl05_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwzl.aspx#" onclick="javascript:popMod(&#39;Cwzl_Mod.aspx?id=5&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl05_Labelsdate">0008-20121223</span>
+                                </a>
+                            </td><td>0008</td><td>小乔</td><td align="center">京S78777</td><td>&nbsp;</td><td align="center">
+                                <span id="GridView1_ctl05_Label2">2012-12-15</span><br>
+                                <span id="GridView1_ctl05_Label3">2013-03-15</span>
+                            </td><td align="center">未生效</td><td align="center">2012-12-23</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl06_Label1">5</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl06_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwzl.aspx#" onclick="javascript:popMod(&#39;Cwzl_Mod.aspx?id=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl06_Labelsdate">0006-20121221</span>
+                                </a>
+                            </td><td>0006</td><td>赵云</td><td align="center">京F87111</td><td>T2011</td><td align="center">
+                                <span id="GridView1_ctl06_Label2">2012-12-01</span><br>
+                                <span id="GridView1_ctl06_Label3">2013-02-28</span>
+                            </td><td align="center">已终止</td><td align="center">2012-12-21</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl07_Label1">6</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl07_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwzl.aspx#" onclick="javascript:popMod(&#39;Cwzl_Mod.aspx?id=8&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl07_Labelsdate">0009-20130104</span>
+                                </a>
+                            </td><td>0009</td><td>吕蒙</td><td align="center">京C56999</td><td>&nbsp;</td><td align="center">
+                                <span id="GridView1_ctl07_Label2">2011-01-01</span><br>
+                                <span id="GridView1_ctl07_Label3">2011-10-31</span>
+                            </td><td align="center">已生效</td><td align="center">2011-07-16</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

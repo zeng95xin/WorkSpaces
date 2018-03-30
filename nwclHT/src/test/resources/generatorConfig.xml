@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">  
+<generatorConfiguration>
+	<!-- 驱动包 -->
+	<classPathEntry location="D:\app\repository\mysql\mysql-connector-java\5.1.9\mysql-connector-java-5.1.9.jar" />
+	<context id="MySqlTables" targetRuntime="MyBatis3" introspectedColumnImpl="com.bola.nwcl.common.mybatis.generator.SimpleIntrospectedColumn">  
+		<property name="javaFileEncoding" value="UTF8" />
+		<plugin type="com.bola.nwcl.common.mybatis.generator.SimpleGeneratorPlugin" />
+		<commentGenerator
+			type="com.bola.nwcl.common.mybatis.generator.SimpleCommentGenerator">
+			<property name="suppressDate" value="true" />
+		</commentGenerator>
+		<!-- 数据库连接 -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://127.0.0.1:3306/nwcl?useUnicode=true&amp;characterEncoding=UTF8"
+			userId="root" password="123456">
+		</jdbcConnection>
+		
+    	<!-- model的配置  -->
+		<javaModelGenerator targetPackage="com.bola.nwcl.dal.mybatis.model"
+			targetProject="nwclHT\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true"/>
+			<property name="rootClass"
+				value="com.bola.nwcl.common.mybatis.model.Model" />
+			<property name="exampleRootClass"
+				value="com.bola.nwcl.common.mybatis.model.ModelExample" />
+		</javaModelGenerator>
+		
+		<!--mybatis的xml的配置  -->
+		<sqlMapGenerator targetPackage="mybatis.mapper" targetProject="nwclHT\src\main\resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+		
+		<!--mapper的配置  -->
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.bola.nwcl.dal.mybatis.mapper" targetProject="nwclHT\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="clientRootInterface"
+				value="com.bola.nwcl.common.mybatis.mapper.Mapper" />
+		</javaClientGenerator>
+		
+		 <!-- <table tableName="n_community" domainObjectName="Community"></table>  -->
+		<!-- <table tableName="n_building" domainObjectName="Building"></table> -->
+		<!-- <table tableName="n_room" domainObjectName="Room"></table> -->
+		<!-- <table tableName="n_biz_user_room" domainObjectName="BizUserRoom"></table> -->
+		 <!-- <table tableName="n_biz_user" domainObjectName="BizUser"></table> -->
+		
+		<!-- <table tableName="n_convenience_telephone" domainObjectName="ConvenienceTelephone"></table> -->
+		<!-- <table tableName="n_convenience_telephone_type" domainObjectName="ConvenienceTelephoneType"></table> -->
+		<!-- <table tableName="n_maintenance_price" domainObjectName="MaintenancePrice"></table> -->
+		<!-- <table tableName="n_maintenance_service_type" domainObjectName="MaintenanceServiceType"></table> -->
+		<!-- <table tableName="n_announcement" domainObjectName="Announcement"></table> -->
+		<!-- <table tableName="n_announcement_model" domainObjectName="AnnouncementModel"></table> -->
+		<!-- <table tableName="n_announcement_rating" domainObjectName="AnnouncementRating"></table> -->
+		<!-- <table tableName="n_announcement_send" domainObjectName="AnnouncementSend"></table> -->
+		<!-- <table tableName="n_announcement_img" domainObjectName="AnnouncementImg"></table> -->
+		
+		<!-- <table tableName="n_article_release" domainObjectName="ArticleRelease"></table> -->
+		<!-- <table tableName="n_article_release_img" domainObjectName="ArticleReleaseImg"></table> -->
+		<!-- <table tableName="n_property" domainObjectName="Property"></table> -->
+		
+		<!-- <table tableName="n_visitors" domainObjectName="Visitors"></table> -->
+		<!-- <table tableName="n_visitors_statistics" domainObjectName="VisitorsStatistics"></table> -->
+		<!-- <table tableName="n_visitors_statistics_detail" domainObjectName="VisitorsStatisticsDetail"></table> -->
+		
+		<!-- <table tableName="n_room_phone" domainObjectName="RoomPhone"></table> -->
+		<!-- <table tableName="n_berification_code" domainObjectName="BerificationCode"></table> -->
+		<!-- <table tableName="n_authorize_code" domainObjectName="AuthorizeCode"></table> -->
+		<!-- <table tableName="n_property_pay_ment" domainObjectName="PropertyPayMent"></table> -->
+		<!-- <table tableName="n_maintenance" domainObjectName="Maintenance"></table> -->
+		<!-- <table tableName="n_maintenance_rating" domainObjectName="MaintenanceRating"></table> -->
+		<!-- <table tableName="n_maintenance_img" domainObjectName="MaintenanceImg"></table> -->
+		<!-- <table tableName="n_maintenance_prospecting_img" domainObjectName="MaintenanceProspectingImg"></table> -->
+		<!-- <table tableName="n_maintenance_offer" domainObjectName="MaintenanceOffer"></table> -->
+		<!-- <table tableName="n_sensitive" domainObjectName="Sensitive"></table> -->
+		<!-- <table tableName="n_convenience_telephone" domainObjectName="ConvenienceTelephone"></table> -->
+		<!-- <table tableName="n_convenience_telephone_type" domainObjectName="ConvenienceTelephoneType"></table> -->
+		<!-- <table tableName="n_housekeeper" domainObjectName="Housekeeper"></table> -->
+		<!-- <table tableName="n_housekeeper_scheduling" domainObjectName="HousekeeperScheduling"></table> -->
+		<!-- <table tableName="n_scheduling" domainObjectName="Scheduling"></table> -->
+		<!-- <table tableName="n_housekeeper_user_message" domainObjectName="HousekeeperUserMessage"></table> -->
+		
+		<!-- <table tableName="n_borrow" domainObjectName="Borrow"></table> -->
+		<!-- <table tableName="n_thing" domainObjectName="Thing"></table> -->
+		<!-- <table tableName="n_borrow_thing" domainObjectName="BorrowThing"></table> -->
+		
+		<!-- <table tableName="n_hang_picture" domainObjectName="HangPicture"></table> -->
+		<!-- <table tableName="n_hang_picture_img" domainObjectName="HangPictureImg"></table> -->
+		<!-- <table tableName="n_hang_picture_complete_img" domainObjectName="HangPictureCompleteImg"></table> -->
+		<!-- <table tableName="n_hang_picture_rating" domainObjectName="HangPictureRating"></table> -->
+		<!-- <table tableName="n_activity" domainObjectName="Activity"></table>  -->
+		<!-- <table tableName="n_activity_rating" domainObjectName="ActivityRating"></table> -->
+		<!-- <table tableName="n_user_message" domainObjectName="UserMessage"></table> -->
+		<!-- <table tableName="n_activity_register" domainObjectName="ActivityRegister"></table> -->
+		
+		<!-- <table tableName="n_lecture_hall" domainObjectName="LectureHall"></table> -->
+		<!-- <table tableName="n_lecture_hall_introducing" domainObjectName="LectureHallIntroducing"></table> -->
+		<!-- <table tableName="n_lecture_hall_introducing_img" domainObjectName="LectureHallIntroducingImg"></table> -->
+		<!-- <table tableName="n_lecture_hall_rating" domainObjectName="LectureHallRating"></table> -->
+		<!-- <table tableName="n_lecture_hall_register" domainObjectName="LectureHallRegister"></table> -->
+		
+		<!-- <table tableName="n_like_share" domainObjectName="LikeShare"></table> -->
+		<!-- <table tableName="n_like_share_img" domainObjectName="LikeShareImg"></table> -->
+		<!-- <table tableName="n_like_share_rating" domainObjectName="LikeShareRating"></table> -->
+		
+		<!-- <table tableName="n_neighbor_help" domainObjectName="NeighborHelp"></table> -->
+		<!-- <table tableName="n_neighbor_help_img" domainObjectName="NeighborHelpImg"></table> -->
+		<!-- <table tableName="n_neighbor_help_message" domainObjectName="NeighborHelpMessage"></table> -->
+		
+		<!-- <table tableName="n_recommend" domainObjectName="Recommend"></table> -->
+		<!-- <table tableName="n_recommend_img" domainObjectName="RecommendImg"></table> -->
+		<!-- <table tableName="n_recommend_rating" domainObjectName="RecommendRating"></table> -->
+		<!-- <table tableName="n_recommend_zan" domainObjectName="RecommendZan"></table> -->
+		<!-- <table tableName="n_recommend_type" domainObjectName="RecommendType"></table> -->
+		
+		<!-- <table tableName="n_idlething" domainObjectName="Idlething"></table> -->
+		<!-- <table tableName="n_idlething_img" domainObjectName="IdlethingImg"></table> -->
+		<!-- <table tableName="n_idlething_rating" domainObjectName="IdlethingRating"></table> -->
+		<!-- <table tableName="n_idlething_zan" domainObjectName="IdlethingZan"></table> -->
+		<!-- <table tableName="n_idlething_type" domainObjectName="IdlethingType"></table> -->
+		<table tableName="n_service_clock_attendance" domainObjectName="ServiceClockAttendance"></table>
+		<!-- <table tableName="n_video_management" domainObjectName="VideoManagement"></table>
+		<table tableName="n_repairman_detail" domainObjectName="RepairmanDetail"></table> -->
+		
+		  <!-- <table tableName="n_honour_enjoy" domainObjectName="HonourEnjoy"></table>   -->
+		<!-- <table tableName="n_honour_enjoy_img" domainObjectName="HonourEnjoyImg"></table> -->
+		<!-- <table tableName="n_honour_enjoy_product" domainObjectName="HonourEnjoyProduct"></table> -->
+		<!-- <table tableName="n_honour_enjoy_rating" domainObjectName="HonourEnjoyRating"></table> -->
+		<!-- <table tableName="n_honour_enjoy_user" domainObjectName="HonourEnjoyUser"></table> -->
+		<!-- <table tableName="n_honour_enjoy_user_relation" domainObjectName="HonourEnjoyRelation"></table> -->
+		
+		<!-- <table tableName="n_market_conference" domainObjectName="MarketConference"></table> -->
+		<!-- <table tableName="n_apply_booth" domainObjectName="ApplyBooth"></table> -->
+		<!-- <table tableName="n_apply_booth_img" domainObjectName="ApplyBoothImg"></table> -->
+		
+		<!-- <table tableName="n_indexes_img" domainObjectName="IndexesImg"></table> --> 
+		<!-- <table tableName="n_housekeeper_detail" domainObjectName="HousekeeperDetail"></table> -->
+		<!-- <table tableName="n_user_opinion" domainObjectName="UserOpinion"></table> -->
+		<!-- <table tableName="n_user_opinion_img" domainObjectName="UserOpinionImg"></table> -->
+		
+		<!-- <table tableName="n_questionnaire" domainObjectName="Questionnaire"></table> -->
+		<!-- <table tableName="n_question" domainObjectName="Question"></table> -->
+		<!-- <table tableName="n_question_item" domainObjectName="QuestionItem"></table> -->
+		<!-- <table tableName="n_room_questionnaire" domainObjectName="RoomQuestionnaire"></table> -->
+		<!-- <table tableName="n_room_questionnaire_answer" domainObjectName="RoomQuestionnaireAnswer"></table> -->
+		
+		<!-- <table tableName="n_coupon" domainObjectName="Coupon"></table> --> 
+		<!-- <table tableName="n_buser_coupon" domainObjectName="BuserCoupon"></table> -->
+		
+		<!-- <table tableName="n_notify_send" domainObjectName="NotifySend"></table> -->
+		<!-- <table tableName="n_notify_img" domainObjectName="NotifyImg"></table> -->
+		<!-- <table tableName="n_notify" domainObjectName="Notify"></table> -->
+		
+		<!-- <table tableName="n_owners_market" domainObjectName="OwnersMarket"></table> -->
+		<!-- <table tableName="n_owners_market_img" domainObjectName="OwnersMarketImg"></table> -->
+		<!-- <table tableName="n_owners_market_rating" domainObjectName="OwnersMarketRating"></table> -->
+		
+		<!-- <table tableName="n_pay_order" domainObjectName="PayOrder"></table> -->
+		
+
+
+		<!-- <table tableName="n_role" domainObjectName="Role"></table> -->
+		<!-- <table tableName="n_memu" domainObjectName="Memu"></table> -->
+		<!-- <table tableName="n_service_department" domainObjectName="Department"></table> -->
+		<!-- <table tableName="n_service_employee" domainObjectName="Employee"></table> -->
+		<!-- <table tableName="n_admin" domainObjectName="Admin"></table> -->
+		<!-- <table tableName="n_admin_community" domainObjectName="AdminCommunity"></table> -->
+		<!-- <table tableName="n_role_resource" domainObjectName="RoleResource"></table> -->
+
+		<!-- <table tableName="n_user_webmaster_message" domainObjectName="UserWebmasterMessage"></table> -->
+
+		
+		<!-- <table tableName="n_lingling_manager" domainObjectName="LinglingManager"></table> -->
+		<!-- <table tableName="n_lingling_residential" domainObjectName="LinglingResidential"></table> -->
+		<!-- <table tableName="n_lingling_device" domainObjectName="LinglingDevice"></table> -->
+		<!-- <table tableName="n_lingling_owner" domainObjectName="LinglingOwner"></table> -->
+		<!-- <table tableName="n_lingling_server_addr" domainObjectName="LinglingServerAddr"></table> -->
+		<!-- <table tableName="n_report" domainObjectName="Report"></table> -->
+		<!-- <table tableName="n_lingling_ownerv3" domainObjectName="LingLingOwnerv3"></table> -->
+		<!-- <table tableName="n_lingling_devicev3" domainObjectName="LingLingDevicev3"></table> -->
+		<!-- <table tableName="n_lingling_visitiorv3" domainObjectName="LingLingVisitiorv3"></table> -->
+		
+		
+		<!-- <table tableName="n_like_share_zan" domainObjectName="LikeShareZan"></table> -->
+		<!-- <table tableName="n_neighbor_help_zan" domainObjectName="NeighborHelpZan"></table> -->
+		<!-- <table tableName="n_owners_market_zan" domainObjectName="OwnersMarketZan"></table> -->
+		
+		
+		<!-- <table tableName="n_repairman_status" domainObjectName="RepairmanStatus"></table>  -->
+		<!-- <table tableName="n_label" domainObjectName="Label"></table> -->
+		<!-- <table tableName="n_door_control" domainObjectName="DoorControl"></table> -->
+		<!-- <table tableName="n_reading_record" domainObjectName="ReadingRecord"></table> -->
+		<!-- <table tableName="n_coupon_img" domainObjectName="CouponImg"></table> -->
+		<!-- <table tableName="n_door_control" domainObjectName="DoorControl"></table> -->
+		<!-- <table tableName="n_door_record" domainObjectName="DoorRecord"></table> -->
+		<!-- <table tableName="n_door_type" domainObjectName="DoorType"></table> -->
+		
+		<!-- <table tableName="n_visitor_passport_record" domainObjectName="VisitorPassportRecord"></table> -->
+		
+		<!-- <table tableName="n_repairman_type" domainObjectName="RepairmanType"></table> -->
+		<!-- <table tableName="n_repairman_type_relation" domainObjectName="RepairmanTypeRelation"></table> -->
+		
+
+	</context> 
+</generatorConfiguration>

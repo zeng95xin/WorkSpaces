@@ -1,0 +1,240 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/pjgl/wdpj.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <title>我的票据</title>
+    <link href="./我的票据_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./我的票据_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="form1" method="post" action="./我的票据_files/我的票据.html" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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BAUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYaZg9kFgICAQ8PFgIfBQUBOGRkAgIPZBYCAgEPDxYCHwUFCVpEU1owMDAwOGRkAgMPDxYCHwUFCeW3suaJk+WNsGRkAgQPDxYCHwUFLlBNU+euoeeQhuWRmCxQTVPnlKjmiLcxLFBNU+eUqOaItzIsUE1T55So5oi3MyxkZAIFDw8WAh8FBQYmbmJzcDtkZAIGDw8WAh8FBQxQTVPnrqHnkIblkZhkZAIHD2QWAgIBDw8WAh8FBQoyMDE1LTEyLTAxZGQCCA8PFgIfBQUP54mp5Lia5pS25qy+5Y2VZGQCCQ8PFgIfBQUQQTAxTFMxNTEyMDEwMDAwNGRkAgoPDxYCHwUFBiZuYnNwO2RkAgsPDxYCHwUFBiZuYnNwO2RkAgwPZBYCAgEPDxYCHwVlZGQCDQ9kFgICAQ8PFgIfBWVkZAIJDw8WBB8CCiUfAwIEFgIfBAUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYaZg9kFgICAQ8PFgIfBQUBOWRkAgIPZBYCAgEPDxYCHwUFCVpEU1owMDAwOWRkAgMPDxYCHwUFCeW3suaJk+WNsGRkAgQPDxYCHwUFLlBNU+euoeeQhuWRmCxQTVPnlKjmiLcxLFBNU+eUqOaItzIsUE1T55So5oi3MyxkZAIFDw8WAh8FBQYmbmJzcDtkZAIGDw8WAh8FBQxQTVPnrqHnkIblkZhkZAIHD2QWAgIBDw8WAh8FBQoyMDE1LTEyLTAxZGQCCA8PFgIfBQUP54mp5Lia5pS25qy+5Y2VZGQCCQ8PFgIfBQUQQjAxTFMxNTEyMDEwMDAwM2RkAgoPDxYCHwUFBiZuYnNwO2RkAgsPDxYCHwUFBiZuYnNwO2RkAgwPZBYCAgEPDxYCHwVlZGQCDQ9kFgICAQ8PFgIfBWVkZAIKDw8WAh4HVmlzaWJsZWhkZAILDw8WBB4IUGFnZVNpemUCDx4LUmVjb3JkY291bnQCCWRkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYJBRNHcmlkVmlldzEkY3RsMDIkZGVsBRNHcmlkVmlldzEkY3RsMDMkZGVsBRNHcmlkVmlldzEkY3RsMDQkZGVsBRNHcmlkVmlldzEkY3RsMDUkZGVsBRNHcmlkVmlldzEkY3RsMDYkZGVsBRNHcmlkVmlldzEkY3RsMDckZGVsBRNHcmlkVmlldzEkY3RsMDgkZGVsBRNHcmlkVmlldzEkY3RsMDkkZGVsBRNHcmlkVmlldzEkY3RsMTAkZGVsBQlHcmlkVmlldzEPPCsADAMGFQEDaW5vBxQrAAkUKwABBQlaRFNaMDAwMDEUKwABBQlaRFNaMDAwMDIUKwABBQlaRFNaMDAwMDMUKwABBQlaRFNaMDAwMDQUKwABBQlaRFNaMDAwMDUUKwABBQlaRFNaMDAwMDYUKwABBQlaRFNaMDAwMDcUKwABBQlaRFNaMDAwMDgUKwABBQlaRFNaMDAwMDkIAgFkgf0p5I249iwV7fFdroqOqvqeJxNMCh1pSX2/1r+uie8=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E9865D2B">
+</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            我的票据
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px">
+                            快速检索：<select name="query_tj" id="query_tj">
+	<option selected="selected" value="ino">票据编号</option>
+	<option value="idesc">票据说明</option>
+	<option value="djlx">单据类型</option>
+	<option value="skdh">对应单号</option>
+
+</select>
+                            <input name="query_content" type="text" id="query_content" class="mytext" style="width:100px;">
+                            状态：<select name="istatus" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;istatus\&#39;,\&#39;\&#39;)&#39;, 0)" id="istatus">
+	<option selected="selected" value=""></option>
+	<option value="未打印">未打印</option>
+	<option value="已打印">已打印</option>
+	<option value="已作废">已作废</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:1150px;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./我的票据_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:30px;">
+                                            <input id="chkall" type="checkbox" onclick="chkAll();" title="全选或全不选" style="width: 16;
+                                                height: 16">
+                                        </td><td>票据编号</td><td style="width:50px;">状态</td><td>使用人</td><td>说明</td><td>打印人</td><td style="width:80px;">打印时间</td><td>单据类型</td><td>对应单号</td><td>作废人</td><td>作废原因</td><td style="width:80px;">作废时间</td><td style="width:80px;">作废确认时间</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)" style="color:Blue;">
+			<td align="center">
+                                            <span id="GridView1_ctl02_Label1">1</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl02_del" type="checkbox" name="GridView1$ctl02$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl02_Labelyjje">ZDSZ00001</span>
+                                        </td><td align="center">已打印</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td align="center">
+                                            <span id="GridView1_ctl02_lbldysj">2015-11-18</span>
+                                        </td><td align="center">物业收款单</td><td>A01SF15111800003</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl02_lblzfsj"></span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl02_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)" style="color:Blue;">
+			<td align="center">
+                                            <span id="GridView1_ctl03_Label1">2</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl03_del" type="checkbox" name="GridView1$ctl03$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl03_Labelyjje">ZDSZ00002</span>
+                                        </td><td align="center">已打印</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td align="center">
+                                            <span id="GridView1_ctl03_lbldysj">2015-11-18</span>
+                                        </td><td align="center">物业收款单</td><td>A01SF15111800004</td><td>PMS管理员</td><td>打印机出错</td><td align="center">
+                                            <span id="GridView1_ctl03_lblzfsj">2015-11-18</span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl03_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)" style="color:Red;">
+			<td align="center">
+                                            <span id="GridView1_ctl04_Label1">3</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl04_del" type="checkbox" name="GridView1$ctl04$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl04_Labelyjje">ZDSZ00003</span>
+                                        </td><td align="center">已作废</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl04_lbldysj"></span>
+                                        </td><td align="center">&nbsp;</td><td>&nbsp;</td><td>PMS管理员</td><td>打印机卡纸</td><td align="center">
+                                            <span id="GridView1_ctl04_lblzfsj">2015-11-18</span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl04_lblzfqrsj">2015-11-18</span>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)" style="color:Red;">
+			<td align="center">
+                                            <span id="GridView1_ctl05_Label1">4</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl05_del" type="checkbox" name="GridView1$ctl05$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl05_Labelyjje">ZDSZ00004</span>
+                                        </td><td align="center">已作废</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl05_lbldysj"></span>
+                                        </td><td align="center">&nbsp;</td><td>&nbsp;</td><td>PMS管理员</td><td>纸张损坏</td><td align="center">
+                                            <span id="GridView1_ctl05_lblzfsj">2015-11-18</span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl05_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)" style="color:Red;">
+			<td align="center">
+                                            <span id="GridView1_ctl06_Label1">5</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl06_del" type="checkbox" name="GridView1$ctl06$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl06_Labelyjje">ZDSZ00005</span>
+                                        </td><td align="center">已作废</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl06_lbldysj"></span>
+                                        </td><td align="center">&nbsp;</td><td>&nbsp;</td><td>PMS管理员</td><td>纸张损坏</td><td align="center">
+                                            <span id="GridView1_ctl06_lblzfsj">2015-11-18</span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl06_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)" style="color:Blue;">
+			<td align="center">
+                                            <span id="GridView1_ctl07_Label1">6</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl07_del" type="checkbox" name="GridView1$ctl07$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl07_Labelyjje">ZDSZ00006</span>
+                                        </td><td align="center">已打印</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td align="center">
+                                            <span id="GridView1_ctl07_lbldysj">2015-12-01</span>
+                                        </td><td align="center">物业收款单</td><td>B01LS15120100001</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl07_lblzfsj"></span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl07_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)" style="color:Blue;">
+			<td align="center">
+                                            <span id="GridView1_ctl08_Label1">7</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl08_del" type="checkbox" name="GridView1$ctl08$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl08_Labelyjje">ZDSZ00007</span>
+                                        </td><td align="center">已打印</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td align="center">
+                                            <span id="GridView1_ctl08_lbldysj">2015-12-01</span>
+                                        </td><td align="center">物业收款单</td><td>B01LS15120100002</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl08_lblzfsj"></span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl08_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)" style="color:Blue;">
+			<td align="center">
+                                            <span id="GridView1_ctl09_Label1">8</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl09_del" type="checkbox" name="GridView1$ctl09$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl09_Labelyjje">ZDSZ00008</span>
+                                        </td><td align="center">已打印</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td align="center">
+                                            <span id="GridView1_ctl09_lbldysj">2015-12-01</span>
+                                        </td><td align="center">物业收款单</td><td>A01LS15120100004</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl09_lblzfsj"></span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl09_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)" style="color:Blue;">
+			<td align="center">
+                                            <span id="GridView1_ctl10_Label1">9</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl10_del" type="checkbox" name="GridView1$ctl10$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl10_Labelyjje">ZDSZ00009</span>
+                                        </td><td align="center">已打印</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td align="center">
+                                            <span id="GridView1_ctl10_lbldysj">2015-12-01</span>
+                                        </td><td align="center">物业收款单</td><td>B01LS15120100003</td><td>&nbsp;</td><td>&nbsp;</td><td align="center">
+                                            <span id="GridView1_ctl10_lblzfsj"></span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl10_lblzfqrsj"></span>
+                                        </td>
+		</tr>
+	</tbody></table>
+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 22px">
+                            
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            作废原因：<input name="zfyy" type="text" id="zfyy" class="mytext" style="width:400px;"><font color="red">*</font>&nbsp;
+                            <input type="submit" name="FpBtn" value="作废" onclick="return confirm(&#39;系统只会作废【未打印】状态的单据，确认要执行吗？&#39;);" id="FpBtn" class="mybtn">
+                            <input type="submit" name="QxBtn" value="取消作废" onclick="return confirm(&#39;系统只会取消【已作废】状态且尚未被确认的单据，要继续吗？&#39;);" id="QxBtn" class="mybtn">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

@@ -1,0 +1,339 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/portal/xxgl/sxx.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>收消息</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="收消息_files/Main.css">
+<SCRIPT type=text/javascript src="收消息_files/MyJs.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 method=post name=form1 action=sxx.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=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 type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=34E013F1 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD 
+      style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px"><TABLE 
+      style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>我的消息 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%" align=center>
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 10px"></TD>
+          <TD align=right></TD></TR>
+        <TR>
+          <TD colSpan=2>
+            <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+              <TBODY>
+              <TR>
+                <TD 
+                style="BACKGROUND-IMAGE: url(../../images/tab_y.gif); WIDTH: 61px; HEIGHT: 21px" 
+                align=center><A class=mail_top 
+                  href="http://hkoffice.uicp.net:91/portal/xxgl/sxx.aspx">收消息</A> 
+                </TD>
+                <TD 
+                style="BACKGROUND-IMAGE: url(../../images/tab_b_n.gif); WIDTH: 91px" 
+                align=center><A class=black 
+                  href="http://hkoffice.uicp.net:91/portal/xxgl/yfsxx.aspx">已发送消息</A> 
+                </TD>
+                <TD 
+                style="BACKGROUND-IMAGE: url(../../images/tab_n.gif); WIDTH: 61px" 
+                align=center><A class=black 
+                  href="http://hkoffice.uicp.net:91/portal/xxgl/xxx.aspx">写消息</A> 
+                </TD>
+                <TD align=right><SELECT id=jsfa 
+                  onchange="javascript:setTimeout('__doPostBack(\'jsfa\',\'\')', 0)" 
+                  name=jsfa> <OPTION selected value=全部>全部消息</OPTION> <OPTION 
+                    value=0>未读消息</OPTION> <OPTION value=1>已读消息</OPTION></SELECT> <INPUT id=ReadBtn class=mybtn name=ReadBtn value=标记已读 type=submit> 
+<INPUT id=RecBtn class=mybtn name=RecBtn value="刷 新" type=submit> 
+                </TD></TR></TBODY></TABLE>
+            <DIV>
+            <TABLE 
+            style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+            id=GridView1 border=0 rules=all cellSpacing=0>
+              <TBODY>
+              <TR class=hkHeadStyle>
+                <TD style="WIDTH: 30px"><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  alt=序号 src="收消息_files/refresh.gif"></TD>
+                <TD style="WIDTH: 30px"><INPUT 
+                  style="WIDTH: 16px; HEIGHT: 16px" id=chkall title=全选或全不选 
+                  onclick=chkAll(); type=checkbox> </TD>
+                <TD class=hidden>编码</TD>
+                <TD style="WIDTH: 40px">状态</TD>
+                <TD>内容</TD>
+                <TD style="WIDTH: 90px">发送人</TD>
+                <TD style="WIDTH: 100px">发送时间</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl02_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl02_del 
+                  name=GridView1$ctl02$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>1193</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN 
+                  id=GridView1_ctl02_Labelnr>hello，欢迎试用物业管理系统！有问题或建议请随时与我们联系！</SPAN> 
+                </TD>
+                <TD><SPAN id=GridView1_ctl02_Labelfs>系统管理员</SPAN> </TD>
+                <TD align=center>99-01-01 00:00</TD></TR>
+              <TR class=hkAltRowStyle 
+              ondblclick=GridView1_ctl03_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl03_del 
+                  name=GridView1$ctl03$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5788</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/1.gif"></TD>
+                <TD><SPAN 
+                  id=GridView1_ctl03_Labelnr>OA管理员给您发了一封站内新邮件,请查收!</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl03_Labelfs>OA管理员</SPAN> </TD>
+                <TD align=center>16-02-16 10:33</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl04_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl04_Label1>3</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl04_del 
+                  name=GridView1$ctl04$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5731</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/1.gif"></TD>
+                <TD><SPAN id=GridView1_ctl04_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl04_Labelfs></SPAN></TD>
+                <TD align=center>14-12-20 20:49</TD></TR>
+              <TR class=hkAltRowStyle 
+              ondblclick=GridView1_ctl05_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl05_Label1>4</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl05_del 
+                  name=GridView1$ctl05$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5710</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/1.gif"></TD>
+                <TD><SPAN id=GridView1_ctl05_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl05_Labelfs></SPAN></TD>
+                <TD align=center>14-12-17 11:04</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl06_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl06_Label1>5</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl06_del 
+                  name=GridView1$ctl06$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5689</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/1.gif"></TD>
+                <TD><SPAN id=GridView1_ctl06_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl06_Labelfs></SPAN></TD>
+                <TD align=center>14-12-16 09:41</TD></TR>
+              <TR class=hkAltRowStyle 
+              ondblclick=GridView1_ctl07_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl07_Label1>6</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl07_del 
+                  name=GridView1$ctl07$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5668</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl07_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl07_Labelfs></SPAN></TD>
+                <TD align=center>14-12-15 16:46</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl08_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl08_Label1>7</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl08_del 
+                  name=GridView1$ctl08$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5647</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/1.gif"></TD>
+                <TD><SPAN id=GridView1_ctl08_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl08_Labelfs></SPAN></TD>
+                <TD align=center>14-12-14 09:48</TD></TR>
+              <TR class=hkAltRowStyle 
+              ondblclick=GridView1_ctl09_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl09_Label1>8</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl09_del 
+                  name=GridView1$ctl09$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5626</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl09_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl09_Labelfs></SPAN></TD>
+                <TD align=center>14-12-13 15:20</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl10_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl10_Label1>9</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl10_del 
+                  name=GridView1$ctl10$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5605</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl10_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl10_Labelfs></SPAN></TD>
+                <TD align=center>14-12-12 10:34</TD></TR>
+              <TR class=hkAltRowStyle 
+              ondblclick=GridView1_ctl11_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl11_Label1>10</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl11_del 
+                  name=GridView1$ctl11$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5583</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl11_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl11_Labelfs></SPAN></TD>
+                <TD align=center>14-12-11 09:24</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl12_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl12_Label1>11</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl12_del 
+                  name=GridView1$ctl12$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5562</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl12_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl12_Labelfs></SPAN></TD>
+                <TD align=center>14-12-10 09:14</TD></TR>
+              <TR class=hkAltRowStyle 
+              ondblclick=GridView1_ctl13_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl13_Label1>12</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl13_del 
+                  name=GridView1$ctl13$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5541</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl13_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl13_Labelfs></SPAN></TD>
+                <TD align=center>14-12-09 09:10</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl14_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl14_Label1>13</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl14_del 
+                  name=GridView1$ctl14$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5520</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl14_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl14_Labelfs></SPAN></TD>
+                <TD align=center>14-12-08 09:20</TD></TR>
+              <TR class=hkAltRowStyle 
+              ondblclick=GridView1_ctl15_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl15_Label1>14</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl15_del 
+                  name=GridView1$ctl15$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5499</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl15_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl15_Labelfs></SPAN></TD>
+                <TD align=center>14-12-07 13:30</TD></TR>
+              <TR class=hkRowStyle ondblclick=GridView1_ctl16_del.checked=true 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl16_Label1>15</SPAN> </TD>
+                <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+                  class=mybox><INPUT id=GridView1_ctl16_del 
+                  name=GridView1$ctl16$del type=checkbox></SPAN> </TD>
+                <TD class=hidden>5478</TD>
+                <TD align=center><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  src="收消息_files/0.gif"></TD>
+                <TD><SPAN id=GridView1_ctl16_Labelnr>请注意考勤登记！</SPAN> </TD>
+                <TD><SPAN id=GridView1_ctl16_Labelfs></SPAN></TD>
+                <TD align=center>14-12-06 
+16:10</TD></TR></TBODY></TABLE></DIV></TD></TR>
+        <TR>
+          <TD style="HEIGHT: 22px" colSpan=2><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+            <SCRIPT type=text/javascript 
+src="收消息_files/WebResource.js"></SCRIPT>
+
+            <DIV id=AspNetPager1 class=page_text InputBoxClass="pagetext" 
+            ShowInputBox="Auto">
+            <DIV style="WIDTH: 250px; FLOAT: left" class=page_text><FONT 
+            color=#333333>共 175 行/每页15行 第1/12页</FONT> </DIV>
+            <DIV style="FLOAT: left" class=page_text><A 
+            style="MARGIN-RIGHT: 5px" disabled>首页</A><A 
+            style="MARGIN-RIGHT: 5px" disabled>上页</A><SPAN 
+            style="COLOR: red; FONT-WEIGHT: bold; MARGIN-RIGHT: 5px">1</SPAN><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">2</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','3')">3</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','4')">4</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','5')">5</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','6')">6</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','7')">7</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','8')">8</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','9')">9</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','10')">10</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','11')">...</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">下页</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','12')">末页</A>&nbsp;&nbsp;<INPUT 
+            style="WIDTH: 30px" 
+            onkeydown="ANP_keydown(event,'AspNetPager1_btn');" 
+            id=AspNetPager1_input onkeyup="ANP_keyup('AspNetPager1_input');" 
+            name=AspNetPager1_input value=1><INPUT id=AspNetPager1_btn class=pagebtn onclick="if(ANP_checkInput('AspNetPager1_input',12,'页索引超出范围！','页索引不是有效的数值！')){__doPostBack('AspNetPager1','')} else{return false}" name=AspNetPager1 value=Go type=submit> 
+            </DIV></DIV><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

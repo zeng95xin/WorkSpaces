@@ -1,0 +1,89 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/xsgl/tzcx.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <title>图纸查询</title>
+    <link href="./图纸查询_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./图纸查询_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="form1" method="post" action="./图纸查询_files/图纸查询.html" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTkwNTEwOTYxD2QWAgIBD2QWBAIHDzwrABECAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAICZAEQFgAWABYAFgJmD2QWBgIBDw9kFgIeB29uY2xpY2sFGWphdmFzY3JpcHQ6Y2hhbmdlQmcodGhpcykWEGYPZBYCAgEPDxYCHgRUZXh0BQExZGQCAQ8PFgIfAwUBMmRkAgIPDxYCHwMFD+a1t+a3gOWtkOWFrOWPuGRkAgMPZBYEZg8VAQEyZAIBDw8WAh8DBSfmn5DljYHkuozlsYLmnb/lvI/pq5jlsYLkvY/lroXmpbzmlrnmoYhkZAIEDw8WAh8DBQzlu7rnrZHlm77nurhkZAIFDw8WAh8DBQYmbmJzcDtkZAIGDw8WAh8DBQoyMDEzLTA0LTAxZGQCBw8PFgIfAwUV54mp5Lia57O757uf566h55CG5ZGYZGQCAg8PZBYCHwIFGWphdmFzY3JpcHQ6Y2hhbmdlQmcodGhpcykWEGYPZBYCAgEPDxYCHwMFATJkZAIBDw8WAh8DBQEzZGQCAg8PFgIfAwUP5rW35reA5a2Q5YWs5Y+4ZGQCAw9kFgRmDxUBATNkAgEPDxYCHwMFM+afkOaWsOWGnOadkeWbm+WxguWIq+WiheW7uuetkee7k+aehOawtOeUteaWveW3peWbvmRkAgQPDxYCHwMFDOW3peeoi+Wbvue6uGRkAgUPDxYCHwMFBiZuYnNwO2RkAgYPDxYCHwMFCjIwMTMtMDQtMDFkZAIHDw8WAh8DBRXniankuJrns7vnu5/nrqHnkIblkZhkZAIDDw8WAh4HVmlzaWJsZWhkZAIJDw8WBB4IUGFnZVNpemUCDx4LUmVjb3JkY291bnQCAmRkGAEFCUdyaWRWaWV3MQ88KwAMAwYVAQR0emlkBxQrAAIUKwABAgIUKwABAgMIAgFkVL6ScMq/2xeu7DCemuwTVFVeMp7YrbdnY6t0VJjoVE4=">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FACCBD16">
+</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            图纸查询
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px">
+                            快速检索：<select name="query_tj" id="query_tj">
+	<option selected="selected" value="tzmc">图纸名称</option>
+	<option value="Remarks">说明</option>
+
+</select>
+                            <input name="query_content" type="text" id="query_content" class="mytext" style="width:150px;">
+                        </td>
+                        <td align="right">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:5%;"><img src="./图纸查询_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td class="hidden">编码</td><td style="width:15%;white-space:nowrap;">所属公司</td><td style="width:20%;white-space:nowrap;">图纸名称</td><td style="width:10%;">图纸类型</td><td>说明</td><td style="width:12%;">上传时间</td><td style="width:10%;">上传人</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl02_Label1">1</span>
+                                        </td><td class="hidden">2</td><td style="white-space:nowrap;">海淀子公司</td><td style="white-space:nowrap;">
+                                            <a href="http://hkoffice.uicp.net:91/pms/xsgl/tzcx.aspx#" onclick="javascript:popMod(&#39;Tzcx_View.aspx?id=2&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl02_Labelyjje">某十二层板式高层住宅楼方案</span></a>
+                                        </td><td align="center">建筑图纸</td><td>&nbsp;</td><td align="center">2013-04-01</td><td align="center">物业系统管理员</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl03_Label1">2</span>
+                                        </td><td class="hidden">3</td><td style="white-space:nowrap;">海淀子公司</td><td style="white-space:nowrap;">
+                                            <a href="http://hkoffice.uicp.net:91/pms/xsgl/tzcx.aspx#" onclick="javascript:popMod(&#39;Tzcx_View.aspx?id=3&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl03_Labelyjje">某新农村四层别墅建筑结构水电施工图</span></a>
+                                        </td><td align="center">工程图纸</td><td>&nbsp;</td><td align="center">2013-04-01</td><td align="center">物业系统管理员</td>
+		</tr>
+	</tbody></table>
+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 22px">
+                            
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

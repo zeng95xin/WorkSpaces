@@ -1,0 +1,401 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>常规费项设置</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="常规费项设置_files/Main.css">
+<SCRIPT type=text/javascript src="常规费项设置_files/MyJs.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 method=post name=form1 action=fxsz.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=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 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=C7E40E79 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD 
+      style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px"><TABLE 
+      style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>常规费项设置 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%" align=center>
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 40px">收费方式：<SELECT id=ddlSffs 
+            onchange="javascript:setTimeout('__doPostBack(\'ddlSffs\',\'\')', 0)" 
+            name=ddlSffs> <OPTION selected value="">全部</OPTION> <OPTION 
+              value=按住户>按住户</OPTION> <OPTION value=按房屋面积>按房屋面积</OPTION> <OPTION 
+              value=按使用面积>按使用面积</OPTION> <OPTION value=按阁楼面积>按阁楼面积</OPTION> 
+              <OPTION value=按储藏室面积>按储藏室面积</OPTION> <OPTION 
+              value=按车位面积>按车位面积</OPTION> <OPTION value=按车库面积>按车库面积</OPTION> 
+              <OPTION value=按加建面积>按加建面积</OPTION> <OPTION 
+              value=按使用量>按使用量</OPTION> <OPTION value=自定义>自定义</OPTION></SELECT> </TD>
+          <TD align=right><INPUT class=mybtn onclick="javascript:popAdd('Fxsz_Add.aspx');" name=AddBtn value=增加 type=button> 
+          </TD></TR>
+        <TR>
+          <TD colSpan=2>
+            <DIV>
+            <TABLE 
+            style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+            id=GridView1 border=0 rules=all cellSpacing=0>
+              <TBODY>
+              <TR class=hkHeadStyle>
+                <TD style="WIDTH: 30px"><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  alt=序号 src="常规费项设置_files/refresh.gif"></TD>
+                <TD>所属公司</TD>
+                <TD style="WHITE-SPACE: nowrap">费项编号</TD>
+                <TD>费项名称</TD>
+                <TD style="WIDTH: 80px">收费方式</TD>
+                <TD style="WIDTH: 60px">单位价格</TD>
+                <TD style="WIDTH: 35px">允许改价</TD>
+                <TD style="WIDTH: 35px">阶梯收费</TD>
+                <TD style="WIDTH: 50px">收费周期(月)</TD>
+                <TD style="WIDTH: 35px">催缴短信</TD>
+                <TD style="WIDTH: 35px">催缴天数</TD>
+                <TD style="WIDTH: 35px">续费短信</TD>
+                <TD style="WIDTH: 35px">续费天数</TD>
+                <TD>关联费项</TD>
+                <TD style="WIDTH: 40px">滞纳金比率‰</TD>
+                <TD style="WIDTH: 35px">超期天数</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0003</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=3')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl02_Labelyjje>卫生费</SPAN></A> </TD>
+                <TD align=center>按住户</TD>
+                <TD align=right>33.2350</TD>
+                <TD align=center>是</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0004</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=4')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl03_Labelyjje>车位费</SPAN></A> </TD>
+                <TD align=center>按住户</TD>
+                <TD align=right>240.0000</TD>
+                <TD align=center>是</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl04_Label1>3</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0005</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=5')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl04_Labelyjje>取暖费</SPAN></A> </TD>
+                <TD align=center>按房屋面积</TD>
+                <TD align=right>22.0000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl05_Label1>4</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0006</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=7')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl05_Labelyjje>停车管理费</SPAN></A> </TD>
+                <TD align=center>自定义</TD>
+                <TD align=right>50.0000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl06_Label1>5</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0007</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=8')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl06_Labelyjje>其它费用</SPAN></A> </TD>
+                <TD align=center>自定义</TD>
+                <TD align=right>1.0000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl07_Label1>6</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0008</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=9')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl07_Labelyjje>水费(普通按月)</SPAN></A> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>0.7140</TD>
+                <TD align=center>是</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl08_Label1>7</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0009</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=10')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl08_Labelyjje>电费(普通按月)</SPAN></A> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>0.5200</TD>
+                <TD align=center>是</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl09_Label1>8</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0010</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=32')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl09_Labelyjje>污水处理费</SPAN></A> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>3.5000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>7</TD>
+                <TD>水费(普通按月)</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl10_Label1>9</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0011</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=33')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl10_Labelyjje>二次供水费</SPAN></A> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>0.8000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>7</TD>
+                <TD>水费(普通按月)</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl11_Label1>10</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0013</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=23')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl11_Labelyjje>阶梯水费</SPAN></A> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>0.0000</TD>
+                <TD align=center>是</TD>
+                <TD align=center>是</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl12_Label1>11</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0014</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=24')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl12_Labelyjje>阶梯电费</SPAN></A> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>0.0000</TD>
+                <TD align=center>是</TD>
+                <TD align=center>是</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>15</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl13_Label1>12</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0015</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=27')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl13_Labelyjje>物业费</SPAN></A> </TD>
+                <TD align=center>按房屋面积</TD>
+                <TD align=right>1.9000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>12</TD>
+                <TD align=center>是</TD>
+                <TD align=right>0</TD>
+                <TD align=center>是</TD>
+                <TD align=right>565</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl14_Label1>13</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0016</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=31')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl14_Labelyjje>加建采暖费</SPAN></A> </TD>
+                <TD align=center>按加建面积</TD>
+                <TD align=right>25.0000</TD>
+                <TD align=center>是</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>7</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl15_Label1>14</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0017</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=35')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl15_Labelyjje>阁楼采暖费</SPAN></A> </TD>
+                <TD align=center>按阁楼面积</TD>
+                <TD align=right>10.0000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>7</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl16_Label1>15</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD>0018</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popMod('fxsz_view.aspx?id=36')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/fxsz.aspx#"><SPAN 
+                  id=GridView1_ctl16_Labelyjje>储藏室管理费</SPAN></A> </TD>
+                <TD align=center>按储藏室面积</TD>
+                <TD align=right>3.5000</TD>
+                <TD align=center>否</TD>
+                <TD align=center>否</TD>
+                <TD align=right>1</TD>
+                <TD align=center>否</TD>
+                <TD align=right>0</TD>
+                <TD align=center>否</TD>
+                <TD align=right>7</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>5.00</TD>
+                <TD align=right>7</TD></TR></TBODY></TABLE></DIV></TD></TR>
+        <TR>
+          <TD style="HEIGHT: 22px" colSpan=2><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+            <DIV id=AspNetPager1 class=page_text InputBoxClass="pagetext" 
+            ShowInputBox="Auto">
+            <DIV style="WIDTH: 250px; FLOAT: left" class=page_text><FONT 
+            color=#333333>共 18 行/每页15行 第1/2页</FONT> </DIV>
+            <DIV style="FLOAT: left" class=page_text><A 
+            style="MARGIN-RIGHT: 5px" disabled>首页</A><A 
+            style="MARGIN-RIGHT: 5px" disabled>上页</A><SPAN 
+            style="COLOR: red; FONT-WEIGHT: bold; MARGIN-RIGHT: 5px">1</SPAN><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">2</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">下页</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">末页</A> 
+            </DIV></DIV><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

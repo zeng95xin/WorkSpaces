@@ -1,0 +1,332 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0047)http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>业主信息表</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="业主信息表_files/Main.css">
+<SCRIPT type=text/javascript src="业主信息表_files/MyJs.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 method=post name=form1 action=yzxxb.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=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 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=5FBF25A7 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD 
+      style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px"><TABLE 
+      style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>业主信息表 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%" align=center>
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 40px">所属公司：<SELECT id=qy 
+            onchange="javascript:setTimeout('__doPostBack(\'qy\',\'\')', 0)" 
+            name=qy> <OPTION selected value=""></OPTION> <OPTION 
+              value=A01>朝阳子公司</OPTION> <OPTION value=A09>大兴子公司</OPTION> <OPTION 
+              value=A04>海淀子公司</OPTION> <OPTION value=A08>宣武子公司</OPTION></SELECT> 
+            快速检索：<SELECT id=query_tj name=query_tj> <OPTION selected 
+              value=a.code>业主编码</OPTION> <OPTION value=a.name>业主姓名</OPTION> 
+              <OPTION value=a.zjhm>证件号码</OPTION> <OPTION 
+              value=a.gzdw>工作单位</OPTION> <OPTION value=a.lxdh>手机号码</OPTION> 
+              <OPTION value=a.lxdz>联系地址</OPTION> <OPTION 
+              value=a.yhzh>银行帐号</OPTION> <OPTION value=a.JJLXRXM>紧急联系人</OPTION> 
+              <OPTION value=a.MEMO>备注</OPTION></SELECT> <INPUT 
+            style="WIDTH: 120px" id=query_content class=mytext 
+            name=query_content> <SELECT id=yzlx 
+            onchange="javascript:setTimeout('__doPostBack(\'yzlx\',\'\')', 0)" 
+            name=yzlx> <OPTION selected value="">全部业主</OPTION> <OPTION 
+              value=正式业主>正式业主</OPTION> <OPTION value=临时业主>临时业主</OPTION></SELECT> 
+          </TD>
+          <TD align=right><INPUT id=QueryBtn class=mybtn name=QueryBtn value="查 询" type=submit> 
+          </TD></TR>
+        <TR>
+          <TD colSpan=2>
+            <DIV>
+            <TABLE 
+            style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+            id=GridView1 border=0 rules=all cellSpacing=0>
+              <TBODY>
+              <TR class=hkHeadStyle>
+                <TD style="WIDTH: 30px"><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  alt=序号 src="业主信息表_files/refresh.gif"></TD>
+                <TD>所属公司</TD>
+                <TD>业主编码</TD>
+                <TD style="WIDTH: 70px">姓名</TD>
+                <TD style="WIDTH: 30px">性别</TD>
+                <TD style="WIDTH: 80px">出生日期</TD>
+                <TD>证件号码</TD>
+                <TD>手机号码</TD>
+                <TD>工作单位</TD>
+                <TD style="WIDTH: 60px">业主类型</TD>
+                <TD style="WIDTH: 40px">状态</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=162')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl02_Labelyjje>A11101</SPAN></A> </TD>
+                <TD>赵云</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1969-12-31</TD>
+                <TD>15043019500101101</TD>
+                <TD>13811223344</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=163')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl03_Labelyjje>A11102</SPAN></A> </TD>
+                <TD>黄盖</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1958-7-7</TD>
+                <TD>15043019580715101</TD>
+                <TD>13812321112</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl04_Label1>3</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=164')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl04_Labelyjje>A11201</SPAN></A> </TD>
+                <TD>小乔</TD>
+                <TD align=center>女</TD>
+                <TD align=center>1972-12-30</TD>
+                <TD>15043019670704102</TD>
+                <TD>13812321113</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl05_Label1>4</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=165')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl05_Labelyjje>A11202</SPAN></A> </TD>
+                <TD>大乔</TD>
+                <TD align=center>女</TD>
+                <TD align=center>1970-10-5</TD>
+                <TD>15043019630415102</TD>
+                <TD>13812321114</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl06_Label1>5</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=166')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl06_Labelyjje>A11301</SPAN></A> </TD>
+                <TD>鲁子敬</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1962-12-28</TD>
+                <TD>15043019600914101</TD>
+                <TD>13812321115</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl07_Label1>6</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=167')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl07_Labelyjje>A11302</SPAN></A> </TD>
+                <TD>吕蒙</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1977-4-2</TD>
+                <TD>15043019700101223</TD>
+                <TD>13588223322</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl08_Label1>7</SPAN> </TD>
+                <TD>朝阳子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=168')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl08_Labelyjje>B11101</SPAN></A> </TD>
+                <TD>马超</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1965-11-23</TD>
+                <TD>15043019680701102</TD>
+                <TD>13812321116</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl09_Label1>8</SPAN> </TD>
+                <TD>朝阳子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=169')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl09_Labelyjje>B11102</SPAN></A> </TD>
+                <TD>夏侯敦</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1970-9-14</TD>
+                <TD>15043019670704101</TD>
+                <TD>13812321117</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl10_Label1>9</SPAN> </TD>
+                <TD>朝阳子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=170')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl10_Labelyjje>B12201</SPAN></A> </TD>
+                <TD>貂禅</TD>
+                <TD align=center>女</TD>
+                <TD align=center>1975-8-8</TD>
+                <TD>15043019670704102</TD>
+                <TD>13812321118</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR style="COLOR: red" class=hkAltRowStyle 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl11_Label1>10</SPAN> </TD>
+                <TD>朝阳子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=171')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl11_Labelyjje>B12202</SPAN></A> </TD>
+                <TD>孟获</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1958-2-11</TD>
+                <TD>15043019600914101</TD>
+                <TD>13812321119</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>停用</TD></TR>
+              <TR style="COLOR: red" class=hkRowStyle 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl12_Label1>11</SPAN> </TD>
+                <TD>朝阳子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=172')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl12_Labelyjje>B13301</SPAN></A> </TD>
+                <TD>司马昭</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1970-3-9</TD>
+                <TD>15043019670704101</TD>
+                <TD>13812321120</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>停用</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl13_Label1>12</SPAN> </TD>
+                <TD>朝阳子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=176')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl13_Labelyjje>A11303</SPAN></A> </TD>
+                <TD>张辽</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1965-11-23</TD>
+                <TD>150430196607073321</TD>
+                <TD>15811112222</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>临时业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl14_Label1>13</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=179')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl14_Labelyjje>A11305</SPAN></A> </TD>
+                <TD>郭嘉</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1963/9/21</TD>
+                <TD>15043019700101223</TD>
+                <TD>13588223322</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl15_Label1>14</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=180')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl15_Labelyjje>A11304</SPAN></A> </TD>
+                <TD>华雄</TD>
+                <TD align=center>男</TD>
+                <TD align=center>1962-12-28</TD>
+                <TD>15043019600914101</TD>
+                <TD>13812321115</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl16_Label1>15</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popWin_m('Yzxxb_View.aspx?id=182')" 
+                  href="http://hkoffice.uicp.net:91/pms/wyfx/yzxxb.aspx#"><SPAN 
+                  id=GridView1_ctl16_Labelyjje>A01B-1U-2102</SPAN></A> </TD>
+                <TD>蒋干</TD>
+                <TD align=center>&nbsp;</TD>
+                <TD align=center>&nbsp;</TD>
+                <TD>15043019650101201</TD>
+                <TD>13811223355</TD>
+                <TD>&nbsp;</TD>
+                <TD align=center>正式业主</TD>
+                <TD align=center>正常</TD></TR></TBODY></TABLE></DIV></TD></TR>
+        <TR>
+          <TD style="HEIGHT: 22px" colSpan=2><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+            <DIV id=AspNetPager1 class=page_text InputBoxClass="pagetext" 
+            ShowInputBox="Auto">
+            <DIV style="WIDTH: 250px; FLOAT: left" class=page_text><FONT 
+            color=#333333>共 17 行/每页15行 第1/2页</FONT> </DIV>
+            <DIV style="FLOAT: left" class=page_text><A 
+            style="MARGIN-RIGHT: 5px" disabled>首页</A><A 
+            style="MARGIN-RIGHT: 5px" disabled>上页</A><SPAN 
+            style="COLOR: red; FONT-WEIGHT: bold; MARGIN-RIGHT: 5px">1</SPAN><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">2</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">下页</A><A 
+            style="MARGIN-RIGHT: 5px" 
+            href="javascript:__doPostBack('AspNetPager1','2')">末页</A> 
+            </DIV></DIV><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

@@ -1,0 +1,181 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0058)http://hkoffice.uicp.net:91/pms/fxsz/cshyb_lg.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>初始化仪表</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="初始化仪表_files/Main.css">
+<SCRIPT type=text/javascript src="初始化仪表_files/MyJs.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 onsubmit="javascript:return WebForm_OnSubmit();" method=post 
+name=form1 action=cshyb_lg.aspx?stat=no>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=/wEPDwUKLTY0NzI3NjgxMA9kFgICAQ9kFgQCBw8PFgIeB0VuYWJsZWRoZGQCCQ88KwARAgAPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCBmQBEBYAFgAWABYCZg9kFg4CAQ8PZBYCHgdvbmNsaWNrBRlqYXZhc2NyaXB0OmNoYW5nZUJnKHRoaXMpFgxmD2QWAgIBDw8WAh4EVGV4dAUBMWRkAgIPDxYCHwQFBDAwMDhkZAIDD2QWAgIBDw8WAh8EBRTmsLTotLko5pmu6YCa5oyJ5pyIKWRkAgQPDxYCHwQFDOaMieS9v+eUqOmHj2RkAgUPDxYCHwQFBjAuNzE0MGRkAgYPDxYCHwQFATFkZAICDw9kFgIfAwUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYMZg9kFgICAQ8PFgIfBAUBMmRkAgIPDxYCHwQFBDAwMDlkZAIDD2QWAgIBDw8WAh8EBRTnlLXotLko5pmu6YCa5oyJ5pyIKWRkAgQPDxYCHwQFDOaMieS9v+eUqOmHj2RkAgUPDxYCHwQFBjAuNTIwMGRkAgYPDxYCHwQFATFkZAIDDw9kFgIfAwUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYMZg9kFgICAQ8PFgIfBAUBM2RkAgIPDxYCHwQFBDAwMTNkZAIDD2QWAgIBDw8WAh8EBQzpmLbmoq/msLTotLlkZAIEDw8WAh8EBQzmjInkvb/nlKjph49kZAIFDw8WAh8EBQYwLjAwMDBkZAIGDw8WAh8EBQExZGQCBA8PZBYCHwMFGWphdmFzY3JpcHQ6Y2hhbmdlQmcodGhpcykWDGYPZBYCAgEPDxYCHwQFATRkZAICDw8WAh8EBQQwMDE0ZGQCAw9kFgICAQ8PFgIfBAUM6Zi25qKv55S16LS5ZGQCBA8PFgIfBAUM5oyJ5L2/55So6YePZGQCBQ8PFgIfBAUGMC4wMDAwZGQCBg8PFgIfBAUBMWRkAgUPD2QWAh8DBRlqYXZhc2NyaXB0OmNoYW5nZUJnKHRoaXMpFgxmD2QWAgIBDw8WAh8EBQE1ZGQCAg8PFgIfBAUEMDAxMGRkAgMPZBYCAgEPDxYCHwQFD+axoeawtOWkhOeQhui0uWRkAgQPDxYCHwQFDOaMieS9v+eUqOmHj2RkAgUPDxYCHwQFBjMuNTAwMGRkAgYPDxYCHwQFATFkZAIGDw9kFgIfAwUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYMZg9kFgICAQ8PFgIfBAUBNmRkAgIPDxYCHwQFBDAwMTFkZAIDD2QWAgIBDw8WAh8EBQ/kuozmrKHkvpvmsLTotLlkZAIEDw8WAh8EBQzmjInkvb/nlKjph49kZAIFDw8WAh8EBQYwLjgwMDBkZAIGDw8WAh8EBQExZGQCBw8PFgIeB1Zpc2libGVoZGQYAgUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgcFBmNiemVybwUTR3JpZFZpZXcxJGN0bDAyJGRlbAUTR3JpZFZpZXcxJGN0bDAzJGRlbAUTR3JpZFZpZXcxJGN0bDA0JGRlbAUTR3JpZFZpZXcxJGN0bDA1JGRlbAUTR3JpZFZpZXcxJGN0bDA2JGRlbAUTR3JpZFZpZXcxJGN0bDA3JGRlbAUJR3JpZFZpZXcxDzwrAAwDBhUBBmZ4c3ppZAcUKwAGFCsAAQIJFCsAAQIKFCsAAQIXFCsAAQIYFCsAAQIgFCsAAQIhCAIBZKiOPlev8uaJ5sytkMGecXPxy05dxRq8Sso+5JQso3oI 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="初始化仪表_files/WebResource.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=973DD14B 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=5 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD height=25>注意：您将初始化 <SPAN style="COLOR: red; FONT-WEIGHT: bold" 
+      id=lbllgmc></SPAN>下面全部房间的仪表读数，请谨慎操作！<BR>仪表读数：<INPUT style="WIDTH: 80px" 
+      id=ds class=mytext name=ds> <INPUT id=cbzero 
+      onclick="javascript:setTimeout('__doPostBack(\'cbzero\',\'\')', 0)" 
+      name=cbzero CHECKED type=checkbox><LABEL for=cbzero>只更新当前读数为0的仪表</LABEL> <INPUT id=Button1 class=mybtn disabled name=Button1 value=确认初始化 type=submit> 
+    </TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <DIV>
+      <TABLE 
+      style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+      id=GridView1 border=0 rules=all cellSpacing=0>
+        <TBODY>
+        <TR class=hkHeadStyle>
+          <TD style="WIDTH: 30px"><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            alt=序号 src="初始化仪表_files/refresh.gif"></TD>
+          <TD style="WIDTH: 30px"><INPUT style="WIDTH: 16px; HEIGHT: 16px" 
+            id=chkall title=全选或全不选 onclick=chkAll(); type=checkbox> </TD>
+          <TD style="WIDTH: 80px">费项编号</TD>
+          <TD>费项名称</TD>
+          <TD style="WIDTH: 100px">收费方式</TD>
+          <TD style="WIDTH: 70px">单位价格</TD>
+          <TD style="WIDTH: 100px">收费周期(月)</TD></TR>
+        <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl02_del name=GridView1$ctl02$del 
+            type=checkbox></SPAN> </TD>
+          <TD>0008</TD>
+          <TD><SPAN id=GridView1_ctl02_Labelyjje>水费(普通按月)</SPAN> </TD>
+          <TD align=center>按使用量</TD>
+          <TD align=right>0.7140</TD>
+          <TD align=right>1</TD></TR>
+        <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl03_del name=GridView1$ctl03$del 
+            type=checkbox></SPAN> </TD>
+          <TD>0009</TD>
+          <TD><SPAN id=GridView1_ctl03_Labelyjje>电费(普通按月)</SPAN> </TD>
+          <TD align=center>按使用量</TD>
+          <TD align=right>0.5200</TD>
+          <TD align=right>1</TD></TR>
+        <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl04_Label1>3</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl04_del name=GridView1$ctl04$del 
+            type=checkbox></SPAN> </TD>
+          <TD>0013</TD>
+          <TD><SPAN id=GridView1_ctl04_Labelyjje>阶梯水费</SPAN> </TD>
+          <TD align=center>按使用量</TD>
+          <TD align=right>0.0000</TD>
+          <TD align=right>1</TD></TR>
+        <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl05_Label1>4</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl05_del name=GridView1$ctl05$del 
+            type=checkbox></SPAN> </TD>
+          <TD>0014</TD>
+          <TD><SPAN id=GridView1_ctl05_Labelyjje>阶梯电费</SPAN> </TD>
+          <TD align=center>按使用量</TD>
+          <TD align=right>0.0000</TD>
+          <TD align=right>1</TD></TR>
+        <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl06_Label1>5</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl06_del name=GridView1$ctl06$del 
+            type=checkbox></SPAN> </TD>
+          <TD>0010</TD>
+          <TD><SPAN id=GridView1_ctl06_Labelyjje>污水处理费</SPAN> </TD>
+          <TD align=center>按使用量</TD>
+          <TD align=right>3.5000</TD>
+          <TD align=right>1</TD></TR>
+        <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl07_Label1>6</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl07_del name=GridView1$ctl07$del 
+            type=checkbox></SPAN> </TD>
+          <TD>0011</TD>
+          <TD><SPAN id=GridView1_ctl07_Labelyjje>二次供水费</SPAN> </TD>
+          <TD align=center>按使用量</TD>
+          <TD align=right>0.8000</TD>
+          <TD align=right>1</TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style="DISPLAY: none; COLOR: red" id=ValidationSummary2></DIV><SPAN 
+style="VISIBILITY: hidden; COLOR: red" id=RequiredFieldValidator5>&nbsp; 
+</SPAN><SPAN style="DISPLAY: none; COLOR: red" 
+id=RegularExpressionValidator7></SPAN>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary2"));
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator5"), document.getElementById("RegularExpressionValidator7"));
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var ValidationSummary2 = document.all ? document.all["ValidationSummary2"] : document.getElementById("ValidationSummary2");
+ValidationSummary2.showmessagebox = "True";
+ValidationSummary2.showsummary = "False";
+var RequiredFieldValidator5 = document.all ? document.all["RequiredFieldValidator5"] : document.getElementById("RequiredFieldValidator5");
+RequiredFieldValidator5.controltovalidate = "ds";
+RequiredFieldValidator5.errormessage = "请输入仪表读数";
+RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator5.initialvalue = "";
+var RegularExpressionValidator7 = document.all ? document.all["RegularExpressionValidator7"] : document.getElementById("RegularExpressionValidator7");
+RegularExpressionValidator7.controltovalidate = "ds";
+RegularExpressionValidator7.errormessage = "仪表读数必须为数值型";
+RegularExpressionValidator7.display = "None";
+RegularExpressionValidator7.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator7.validationexpression = "\\d+\\.\\d+|\\d{0,9}";
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</SCRIPT>
+</FORM></BODY></HTML>

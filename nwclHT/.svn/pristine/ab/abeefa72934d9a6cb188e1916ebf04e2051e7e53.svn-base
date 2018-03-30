@@ -1,0 +1,619 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/pms/sfhs/lpsfhs.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>楼盘收费核算</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="楼盘收费核算_files/Main.css">
+<SCRIPT type=text/javascript src="楼盘收费核算_files/MyJs.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=Form1 onsubmit="javascript:return WebForm_OnSubmit();" method=post 
+name=Form1 action=lpsfhs.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__VIEWSTATE 
+name=__VIEWSTATE 
+value=/wEPDwUKLTQ1MDk2Mzc3Mg9kFgICAQ9kFgQCBw8QZBAVCgAM5Lit5Lic6aaW5bqnDOebiOenkeWkp+WOpg/lrZTpm4Doi7Hlm73lrqsM55S15a2Q5aSn5Y6mDOiPnOaJueW4guWcugzkuJzpo47ku5PlupMM5Zyw5LiL6L2m5bqTBWFzZGFzDOS5kOemj+Wwj+WMuhUKAAExATIBMwE0ATgCMTkCMjACMjMCMjQUKwMKZ2dnZ2dnZ2dnZ2RkAgsPFCsABQ8WBB4OUmVuZGVyaW5nU3RhdGULKZYBTWljcm9zb2Z0LlJlcG9ydGluZy5XZWJGb3Jtcy5SZXBvcnRSZW5kZXJpbmdTdGF0ZSwgTWljcm9zb2Z0LlJlcG9ydFZpZXdlci5XZWJGb3JtcywgVmVyc2lvbj0xMC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhAx4MU2Nyb2xsVGFyZ2V0ZGQoKVhTeXN0ZW0uR3VpZCwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5JGMzMDMyYjk1LWMyNDYtNGU3NC1iNTVhLTFjYjhkNDEzYjY1MwIBFCsAARQrAAQCAWQUKwADKClyU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuTWFyZ2lucywgU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhDjk4LCA5OCwgOTgsIDk4MsUCAAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QYXBlclNpemUFAAAABGtpbmQEbmFtZQV3aWR0aAZoZWlnaHQbY3JlYXRlZEJ5RGVmYXVsdENvbnN0cnVjdG9yBAEAAAAhU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUGFwZXJLaW5kAgAAAAgIAQIAAAAF/f///yFTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QYXBlcktpbmQBAAAAB3ZhbHVlX18ACAIAAAAAAAAABgQAAAAAOwMAAJEEAAAAC2hkZBYCAgEPZBYCZg9kFgJmD2QWDAIBDw8WAh4HVmlzaWJsZWhkZAICD2QWAgICDxYCHgVWYWx1ZQUFZmFsc2VkAgMPDxYGHgpGb250X05hbWVzFQEHVmVyZGFuYR4JRm9udF9TaXplKCoiU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5Gb250VW5pdAM4cHQeBF8hU0ICgAxkFgRmD2QWAgICDw8WAh4EVGV4dGVkZAICD2QWAmYPEGQQFQoKUGFnZSBXaWR0aApXaG9sZSBQYWdlBDUwMCUEMjAwJQQxNTAlBDEwMCUDNzUlAzUwJQMyNSUDMTAlFQoJUGFnZVdpZHRoCEZ1bGxQYWdlAzUwMAMyMDADMTUwAzEwMAI3NQI1MAIyNQIxMBQrAwpnZ2dnZ2dnZ2dnFgECBWQCBQ9kFgICAg8WAh8DBQVmYWxzZWQCBg9kFgJmD2QWAmYPZBYEZg8PZBYCHgVzdHlsZQUQdmlzaWJpbGl0eTpub25lO2QCAw9kFgQCAQ8WAh4HRW5hYmxlZGhkAgQPFgIfAwUDMTAwZAIKD2QWAgIBDxYCHwMFBUZhbHNlZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WGgUdUmVwb3J0Vmlld2VyMSRUb2dnbGVQYXJhbSRpbWcFK1JlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkRmlyc3QkY3RsMDAkY3RsMDAFK1JlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkRmlyc3QkY3RsMDAkY3RsMDEFK1JlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkRmlyc3QkY3RsMDEkY3RsMDAFK1JlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkRmlyc3QkY3RsMDEkY3RsMDEFLlJlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkUHJldmlvdXMkY3RsMDAkY3RsMDAFLlJlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkUHJldmlvdXMkY3RsMDAkY3RsMDEFLlJlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkUHJldmlvdXMkY3RsMDEkY3RsMDAFLlJlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkUHJldmlvdXMkY3RsMDEkY3RsMDEFKlJlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkTmV4dCRjdGwwMCRjdGwwMAUqUmVwb3J0Vmlld2VyMSRjdGwwNSRjdGwwMCROZXh0JGN0bDAwJGN0bDAxBSpSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDAwJE5leHQkY3RsMDEkY3RsMDAFKlJlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkTmV4dCRjdGwwMSRjdGwwMQUqUmVwb3J0Vmlld2VyMSRjdGwwNSRjdGwwMCRMYXN0JGN0bDAwJGN0bDAwBSpSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDAwJExhc3QkY3RsMDAkY3RsMDEFKlJlcG9ydFZpZXdlcjEkY3RsMDUkY3RsMDAkTGFzdCRjdGwwMSRjdGwwMAUqUmVwb3J0Vmlld2VyMSRjdGwwNSRjdGwwMCRMYXN0JGN0bDAxJGN0bDAxBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDAxJGN0bDAwJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDAxJGN0bDAwJGN0bDAwJGN0bDAxBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDAxJGN0bDAwJGN0bDAxJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDAxJGN0bDAwJGN0bDAxJGN0bDAxBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDA1JGN0bDAwJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDA1JGN0bDAwJGN0bDAxJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDA2JGN0bDAwJGN0bDAwJGN0bDAwBStSZXBvcnRWaWV3ZXIxJGN0bDA1JGN0bDA2JGN0bDAwJGN0bDAxJGN0bDAwBRdSZXBvcnRWaWV3ZXIxJGN0bDA3JGltZxR/z6CReDtsnlhwnaN88ASNY+6+LszLhhx0r49BnUN3 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="楼盘收费核算_files/WebResource.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="楼盘收费核算_files/ScriptResource.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="楼盘收费核算_files/ScriptResource(1).js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="楼盘收费核算_files/ScriptResource(2).js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="楼盘收费核算_files/Reserved.ReportViewerWebControl.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="楼盘收费核算_files/ScriptResource(3).js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=20EF5B05 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'Form1', ['fReportViewer1$ReportViewer','','fReportViewer1$DocMap','','fReportViewer1$ctl09$ReportArea',''], [], ['ReportViewer1$ctl09$ReportControl$ctl00',''], 90, '');
+//]]>
+</SCRIPT>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" align=center>
+  <TBODY>
+  <TR>
+    <TD style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px" 
+    colSpan=2>
+      <TABLE style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 
+width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>楼盘收费核算 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD style="HEIGHT: 30px" colSpan=2>&nbsp;选择年份：<SELECT id=year name=year> 
+        <OPTION value=2010>2010年</OPTION> <OPTION value=2011>2011年</OPTION> 
+        <OPTION selected value=2012>2012年</OPTION> <OPTION 
+        value=2013>2013年</OPTION> <OPTION value=2014>2014年</OPTION> <OPTION 
+        value=2015>2015年</OPTION> <OPTION value=2016>2016年</OPTION> <OPTION 
+        value=2017>2017年</OPTION> <OPTION value=2018>2018年</OPTION> <OPTION 
+        value=2019>2019年</OPTION> <OPTION value=2020>2020年</OPTION></SELECT> 
+      选择月份：<SELECT id=month name=month> <OPTION value=01>01月</OPTION> <OPTION 
+        value=02>02月</OPTION> <OPTION value=03>03月</OPTION> <OPTION 
+        value=04>04月</OPTION> <OPTION value=05>05月</OPTION> <OPTION 
+        value=06>06月</OPTION> <OPTION value=07>07月</OPTION> <OPTION 
+        value=08>08月</OPTION> <OPTION value=09>09月</OPTION> <OPTION 
+        value=10>10月</OPTION> <OPTION value=11>11月</OPTION> <OPTION selected 
+        value=12>12月</OPTION></SELECT> 选择楼盘：<SELECT style="WIDTH: 120px" id=lp 
+      name=lp> <OPTION selected value=""></OPTION> <OPTION 
+        value=1>中东首座</OPTION> <OPTION value=2>盈科大厦</OPTION> <OPTION 
+        value=3>孔雀英国宫</OPTION> <OPTION value=4>电子大厦</OPTION> <OPTION 
+        value=8>菜批市场</OPTION> <OPTION value=19>东风仓库</OPTION> <OPTION 
+        value=20>地下车库</OPTION> <OPTION value=23>asdas</OPTION> <OPTION 
+        value=24>乐福小区</OPTION></SELECT> <INPUT id=QueryBtn class=mybtn onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("QueryBtn", "", true, "", "", false, false))' name=QueryBtn value="查 询" type=submit> 
+    </TD></TR>
+  <TR>
+    <TD style="PADDING-LEFT: 7px; PADDING-RIGHT: 7px" height=25 
+      colSpan=2><NOSCRIPT></NOSCRIPT><SPAN id=ReportViewer1_ReportViewer>
+      <DIV style="WIDTH: 100%; HEIGHT: 420px" id=ReportViewer1 
+      onactivate="if ($get('ReportViewer1_ctl04') != null &amp;&amp; $get('ReportViewer1_ctl04').control != null) $get('ReportViewer1_ctl04').control.HideActiveDropDown();" 
+      onclick="if ($get('ReportViewer1_ctl04') != null &amp;&amp; $get('ReportViewer1_ctl04').control != null) $get('ReportViewer1_ctl04').control.HideActiveDropDown();">
+      <DIV 
+      style="BORDER-BOTTOM: red 2px solid; BORDER-LEFT: red 2px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: none; FONT-SIZE: 0.85em; OVERFLOW: auto; BORDER-TOP: red 2px solid; BORDER-RIGHT: red 2px solid; PADDING-TOP: 10px" 
+      id=ReportViewer1_HttpHandlerMissingErrorMessage>
+      <H2>Report Viewer Configuration Error </H2>
+      <P>The Report Viewer Web Control HTTP Handler has not been registered in 
+      the application's web.config file. Add &lt;add verb="*" 
+      path="Reserved.ReportViewerWebControl.axd" type = 
+      "Microsoft.Reporting.WebForms.HttpHandler, 
+      Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, 
+      PublicKeyToken=b03f5f7f11d50a3a" /&gt; to the system.web/httpHandlers 
+      section of the web.config file, or add &lt;add 
+      name="ReportViewerWebControlHandler" preCondition="integratedMode" 
+      verb="*" path="Reserved.ReportViewerWebControl.axd" 
+      type="Microsoft.Reporting.WebForms.HttpHandler, 
+      Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, 
+      PublicKeyToken=b03f5f7f11d50a3a" /&gt; to the system.webServer/handlers 
+      section for Internet Information Services 7 or later.</P></DIV><SPAN 
+      id=ReportViewer1_ctl03><INPUT id=ReportViewer1_ctl03_ctl00 
+      name=ReportViewer1$ctl03$ctl00 type=hidden><INPUT 
+      id=ReportViewer1_ctl03_ctl01 name=ReportViewer1$ctl03$ctl01 
+      type=hidden></SPAN><INPUT id=ReportViewer1_ctl10 name=ReportViewer1$ctl10 
+      type=hidden><INPUT id=ReportViewer1_ctl11 name=ReportViewer1$ctl11 
+      type=hidden>
+      <DIV 
+      style="POSITION: absolute; FILTER: alpha(opacity=70); BACKGROUND-COLOR: white; DISPLAY: none; opacity: 0.7" 
+      id=ReportViewer1_AsyncWait></DIV>
+      <DIV 
+      style="BORDER-BOTTOM: black 1px solid; POSITION: absolute; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 15px; BACKGROUND-COLOR: #ece9d8; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; DISPLAY: none; BORDER-TOP: black 1px solid; CURSOR: wait; BORDER-RIGHT: black 1px solid; PADDING-TOP: 15px" 
+      id=ReportViewer1_AsyncWait_Wait>
+      <TABLE height="100%">
+        <TBODY>
+        <TR>
+          <TD height=32 width=32><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 32px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 32px; BORDER-LEFT-WIDTH: 0px" 
+            src="楼盘收费核算_files/Reserved.ReportViewerWebControl.gif"></TD>
+          <TD style="TEXT-ALIGN: center; VERTICAL-ALIGN: middle"><SPAN 
+            style="FONT-FAMILY: Verdana; FONT-SIZE: 14pt">Loading...</SPAN>
+            <DIV style="MARGIN-TOP: 3px"><A 
+            style="FONT-FAMILY: Verdana; COLOR: #3366cc; FONT-SIZE: 8pt" 
+            href="javascript:$get('ReportViewer1_AsyncWait').control._cancelCurrentPostback();">Cancel</A> 
+            </DIV></TD></TR></TBODY></TABLE></DIV><INPUT 
+      id=ReportViewer1_AsyncWait_HiddenCancelField 
+      name=ReportViewer1$AsyncWait$HiddenCancelField value=False type=hidden>
+      <TABLE style="WIDTH: 100%; TABLE-LAYOUT: fixed; HEIGHT: 100%" 
+      id=ReportViewer1_fixedTable cellSpacing=0 cellPadding=0>
+        <TBODY>
+        <TR style="BACKGROUND-COLOR: #ece9d8">
+          <TD style="WIDTH: 25%; DISPLAY: none"></TD>
+          <TD style="WIDTH: 6px; DISPLAY: none"></TD>
+          <TD style="WIDTH: 100%"></TD></TR>
+        <TR style="DISPLAY: none" id=ParametersRowReportViewer1>
+          <TD colSpan=3></TD></TR>
+        <TR style="DISPLAY: none; HEIGHT: 6px; FONT-SIZE: 2pt">
+          <TD 
+          style="TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ece9d8; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" 
+          colSpan=3>
+            <DIV id=ReportViewer1_ToggleParam><INPUT 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer" 
+            id=ReportViewer1_ToggleParam_img title="Show / Hide Parameters" 
+            onclick='void(0);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ToggleParam$img", "", true, "", "", false, false))' 
+            name=ReportViewer1$ToggleParam$img alt="Show / Hide Parameters" 
+            align=middle src="楼盘收费核算_files/Reserved.ReportViewerWebControl.png" 
+            type=image><INPUT id=ReportViewer1_ToggleParam_store 
+            name=ReportViewer1$ToggleParam$store type=hidden><INPUT 
+            id=ReportViewer1_ToggleParam_collapse 
+            name=ReportViewer1$ToggleParam$collapse value=false type=hidden> 
+            </DIV></TD></TR>
+        <TR>
+          <TD colSpan=3>
+            <DIV 
+            style="BACKGROUND-IMAGE: url(/Reserved.ReportViewerWebControl.axd?OpType=BackImage&Version=10.0.40219.1&Color=%23ECE9D8&Name=Microsoft.Reporting.WebForms.Icons.toolbar_bk.png); BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ece9d8; FONT-FAMILY: Verdana; FONT-SIZE: 8pt" 
+            id=ReportViewer1_ctl05>
+            <DIV style="PADDING-LEFT: 6px">
+            <DIV 
+            style="DISPLAY: inline; FONT-FAMILY: Verdana; FONT-SIZE: 8pt; VERTICAL-ALIGN: top" 
+            class=" ">
+            <TABLE style="DISPLAY: inline" cellSpacing=0 cellPadding=0>
+              <TBODY>
+              <TR>
+                <TD height=28>
+                  <DIV id=ReportViewer1_ctl05_ctl00_First>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; DISPLAY: none; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_First_ctl00>
+                  <TABLE title="First Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_First_ctl00_ctl00 
+                        title="First Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$First$ctl00$ctl00", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$First$ctl00$ctl00 
+                        alt="First Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(3).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_First_ctl00_ctl01 
+                        title="First Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$First$ctl00$ctl01", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$First$ctl00$ctl01 
+                        alt="First Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(4).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_First_ctl01 disabled>
+                  <TABLE title="First Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_First_ctl01_ctl00 
+                        title="First Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$First$ctl01$ctl00 
+                        alt="First Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(5).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_First_ctl01_ctl01 
+                        title="First Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$First$ctl01$ctl01 
+                        alt="First Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(6).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV></DIV></TD>
+                <TD width=4></TD>
+                <TD height=28>
+                  <DIV id=ReportViewer1_ctl05_ctl00_Previous>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; DISPLAY: none; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_Previous_ctl00>
+                  <TABLE title="Previous Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Previous_ctl00_ctl00 
+                        title="Previous Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$Previous$ctl00$ctl00", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$Previous$ctl00$ctl00 
+                        alt="Previous Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(7).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Previous_ctl00_ctl01 
+                        title="Previous Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$Previous$ctl00$ctl01", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$Previous$ctl00$ctl01 
+                        alt="Previous Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(8).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_Previous_ctl01 disabled>
+                  <TABLE title="Previous Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Previous_ctl01_ctl00 
+                        title="Previous Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$Previous$ctl01$ctl00 
+                        alt="Previous Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(9).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Previous_ctl01_ctl01 
+                        title="Previous Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$Previous$ctl01$ctl01 
+                        alt="Previous Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(10).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV></DIV></TD>
+                <TD width=4></TD>
+                <TD height=28><INPUT 
+                  style="FONT-FAMILY: Verdana; FONT-SIZE: 8pt" 
+                  id=ReportViewer1_ctl05_ctl00_CurrentPage title="Current Page" 
+                  disabled name=ReportViewer1$ctl05$ctl00$CurrentPage 
+                  maxLength=8 size=3></TD>
+                <TD width=4></TD>
+                <TD height=28><SPAN 
+                  style="FONT-FAMILY: Verdana; FONT-SIZE: 8pt">of</SPAN></TD>
+                <TD width=4></TD>
+                <TD height=28><SPAN 
+                  style="FONT-FAMILY: Verdana; WHITE-SPACE: nowrap; FONT-SIZE: 8pt" 
+                  id=ReportViewer1_ctl05_ctl00_TotalPages>0</SPAN></TD>
+                <TD width=4></TD>
+                <TD height=28>
+                  <DIV id=ReportViewer1_ctl05_ctl00_Next>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; DISPLAY: none; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_Next_ctl00>
+                  <TABLE title="Next Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Next_ctl00_ctl00 
+                        title="Next Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$Next$ctl00$ctl00", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$Next$ctl00$ctl00 
+                        alt="Next Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(8).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Next_ctl00_ctl01 
+                        title="Next Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$Next$ctl00$ctl01", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$Next$ctl00$ctl01 
+                        alt="Next Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(7).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_Next_ctl01 disabled>
+                  <TABLE title="Next Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Next_ctl01_ctl00 
+                        title="Next Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$Next$ctl01$ctl00 
+                        alt="Next Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(10).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Next_ctl01_ctl01 
+                        title="Next Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$Next$ctl01$ctl01 
+                        alt="Next Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(9).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV></DIV></TD>
+                <TD width=4></TD>
+                <TD height=28>
+                  <DIV id=ReportViewer1_ctl05_ctl00_Last>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; DISPLAY: none; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_Last_ctl00>
+                  <TABLE title="Last Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Last_ctl00_ctl00 
+                        title="Last Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$Last$ctl00$ctl00", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$Last$ctl00$ctl00 
+                        alt="Last Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(4).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Last_ctl00_ctl01 
+                        title="Last Page" 
+                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl05$ctl00$Last$ctl00$ctl01", "", true, "", "", false, false))' 
+                        name=ReportViewer1$ctl05$ctl00$Last$ctl00$ctl01 
+                        alt="Last Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(3).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl00_Last_ctl01 disabled>
+                  <TABLE title="Last Page">
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Last_ctl01_ctl00 
+                        title="Last Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$Last$ctl01$ctl00 
+                        alt="Last Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(6).gif" 
+                        type=image><INPUT 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; DISPLAY: none; HEIGHT: 16px; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl00_Last_ctl01_ctl01 
+                        title="Last Page" disabled 
+                        name=ReportViewer1$ctl05$ctl00$Last$ctl01$ctl01 
+                        alt="Last Page" 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(5).gif" 
+                        type=image></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></DIV>
+            <TABLE style="WIDTH: 20px; DISPLAY: inline" cellSpacing=0 
+            cellPadding=0 ToolbarSpacer="true">
+              <TBODY>
+              <TR>
+                <TD></TD></TR></TBODY></TABLE>
+            <DIV 
+            style="DISPLAY: inline; FONT-FAMILY: Verdana; FONT-SIZE: 8pt; VERTICAL-ALIGN: top" 
+            class=" ">
+            <TABLE style="DISPLAY: inline" cellSpacing=0 cellPadding=0>
+              <TBODY>
+              <TR>
+                <TD height=28>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; FONT-FAMILY: Verdana; FONT-SIZE: 8pt; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid" 
+                  id=ReportViewer1_ctl05_ctl04_ctl00>
+                  <TABLE id=ReportViewer1_ctl05_ctl04_ctl00_Button title=Export 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD><A style="TEXT-DECORATION: none" 
+                        id=ReportViewer1_ctl05_ctl04_ctl00_ButtonLink 
+                        title=Export href="javascript:void(0)"><IMG 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl04_ctl00_ButtonImg 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(1).gif"><SPAN 
+                        style="WIDTH: 5px; TEXT-DECORATION: none"> </SPAN><IMG 
+                        style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 7px; MARGIN-BOTTOM: 5px; HEIGHT: 6px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+                        id=ReportViewer1_ctl05_ctl04_ctl00_ButtonImgDown 
+                        src="楼盘收费核算_files/Reserved.ReportViewerWebControl(2).gif"></A></TD></TR></TBODY></TABLE></DIV>
+                  <DIV 
+                  style="Z-INDEX: 1; BORDER-BOTTOM: #336699 1px solid; POSITION: absolute; BORDER-LEFT: #336699 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #ece9d8; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; DISPLAY: none; BORDER-TOP: #336699 1px solid; BORDER-RIGHT: #336699 1px solid; PADDING-TOP: 1px" 
+                  id=ReportViewer1_ctl05_ctl04_ctl00_Menu>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid"><A 
+                  style="PADDING-BOTTOM: 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; FONT-FAMILY: Verdana; WHITE-SPACE: nowrap; COLOR: #3366cc; FONT-SIZE: 8pt; TEXT-DECORATION: none; PADDING-TOP: 3px" 
+                  title=Excel 
+                  onclick="$find('ReportViewer1').exportReport('Excel');" 
+                  href="javascript:void(0)">Excel</A> </DIV>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid"><A 
+                  style="PADDING-BOTTOM: 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; FONT-FAMILY: Verdana; WHITE-SPACE: nowrap; COLOR: #3366cc; FONT-SIZE: 8pt; TEXT-DECORATION: none; PADDING-TOP: 3px" 
+                  title=PDF 
+                  onclick="$find('ReportViewer1').exportReport('PDF');" 
+                  href="javascript:void(0)">PDF</A> </DIV>
+                  <DIV 
+                  style="BORDER-BOTTOM: transparent 1px solid; BORDER-LEFT: transparent 1px solid; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: transparent 1px solid"><A 
+                  style="PADDING-BOTTOM: 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; FONT-FAMILY: Verdana; WHITE-SPACE: nowrap; COLOR: #3366cc; FONT-SIZE: 8pt; TEXT-DECORATION: none; PADDING-TOP: 3px" 
+                  title=Word 
+                  onclick="$find('ReportViewer1').exportReport('WORD');" 
+                  href="javascript:void(0)">Word</A> 
+            </DIV></DIV></TD></TR></TBODY></TABLE></DIV></DIV></DIV></TD></TR>
+        <TR>
+          <TD 
+          style="WIDTH: 25%; DISPLAY: none; HEIGHT: 100%; VERTICAL-ALIGN: top">
+            <DIV style="WIDTH: 100%; HEIGHT: 100%"><SPAN 
+id=ReportViewer1_DocMap>
+            <DIV style="DISPLAY: none" id=ReportViewer1_ctl08><INPUT 
+            id=ReportViewer1_ctl08_ClientClickedId 
+            name=ReportViewer1$ctl08$ClientClickedId type=hidden> 
+            </DIV></SPAN></DIV></TD>
+          <TD 
+          style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ece9d8; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 4px; PADDING-RIGHT: 0px; DISPLAY: none; HEIGHT: 100%; VERTICAL-ALIGN: middle; PADDING-TOP: 0px">
+            <DIV id=ReportViewer1_ctl07><INPUT 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer" 
+            id=ReportViewer1_ctl07_img title="Show / Hide Document Map" 
+            onclick='void(0);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ReportViewer1$ctl07$img", "", true, "", "", false, false))' 
+            name=ReportViewer1$ctl07$img alt="Show / Hide Document Map" 
+            align=top src="楼盘收费核算_files/Reserved.ReportViewerWebControl(1).png" 
+            type=image><INPUT id=ReportViewer1_ctl07_store 
+            name=ReportViewer1$ctl07$store type=hidden><INPUT 
+            id=ReportViewer1_ctl07_collapse name=ReportViewer1$ctl07$collapse 
+            value=false type=hidden> </DIV></TD>
+          <TD style="HEIGHT: 100%; VERTICAL-ALIGN: top">
+            <DIV 
+            style="POSITION: relative; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: auto" 
+            id=ReportViewer1_ctl09>
+            <DIV style="DISPLAY: none; HEIGHT: 100%" 
+            id=VisibleReportContentReportViewer1_ctl09></DIV>
+            <DIV id=ReportViewer1_ctl09_ReportArea>
+            <DIV id=ReportViewer1_ctl09_VisibilityState 
+            ForNonReportContentArea="false" 
+            NewContentType="Microsoft.Reporting.WebFormsClient.ReportAreaContent.None"><INPUT 
+            name=ReportViewer1$ctl09$VisibilityState$ctl00 value=None 
+            type=hidden> </DIV><INPUT id=ReportViewer1_ctl09_ScrollPosition 
+            name=ReportViewer1$ctl09$ScrollPosition type=hidden><SPAN 
+            id=ReportViewer1_ctl09_Reserved_AsyncLoadTarget></SPAN>
+            <DIV style="DISPLAY: none" 
+            id=ReportViewer1_ctl09_ReportControl><SPAN></SPAN><INPUT 
+            name=ReportViewer1$ctl09$ReportControl$ctl02 type=hidden><INPUT 
+            name=ReportViewer1$ctl09$ReportControl$ctl03 type=hidden><INPUT 
+            id=ReportViewer1_ctl09_ReportControl_ctl04 
+            name=ReportViewer1$ctl09$ReportControl$ctl04 value=100 type=hidden> 
+            </DIV>
+            <DIV style="WIDTH: 100%; HEIGHT: 100%" 
+            id=ReportViewer1_ctl09_NonReportContent></DIV></DIV></DIV></TD></TR></TBODY></TABLE></DIV></SPAN></TD></TR></TBODY></TABLE>
+<DIV style="DISPLAY: none; COLOR: red" id=ValidationSummary2></DIV><SPAN 
+style="VISIBILITY: hidden; COLOR: red" id=RequiredFieldValidator2>&nbsp; 
+</SPAN><SPAN style="VISIBILITY: hidden; COLOR: red" 
+id=RequiredFieldValidator1>&nbsp; </SPAN><SPAN 
+style="VISIBILITY: hidden; COLOR: red" id=RequiredFieldValidator13>&nbsp; 
+</SPAN>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary2"));
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator2"), document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator13"));
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var ValidationSummary2 = document.all ? document.all["ValidationSummary2"] : document.getElementById("ValidationSummary2");
+ValidationSummary2.showmessagebox = "True";
+ValidationSummary2.showsummary = "False";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "year";
+RequiredFieldValidator2.errormessage = "请选择年份";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "month";
+RequiredFieldValidator1.errormessage = "请选择月份";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator13 = document.all ? document.all["RequiredFieldValidator13"] : document.getElementById("RequiredFieldValidator13");
+RequiredFieldValidator13.controltovalidate = "lp";
+RequiredFieldValidator13.errormessage = "请选择楼盘";
+RequiredFieldValidator13.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator13.initialvalue = "";
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+
+document.getElementById('ValidationSummary2').dispose = function() {
+    Array.remove(Page_ValidationSummaries, document.getElementById('ValidationSummary2'));
+}
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        Sys.Application.add_init(function() {
+    
+if (typeof Microsoft == 'undefined' ||
+    typeof Microsoft.Reporting == 'undefined' ||
+    typeof Microsoft.Reporting.WebFormsClient == 'undefined' ||
+    typeof Microsoft.Reporting.WebFormsClient.ReportViewer == 'undefined')
+    Sys.UI.DomElement.setVisible($get('ReportViewer1_HttpHandlerMissingErrorMessage'), true);
+    $create(Microsoft.Reporting.WebFormsClient.ReportViewer, {"_internalViewerId":"ReportViewer1_ctl03","id":"ReportViewer1"}, null, null);
+});
+Sys.WebForms.PageRequestManager.getInstance()._registerDisposeScript("ReportViewer1_ReportViewer", "$find(\u0027ReportViewer1_SessionKeepAlive\u0027).dispose();");
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._InternalReportViewer, {"ActionParamId":"ReportViewer1_ctl03_ctl01","ActionTypeId":"ReportViewer1_ctl03_ctl00","BaseHeight":"420px","BaseWidth":"100%","BrowserModeId":"ReportViewer1_ctl11","DirectionCacheId":"ReportViewer1_ctl10","DocMapAreaId":"ReportViewer1_ctl08","DocMapHeaderOverflowDivId":"ReportViewer1_ctl08DocMapHeaderOverflowDiv","DocMapSplitterId":"ReportViewer1_ctl07","ExportUrlBase":"/Reserved.ReportViewerWebControl.axd?Culture=2052&CultureOverrides=True&UICulture=2052&UICultureOverrides=True&ReportStack=1&ControlID=c3032b95c2464e74b55a1cb8d413b653&Mode=true&OpType=Export&FileName=Lpsfhs_r&ContentDisposition=OnlyHtmlInline&Format=","FixedTableId":"ReportViewer1_fixedTable","HasSizingRow":true,"PostBackToClientScript":function(){__doPostBack('ReportViewer1$ctl03','');},"PrintInfo":{"CabUrl":"/Reserved.ReportViewerWebControl.axd?Culture=2052&CultureOverrides=True&UICulture=2052&UICultureOverrides=True&ReportStack=1&ControlID=c3032b95c2464e74b55a1cb8d413b653&Mode=true&OpType=PrintCab&Arch=X86#Version=2009,100,1750,0","CabClsid":"5554DCB0-700B-498D-9B58-4E40E5814405","MarginLeft":24.892,"MarginRight":24.892,"MarginTop":24.892,"MarginBottom":24.892,"PageHeight":296.926,"PageWidth":210.058,"Culture":2052,"UICulture":2052,"UseSingleRequest":true,"PrintRequestPath":"/Reserved.ReportViewerWebControl.axd","PrintRequestQuery":"Culture=2052&CultureOverrides=True&UICulture=2052&UICultureOverrides=True&ReportStack=1&ControlID=c3032b95c2464e74b55a1cb8d413b653&Mode=true&OpType=PrintRequest","ReportDisplayName":"Lpsfhs_r"},"PromptAreaRowId":"ParametersRowReportViewer1","PromptSplitterId":"ReportViewer1_ToggleParam","ReportAreaId":"ReportViewer1_ctl09","ReportViewerId":"ReportViewer1","UnableToLoadPrintMessage":"Unable to load client print control."}, null, null, $get("ReportViewer1_ctl03"));
+    $create(Microsoft.Reporting.WebFormsClient._SessionKeepAlive, {"KeepAliveBody":null,"KeepAliveIntervalSeconds":3540,"KeepAliveUrl":"/Reserved.ReportViewerWebControl.axd?OpType=SessionKeepAlive&ControlID=c3032b95c2464e74b55a1cb8d413b653&Mode=true","id":"ReportViewer1_SessionKeepAlive"}, null, null);
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._AsyncWaitControl, {"ClientCanceledId":"ReportViewer1_AsyncWait_HiddenCancelField","DisplayDelay":1000,"FixedTableId":"ReportViewer1_fixedTable","ReportViewerId":"ReportViewer1","SkipTimer":true,"TriggerIds":["ReportViewer1"],"WaitControlId":"ReportViewer1_AsyncWait_Wait"}, null, null, $get("ReportViewer1_AsyncWait"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._Splitter, {"HoverColor":"#DDEEF7","ImageCollapse":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterHorizCollapse.png","ImageCollapseHover":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterHorizCollapseHover.png","ImageExpand":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterHorizExpand.png","ImageExpandHover":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterHorizExpandHover.png","ImageId":"ReportViewer1_ToggleParam_img","IsCollapsable":true,"NormalColor":"#ECE9D8","Resizable":false,"StoreCollapseField":"ReportViewer1_ToggleParam_collapse","StorePositionField":"ReportViewer1_ToggleParam_store","Vertical":false}, null, null, $get("ReportViewer1_ToggleParam"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._Toolbar, {"CanFindNext":false,"CurrentPage":1,"CurrentPageTextBox":$get("ReportViewer1_ctl05_ctl00_CurrentPage"),"DrillBackButton":$get("ReportViewer1_ctl05_ctl01_ctl00"),"ExportButton":$get("ReportViewer1_ctl05_ctl04_ctl00"),"FindButton":$get("ReportViewer1_ctl05_ctl03_ctl01"),"FindNextButton":$get("ReportViewer1_ctl05_ctl03_ctl03"),"FindTextBox":$get("ReportViewer1_ctl05_ctl03_ctl00"),"FirstPageNavButton":$get("ReportViewer1_ctl05_ctl00_First"),"InvalidPageNumberMessage":"Enter a valid page number","IsDrillthroughReport":false,"IsEstimatePageCount":true,"LastPageNavButton":$get("ReportViewer1_ctl05_ctl00_Last"),"NextPageNavButton":$get("ReportViewer1_ctl05_ctl00_Next"),"OnCurrentPageClick":function(){__doPostBack('ReportViewer1$ctl05$ctl00$CurrentPage','');},"PrevPageNavButton":$get("ReportViewer1_ctl05_ctl00_Previous"),"PrintButton":$get("ReportViewer1_ctl05_ctl06_ctl00"),"RefreshButton":$get("ReportViewer1_ctl05_ctl05_ctl00"),"TotalPages":0,"TotalPagesLabel":$get("ReportViewer1_ctl05_ctl00_TotalPages"),"ZoomDropDown":$get("ReportViewer1_ctl05_ctl02_ctl00")}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._ScriptSwitchImage, {"Image1":$get("ReportViewer1_ctl05_ctl00_First_ctl00"),"Image2":$get("ReportViewer1_ctl05_ctl00_First_ctl01")}, null, null, $get("ReportViewer1_ctl05_ctl00_First"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_First_ctl00_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$First$ctl00','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_First_ctl00_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_First_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_First_ctl01_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$First$ctl01','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_First_ctl01_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_First_ctl01"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._ScriptSwitchImage, {"Image1":$get("ReportViewer1_ctl05_ctl00_Previous_ctl00"),"Image2":$get("ReportViewer1_ctl05_ctl00_Previous_ctl01")}, null, null, $get("ReportViewer1_ctl05_ctl00_Previous"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_Previous_ctl00_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$Previous$ctl00','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_Previous_ctl00_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_Previous_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_Previous_ctl01_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$Previous$ctl01','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_Previous_ctl01_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_Previous_ctl01"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._ScriptSwitchImage, {"Image1":$get("ReportViewer1_ctl05_ctl00_Next_ctl00"),"Image2":$get("ReportViewer1_ctl05_ctl00_Next_ctl01")}, null, null, $get("ReportViewer1_ctl05_ctl00_Next"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_Next_ctl00_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$Next$ctl00','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_Next_ctl00_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_Next_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_Next_ctl01_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$Next$ctl01','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_Next_ctl01_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_Next_ctl01"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._ScriptSwitchImage, {"Image1":$get("ReportViewer1_ctl05_ctl00_Last_ctl00"),"Image2":$get("ReportViewer1_ctl05_ctl00_Last_ctl01")}, null, null, $get("ReportViewer1_ctl05_ctl00_Last"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_Last_ctl00_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$Last$ctl00','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_Last_ctl00_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_Last_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._HoverImage, {"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"IsRtlVisible":false,"LTRImageID":"ReportViewer1_ctl05_ctl00_Last_ctl01_ctl00","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"},"OnClickScript":function(){__doPostBack('ReportViewer1$ctl05$ctl00$Last$ctl01','');},"RTLImageID":"ReportViewer1_ctl05_ctl00_Last_ctl01_ctl01"}, null, {"ReportViewer":"ReportViewer1"}, $get("ReportViewer1_ctl05_ctl00_Last_ctl01"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._DropDownMenu, {"ArrowImages":"{\"DisabledUrl\":\"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.ArrowDownDisabled.gif\",\"EnabledUrl\":\"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.ArrowDown.gif\"}","ButtonId":"ReportViewer1_ctl05_ctl04_ctl00_Button","ButtonImages":"{\"DisabledUrl\":\"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.ExportDisabled.gif\",\"EnabledUrl\":\"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.Export.gif\"}","Enabled":false,"HoverStyles":{"CssClass":null,"Color":"#DDEEF7","Border":"1px #336699 Solid"},"MenuId":"ReportViewer1_ctl05_ctl04_ctl00_Menu","NormalStyles":{"CssClass":null,"Color":"transparent","Border":"1px transparent Solid"}}, null, null, $get("ReportViewer1_ctl05_ctl04_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._Splitter, {"HoverColor":"#DDEEF7","ImageCollapse":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterVertCollapse.png","ImageCollapseHover":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterVertCollapseHover.png","ImageExpand":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterVertExpand.png","ImageExpandHover":"/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.40219.1&Name=Microsoft.Reporting.WebForms.Icons.SplitterVertExpandHover.png","ImageId":"ReportViewer1_ctl07_img","IsCollapsable":true,"NormalColor":"#ECE9D8","Resizable":true,"StoreCollapseField":"ReportViewer1_ctl07_collapse","StorePositionField":"ReportViewer1_ctl07_store","Vertical":true}, null, null, $get("ReportViewer1_ctl07"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._ReportArea, {"NonReportContentId":"ReportViewer1_ctl09_NonReportContent","ReportAreaVisibilityStateId":"ReportViewer1_ctl09_VisibilityState","ReportControlId":"ReportViewer1_ctl09_ReportControl","ScrollPositionId":"ReportViewer1_ctl09_ScrollPosition","VisibleReportContentContainerId":"VisibleReportContentReportViewer1_ctl09"}, null, null, $get("ReportViewer1_ctl09"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._ReportAreaAsyncLoadTarget, {"PostBackForAsyncLoad":function() {__doPostBack('ReportViewer1$ctl09$Reserved_AsyncLoadTarget','');}}, null, null, $get("ReportViewer1_ctl09_Reserved_AsyncLoadTarget"));
+});
+Sys.Application.add_init(function() {
+    $create(Microsoft.Reporting.WebFormsClient._ReportPage, {"HiddenZoomLevelId":"ReportViewer1_ctl09_ReportControl_ctl04","StyleElementId":"ReportViewer1_ctl09_ReportControl_styles"}, null, null, $get("ReportViewer1_ctl09_ReportControl"));
+});
+
+document.getElementById('RequiredFieldValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator2'));
+}
+
+document.getElementById('RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator1'));
+}
+
+document.getElementById('RequiredFieldValidator13').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator13'));
+}
+//]]>
+</SCRIPT>
+</FORM></BODY></HTML>

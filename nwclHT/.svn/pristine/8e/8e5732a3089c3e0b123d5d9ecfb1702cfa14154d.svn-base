@@ -1,0 +1,138 @@
+﻿
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/pms/pjgl/pjzfqr.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <title>票据作废确认</title>
+    <link href="./票据作废确认_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./票据作废确认_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="form1" method="post" action="./票据作废确认_files/票据作废确认.html" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NzE3NDg1OTUPZBYCAgEPZBYIAgUPEGRkFgECA2QCBw8QZGQWAQICZAINDzwrABECAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAICZAEQFgAWABYAFgJmD2QWBgIBDw9kFgIeB29uY2xpY2sFGWphdmFzY3JpcHQ6Y2hhbmdlQmcodGhpcykWEmYPZBYCAgEPDxYCHgRUZXh0BQExZGQCAg9kFgICAQ8PFgIfAwUJWkRTWjAwMDA0ZGQCAw8PFgIfAwUJ5bey5L2c5bqfZGQCBA8PFgIfAwUuUE1T566h55CG5ZGYLFBNU+eUqOaItzEsUE1T55So5oi3MixQTVPnlKjmiLczLGRkAgUPDxYCHwMFBiZuYnNwO2RkAgYPDxYCHwMFDFBNU+euoeeQhuWRmGRkAgcPDxYCHwMFDOe6uOW8oOaNn+Wdj2RkAggPZBYCAgEPDxYCHwMFCjIwMTUtMTEtMThkZAIJD2QWAgIBDw8WAh8DZWRkAgIPD2QWAh8CBRlqYXZhc2NyaXB0OmNoYW5nZUJnKHRoaXMpFhJmD2QWAgIBDw8WAh8DBQEyZGQCAg9kFgICAQ8PFgIfAwUJWkRTWjAwMDA1ZGQCAw8PFgIfAwUJ5bey5L2c5bqfZGQCBA8PFgIfAwUuUE1T566h55CG5ZGYLFBNU+eUqOaItzEsUE1T55So5oi3MixQTVPnlKjmiLczLGRkAgUPDxYCHwMFBiZuYnNwO2RkAgYPDxYCHwMFDFBNU+euoeeQhuWRmGRkAgcPDxYCHwMFDOe6uOW8oOaNn+Wdj2RkAggPZBYCAgEPDxYCHwMFCjIwMTUtMTEtMThkZAIJD2QWAgIBDw8WAh8DZWRkAgMPDxYCHgdWaXNpYmxlaGRkAg8PDxYEHghQYWdlU2l6ZQIPHgtSZWNvcmRjb3VudAICZGQYAgUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFE0dyaWRWaWV3MSRjdGwwMiRkZWwFE0dyaWRWaWV3MSRjdGwwMyRkZWwFCUdyaWRWaWV3MQ88KwAMAwYVAQNpbm8HFCsAAhQrAAEFCVpEU1owMDAwNBQrAAEFCVpEU1owMDAwNQgCAWQzRbNcs9TEgS20PleUMu/9CD5o3OORXU4RGu4npMmVbw==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8484DC78">
+</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            票据作废确认
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px">
+                            快速检索：<select name="query_tj" id="query_tj">
+	<option selected="selected" value="ino">票据编号</option>
+	<option value="idesc">票据说明</option>
+	<option value="zfrid">作废人编码</option>
+	<option value="zfrmc">作废人名称</option>
+
+</select>
+                            <input name="query_content" type="text" id="query_content" class="mytext" style="width:100px;">
+                            状态：<select name="istatus" id="istatus" disabled="disabled">
+	<option value=""></option>
+	<option value="未打印">未打印</option>
+	<option value="已打印">已打印</option>
+	<option selected="selected" value="已作废">已作废</option>
+
+</select>
+                            确认情况：<select name="qrqk" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;qrqk\&#39;,\&#39;\&#39;)&#39;, 0)" id="qrqk">
+	<option value=""></option>
+	<option value="已确认">已确认</option>
+	<option selected="selected" value="未确认">未确认</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="submit" name="PassBtn" value="确认通过" onclick="return confirm(&#39;确认要执行吗？&#39;);" id="PassBtn" class="mybtn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:1150px;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./票据作废确认_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:30px;">
+                                            <input id="chkall" type="checkbox" onclick="chkAll();" title="全选或全不选" style="width: 16;
+                                                height: 16">
+                                        </td><td>票据编号</td><td style="width:50px;">状态</td><td>使用人</td><td>说明</td><td>作废人</td><td>作废原因</td><td style="width:80px;">作废时间</td><td style="width:80px;">作废确认时间</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl02_Label1">1</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl02_del" type="checkbox" name="GridView1$ctl02$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl02_Labelyjje">ZDSZ00004</span>
+                                        </td><td align="center">已作废</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td>纸张损坏</td><td align="center">
+                                            <span id="GridView1_ctl02_lblzfsj">2015-11-18</span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl02_lblzfqrsj"></span>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl03_Label1">2</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl03_del" type="checkbox" name="GridView1$ctl03$del"></span>
+                                        </td><td>
+                                            <span id="GridView1_ctl03_Labelyjje">ZDSZ00005</span>
+                                        </td><td align="center">已作废</td><td>PMS管理员,PMS用户1,PMS用户2,PMS用户3,</td><td>&nbsp;</td><td>PMS管理员</td><td>纸张损坏</td><td align="center">
+                                            <span id="GridView1_ctl03_lblzfsj">2015-11-18</span>
+                                        </td><td align="center">
+                                            <span id="GridView1_ctl03_lblzfqrsj"></span>
+                                        </td>
+		</tr>
+	</tbody></table>
+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 22px">
+                            
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

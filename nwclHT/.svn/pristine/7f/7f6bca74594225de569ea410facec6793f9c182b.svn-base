@@ -1,0 +1,37 @@
+#上传文件的路径和URL配置
+rootPath = /data/images/nwclHT
+rootUrl = http://114.55.41.162
+#极光推送
+JPushAppKey = 8f25e73cbc4c3ba6d4b6f039
+JPushMasterSecret = 3832f24c28cff4bcf58d0028
+JPushApiUrl =https://device.jpush.cn
+JPushsetApnsProduction =true
+#创蓝短信配置（暂时没有使用，用的阿里大鱼）
+smsUrl = http://222.73.117.158/msg/HttpBatchSendSM
+textSmsUser = jiekou-clcs-02
+textSmsPwd = Tch666666
+audioSmsUser = yuyin-clcs-12
+audioSmsPwd =Tch123456
+#令令门禁
+linglingSignature=8faed588-0840-442c-8ea7-db29322bfd7c
+linglingToken=1456802566163
+linglingWsdlUrl=http\://115.28.221.103\:8088/dingdongkaimen/services/openResidentialResources?wsdl
+#物业验证接口
+propertyValidateUrl=http\://weixin.nw-sc.com\:8089/Interface/GetUnitInfo
+propertyGetUnitPaymentList=http://weixin.nw-sc.com:8089/Interface/GetUnitPaymentList
+#阿里大鱼发短信
+aliSmsUrl = http://gw.api.taobao.com/router/rest
+aliSmsAppKey = 23327283
+aliSmsAppSecret =86a49574f7e256f8f9bc36af155960c1
+#Ping++
+pingppAppId = app_HiHivLvP0yvDOK0C
+pingppApiKey = sk_test_LaP8qL4GGqD4mvD0uHmTKavL
+#pingppAppId = app_iz1OG84inLq5q1SC
+#pingppApiKey = sk_live_anfzLSbDO8CC0yHuPGyfvvXP
+#环信
+huanXinTokenUrl = http://ihome.nw-sc.com/nwclAPI/api/huanxin/getToken
+url_base = https://a1.easemob.com
+org_name = waowu
+app_name = ihome
+client_id = YXA6p2j8ADBJEeao6uvumpM8Jw
+client_secret = YXA6fXA_qXjXrpZjQsSpViJ07VVWbNg

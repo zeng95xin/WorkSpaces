@@ -1,0 +1,126 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/pms/yzgl/zhyf_r.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>业主验房维护</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="业主验房_files/Main.css">
+<SCRIPT type=text/javascript src="业主验房_files/MyJs.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="业主验房_files/WebCalendar.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=Form1 onsubmit="javascript:return WebForm_OnSubmit();" method=post 
+name=Form1 action=zhyf_r.aspx>
+<DIV><INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=/wEPDwULLTEyNjExMzE4OTIPZBYCAgEPZBYEAhMPDxYCHgdFbmFibGVkaGRkAhUPPCsAEQIADxYEHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50ZmQBEBYAFgAWAGQYAQUJR3JpZFZpZXcxDzwrAAwCBhUBAmlkCGZk3H7WyFYz4XStlYNUWUeac/mIbPPGMWj+Jp3wbvuWaDU= 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript src="业主验房_files/WebResource.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=DB6870C0 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD style="HEIGHT: 25px">&nbsp;<B>当前房产：</B><SPAN 
+      style="COLOR: blue; FONT-WEIGHT: bold" id=lbxx></SPAN> </TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%" align=center>
+        <TBODY>
+        <TR>
+          <TD>验收项目：<SELECT style="WIDTH: 80px" id=item class=mytext 
+            name=item></SELECT> 验收日期：<INPUT style="WIDTH: 80px" id=yfdate 
+            class=mytext onclick="SelectDate(this,'yyyy-MM-dd')" name=yfdate> 
+            确认日期：<INPUT style="WIDTH: 80px" id=sldate class=mytext 
+            onclick="SelectDate(this,'yyyy-MM-dd')" name=sldate> 是否合格：<SELECT 
+            style="WIDTH: 70px" id=selch class=mytext name=selch> <OPTION 
+              selected value=""></OPTION> <OPTION value=合格>合格</OPTION> <OPTION 
+              value=不合格>不合格</OPTION></SELECT> </TD></TR>
+        <TR>
+          <TD>验收人员：<INPUT style="WIDTH: 80px" id=yfry class=mytext name=yfry> 
+            业主意见：<INPUT style="WIDTH: 150px" id=zhyj class=mytext name=zhyj> 
+            房管员意见：<INPUT style="WIDTH: 140px" id=glyyj class=mytext name=glyyj> 
+          </TD></TR>
+        <TR>
+          <TD>补充备注：<INPUT style="WIDTH: 302px" id=memo class=mytext name=memo> 
+<INPUT id=SaveBtn class=mybtn disabled name=SaveBtn value="保 存" type=submit> 
+          </TD></TR>
+        <TR>
+          <TD>
+            <DIV>
+            <TABLE 
+            style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+            id=GridView1 border=0 rules=all cellSpacing=0>
+              <TBODY>
+              <TR class=hkEmpRowStyle>
+                <TD>没有查到符合条件的数据！</TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV style="DISPLAY: none; COLOR: red" id=ValidationSummary1></DIV><SPAN 
+style="VISIBILITY: hidden; COLOR: red" id=RequiredFieldValidator2>&nbsp; 
+</SPAN><SPAN style="VISIBILITY: hidden; COLOR: red" 
+id=RequiredFieldValidator3>&nbsp; </SPAN><SPAN 
+style="VISIBILITY: hidden; COLOR: red" id=RequiredFieldValidator5>&nbsp; 
+</SPAN><SPAN style="VISIBILITY: hidden; COLOR: red" 
+id=RequiredFieldValidator1>&nbsp; </SPAN>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary1"));
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator2"), document.getElementById("RequiredFieldValidator3"), document.getElementById("RequiredFieldValidator5"), document.getElementById("RequiredFieldValidator1"));
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var ValidationSummary1 = document.all ? document.all["ValidationSummary1"] : document.getElementById("ValidationSummary1");
+ValidationSummary1.showmessagebox = "True";
+ValidationSummary1.showsummary = "False";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "item";
+RequiredFieldValidator2.errormessage = "请选择验收项目";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var RequiredFieldValidator3 = document.all ? document.all["RequiredFieldValidator3"] : document.getElementById("RequiredFieldValidator3");
+RequiredFieldValidator3.controltovalidate = "selch";
+RequiredFieldValidator3.errormessage = "请选择是否合格";
+RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator3.initialvalue = "";
+var RequiredFieldValidator5 = document.all ? document.all["RequiredFieldValidator5"] : document.getElementById("RequiredFieldValidator5");
+RequiredFieldValidator5.controltovalidate = "yfdate";
+RequiredFieldValidator5.errormessage = "请选择验收日期";
+RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator5.initialvalue = "";
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "sldate";
+RequiredFieldValidator1.errormessage = "请选择确认日期";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</SCRIPT>
+</FORM></BODY></HTML>

@@ -1,0 +1,208 @@
+﻿
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/pms/zlgl/zlhtsc.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>租赁合同删除</title>
+    
+    <link href="./租赁合同删除_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./租赁合同删除_files/MyJs.js"></script>
+    <script type="text/javascript" src="./租赁合同删除_files/WebCalendar.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./租赁合同删除_files/租赁合同删除.html" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMzk4NTk2NDkPZBYCAgEPZBYKAgEPEGQQFQkADOS4reS4nOmmluW6pwznm4jnp5HlpKfljqYP5a2U6ZuA6Iux5Zu95a6rDOeUteWtkOWkp+WOpgzoj5zmibnluILlnLoM5Lic6aOO5LuT5bqTDOWcsOS4i+i9puW6kwVhc2RhcxUJAAExATIBMwE0ATgCMTkCMjACMjMUKwMJZ2dnZ2dnZ2dnFgFmZAIDDxBkZBYAZAIFDxBkZBYAZAIhDzwrABECAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAICZAEQFgAWABYAFgJmD2QWBgIBDw8WBB4JRm9yZUNvbG9yCiUeBF8hU0ICBBYCHgdvbmNsaWNrBRlqYXZhc2NyaXB0OmNoYW5nZUJnKHRoaXMpFiJmD2QWAgIBDw8WAh4EVGV4dAUBMWRkAgEPZBYEZg8VAgIxMwMyNTBkAgEPDxYCHwUFDzExMC0yMDE2MTAxNy0wMmRkAgIPZBYEAgEPDxYCHwUFBFowMDFkZAIDDw8WAh8FBRjopb/mmYvllYbotLjmnInpmZDlhazlj7hkZAIDDw8WAh8FBQ/mtbfmt4DlrZDlhazlj7hkZAIEDw8WAh8FBQMxMTBkZAIFDw8WAh8FBSPoj5zmibnluILlnLojMeWPt+alvCMx5qW8IzExMOaho+WPo2RkAgYPDxYCHwUFCjIwMTYtMTEtMDFkZAIHDw8WAh8FBQoyMDE2LTEyLTMxZGQCCA8PFgIfBQUIMjAwMDAuMDBkZAIJDw8WAh8FBQQwLjAwZGQCCg8PFgIfBQUEMC4wMGRkAgsPDxYCHwUFBDAuMDBkZAIMDw8WAh8FBQnlt7LmmoLlgZxkZAINDw8WAh8FBQnkuIDmrKHmgKdkZAIODw8WAh8FBQnouqvku73or4FkZAIPDw8WAh8FBRExNTAyMDgxOTc3MDEwMTEwMWRkAhAPDxYCHwUFA+aYr2RkAgIPDxYEHwIKjQEfAwIEFgIfBAUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYiZg9kFgICAQ8PFgIfBQUBMmRkAgEPZBYEZg8VAgE5AzI0NGQCAQ8PFgIfBQUPMUUyMTA0LTIwMTIxMjEzZGQCAg9kFgQCAQ8PFgIfBQUEWjAwMWRkAgMPDxYCHwUFGOilv+aZi+WVhui0uOaciemZkOWFrOWPuGRkAgMPDxYCHwUFD+a1t+a3gOWtkOWFrOWPuGRkAgQPDxYCHwUFBjFFMjEwNGRkAgUPDxYCHwUFJuiPnOaJueW4guWcuiMx5Y+35qW8IzHmpbwjMUUyMTA05qGj5Y+jZGQCBg8PFgIfBQUKMjAxMi0xMC0wMWRkAgcPDxYCHwUFCjIwMTItMTItMzFkZAIIDw8WAh8FBQQwLjAwZGQCCQ8PFgIfBQUEMC4wMGRkAgoPDxYCHwUFBDAuMDBkZAILDw8WAh8FBQQwLjAwZGQCDA8PFgIfBQUJ5bey57uI5q2iZGQCDQ8PFgIfBQUG5oyJ5a2jZGQCDg8PFgIfBQUJ6Lqr5Lu96K+BZGQCDw8PFgIfBQURMTUwMjA4MTk3NzAxMDExMDFkZAIQDw8WAh8FBQPlkKZkZAIDDw8WAh4HVmlzaWJsZWhkZAIjDw8WBB4IUGFnZVNpemUCDx4LUmVjb3JkY291bnQCAmRkGAEFCUdyaWRWaWV3MQ88KwAMAwYVAQRodGlkBxQrAAIUKwABAg0UKwABAgkIAgFkAVkpsX42eVOGKrSvGPZxKC8QU8I+2U5gHkA37meGA/g=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B73002BD">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            租赁合同删除
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table cellspacing="0" cellpadding="0" width="800" border="0">
+                    <tbody><tr>
+                        <td colspan="8" style="height: 5px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            选择房产:
+                        </td>
+                        <td>
+                            <select name="xq" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;xq\&#39;,\&#39;\&#39;)&#39;, 0)" id="xq" title="选择房产" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="1">中东首座</option>
+	<option value="2">盈科大厦</option>
+	<option value="3">孔雀英国宫</option>
+	<option value="4">电子大厦</option>
+	<option value="8">菜批市场</option>
+	<option value="19">东风仓库</option>
+	<option value="20">地下车库</option>
+	<option value="23">asdas</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            楼宇:
+                        </td>
+                        <td>
+                            <select name="ly" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ly\&#39;,\&#39;\&#39;)&#39;, 0)" id="ly" style="width:110px;">
+
+</select>
+                        </td>
+                        <td align="right">
+                            楼层:
+                        </td>
+                        <td>
+                            <select name="dy" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;dy\&#39;,\&#39;\&#39;)&#39;, 0)" id="dy" style="width:110px;">
+
+</select>
+                        </td>
+                        <td align="right">
+                            房间:
+                        </td>
+                        <td>
+                            <select name="cellname" id="cellname" class="mytext" style="width:110px;">
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            合同状态:
+                        </td>
+                        <td>
+                            <select name="htzt" id="htzt" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="已生效">已生效</option>
+	<option value="已暂停">已暂停</option>
+	<option value="已终止">已终止</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            合同编号:
+                        </td>
+                        <td>
+                            <input name="htno" type="text" id="htno" class="mytext" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            租户编码:
+                        </td>
+                        <td>
+                            <input name="zhbm" type="text" id="zhbm" class="mytext" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            租户名称:
+                        </td>
+                        <td>
+                            <input name="zhmc" type="text" id="zhmc" class="mytext" style="width:110px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            证件号码:
+                        </td>
+                        <td colspan="7">
+                            <input name="zjhm" type="text" id="zjhm" class="mytext" style="width:110px;">
+                            签订日期:<input name="txtSdate" type="text" value="2001-01-01" id="txtSdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">至<input name="txtEdate" type="text" value="2017-03-24" id="txtEdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:80px;">
+                            是否收取租金：<select name="ynsqzj" id="ynsqzj">
+	<option selected="selected" value="">全部</option>
+	<option value="是">是</option>
+	<option value="否">否</option>
+
+</select>
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="submit" name="Button1" value="清空" id="Button1" class="mybtn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <font color="red">提示:</font>
+                        </td>
+                        <td colspan="7" style="height: 20px">
+                            <font color="red">只能删除已收取金、管理费、保证金均为0的合同</font> 关键词：<input name="txtKeyText" type="text" id="txtKeyText" title="请输入房间名称,支持模糊定位" class="mytext" style="width:50px;">
+                            <input type="submit" name="btnFind" value="定位房间" id="btnFind" title="用于快速定位房间下拉框" class="mybtn" style="width: 70">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 7px; padding-right: 7px" height="25" colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:1500px;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./租赁合同删除_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:120px;">合同编号</td><td>租户</td><td>所属公司</td><td>房间编码</td><td>房产名称</td><td style="width:80px;">起租日期</td><td style="width:80px;">停租日期</td><td>合同金额</td><td>已收租金</td><td>保证金</td><td>管理费</td><td style="width:50px;">状态</td><td style="width:60px;">缴纳方式</td><td style="width:80px;">证件类型</td><td>证件号码</td><td style="width:90px;">是否收取租金</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)" style="color:Blue;">
+			<td align="center">
+                                <span id="GridView1_ctl02_Label1">1</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/zlgl/zlhtsc.aspx#" onclick="javascript:popView(&#39;zlhtsc_view.aspx?id=13&amp;fjid=250&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl02_Labelyjje">110-20161017-02</span>
+                                </a>
+                            </td><td>
+                                <span id="GridView1_ctl02_lblzhbm">Z001</span>-<span id="GridView1_ctl02_lblzhmc">西晋商贸有限公司</span>
+                            </td><td align="center">海淀子公司</td><td align="center">110</td><td>菜批市场#1号楼#1楼#110档口</td><td align="center">2016-11-01</td><td align="center">2016-12-31</td><td align="right">20000.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">已暂停</td><td align="center">一次性</td><td align="center">身份证</td><td align="center">15020819770101101</td><td align="center">是</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)" style="color:Red;">
+			<td align="center">
+                                <span id="GridView1_ctl03_Label1">2</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/zlgl/zlhtsc.aspx#" onclick="javascript:popView(&#39;zlhtsc_view.aspx?id=9&amp;fjid=244&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl03_Labelyjje">1E2104-20121213</span>
+                                </a>
+                            </td><td>
+                                <span id="GridView1_ctl03_lblzhbm">Z001</span>-<span id="GridView1_ctl03_lblzhmc">西晋商贸有限公司</span>
+                            </td><td align="center">海淀子公司</td><td align="center">1E2104</td><td>菜批市场#1号楼#1楼#1E2104档口</td><td align="center">2012-10-01</td><td align="center">2012-12-31</td><td align="right">0.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">已终止</td><td align="center">按季</td><td align="center">身份证</td><td align="center">15020819770101101</td><td align="center">否</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 22px">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

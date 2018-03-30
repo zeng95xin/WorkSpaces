@@ -1,0 +1,222 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/portal/yjgl/sjx.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>收件箱</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<SCRIPT type=text/javascript src="收件箱_files/MyJs.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css href="收件箱_files/Main.css">
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 method=post name=form1 action=sjx.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=/wEPDwULLTEzODM2MDg1NjkPZBYCAgEPZBYIAgEPEGQQFS8ADOmbhuWbouaAu+mDqBB84oCU6Zu25ZSu5YWs5Y+4EXzigJR84oCU6YeH6LSt6YOoG3zigJR84oCUfOKAlOeDn+mFkumlruaWmee7hBt84oCUfOKAlHzigJTlubLmgKflia/po5/nu4QVfOKAlHzigJR84oCU5rSX5rak57uEIXzigJR84oCUfOKAlOeUn+mynOaXpemFjeeyruayuee7hBt84oCUfOKAlHzigJTpkojnu4fnmb7otKfnu4QRfOKAlHzigJTokKXov5Dpg6gRfOKAlHzigJTkvIHliJLpg6gNfOKAlOi0ouWKoemDqBF84oCUfOKAlOW+ruacuuWupBF84oCUfOKAlOi0ouWKoeWupA184oCU6KGM5pS/6YOoEXzigJR84oCU5oC757uP5YqeEXzigJR84oCU6YWN6YCB6YOoDXzigJTkv6Hmga/pg6gRfOKAlHzigJTova/ku7bpg6gRfOKAlHzigJTnoazku7bpg6gQfOKAlOeJqeS4muWFrOWPuBd84oCUfOKAlOWuo+atpuWtkOWFrOWPuBd84oCUfOKAlOacnemYs+WtkOWFrOWPuBd84oCUfOKAlOa1t+a3gOWtkOWFrOWPuBV84oCUfOKAlHzigJTotKLliqHpg6gVfOKAlHzigJR84oCU6KGM5pS/6YOoG3zigJR84oCUfOKAlOeJqeS4mueuoeeQhumDqB984oCUfOKAlHzigJR84oCU6LS555So57uT566X56eRGXzigJR84oCUfOKAlHzigJTkv53lronnu4QZfOKAlHzigJR84oCUfOKAlOe7v+WMluenkRl84oCUfOKAlHzigJR84oCU5L+d5rSB56eRGXzigJR84oCUfOKAlHzigJTnu7Tkv67np5EVfOKAlHzigJR84oCU5bel56iL6YOoE3zigJTlubzlhL/lm63lhazlj7gRfOKAlHzigJTmlZnlrabpg6gXfOKAlHzigJTooYzmlL/mgLvliqHpg6gRfOKAlHzigJTlkI7li6Tpg6gRfOKAlHzigJTooYzovabpg6gRfOKAlHzigJTotKLliqHpg6gRfOKAlHzigJTmi5vnlJ/lip4XfOKAlHzigJTkurrlipvotYTmupDpg6gXfOKAlHzigJTnm7To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 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=BC3423B2 
+type=hidden> </DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD 
+      style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px"><TABLE 
+      style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>我的邮件 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD style="HEIGHT: 10px"></TD></TR>
+  <TR>
+    <TD vAlign=top align=center>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%">
+        <TBODY>
+        <TR>
+          <TD 
+          style="BACKGROUND-IMAGE: url(../../images/tab_y.gif); WIDTH: 61px; HEIGHT: 21px" 
+          align=center><A class=mail_top 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/sjx.aspx?i=2">收件箱</A> 
+          </TD>
+          <TD style="BACKGROUND-IMAGE: url(../../images/tab_n.gif); WIDTH: 61px" 
+          align=center><A class=black 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/fajx.aspx">发件箱</A> </TD>
+          <TD style="BACKGROUND-IMAGE: url(../../images/tab_n.gif); WIDTH: 61px" 
+          align=center><A class=black 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/feijx.aspx">废件箱</A> 
+</TD>
+          <TD style="BACKGROUND-IMAGE: url(../../images/tab_n.gif); WIDTH: 61px" 
+          align=center><A class=black 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/cgx.aspx">草稿箱</A> </TD>
+          <TD 
+          style="BACKGROUND-IMAGE: url(../../images/tab_b_n.gif); WIDTH: 91px" 
+          align=center><A class=black 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/xyj.aspx">撰写新邮件</A> 
+</TD>
+          <TD align=right>发送部门:<SELECT style="WIDTH: 100px" id=ssbm 
+            onchange="javascript:setTimeout('__doPostBack(\'ssbm\',\'\')', 0)" 
+            name=ssbm> <OPTION selected value=""></OPTION> <OPTION 
+              value=38>集团总部</OPTION> <OPTION value=1>|—零售公司</OPTION> <OPTION 
+              value=6>|—|—采购部</OPTION> <OPTION value=12>|—|—|—烟酒饮料组</OPTION> 
+              <OPTION value=13>|—|—|—干性副食组</OPTION> <OPTION 
+              value=14>|—|—|—洗涤组</OPTION> <OPTION 
+              value=15>|—|—|—生鲜日配粮油组</OPTION> <OPTION 
+              value=16>|—|—|—针织百货组</OPTION> <OPTION value=7>|—|—营运部</OPTION> 
+              <OPTION value=23>|—|—企划部</OPTION> <OPTION value=4>|—财务部</OPTION> 
+              <OPTION value=8>|—|—微机室</OPTION> <OPTION value=9>|—|—财务室</OPTION> 
+              <OPTION value=5>|—行政部</OPTION> <OPTION value=10>|—|—总经办</OPTION> 
+              <OPTION value=11>|—|—配送部</OPTION> <OPTION value=20>|—信息部</OPTION> 
+              <OPTION value=21>|—|—软件部</OPTION> <OPTION 
+              value=22>|—|—硬件部</OPTION> <OPTION value=25>|—物业公司</OPTION> <OPTION 
+              value=26>|—|—宣武子公司</OPTION> <OPTION value=27>|—|—朝阳子公司</OPTION> 
+              <OPTION value=28>|—|—海淀子公司</OPTION> <OPTION 
+              value=29>|—|—|—财务部</OPTION> <OPTION value=30>|—|—|—行政部</OPTION> 
+              <OPTION value=31>|—|—|—物业管理部</OPTION> <OPTION 
+              value=33>|—|—|—|—费用结算科</OPTION> <OPTION 
+              value=34>|—|—|—|—保安组</OPTION> <OPTION 
+              value=35>|—|—|—|—绿化科</OPTION> <OPTION 
+              value=36>|—|—|—|—保洁科</OPTION> <OPTION 
+              value=37>|—|—|—|—维修科</OPTION> <OPTION value=32>|—|—|—工程部</OPTION> 
+              <OPTION value=40>|—幼儿园公司</OPTION> <OPTION 
+              value=41>|—|—教学部</OPTION> <OPTION value=42>|—|—行政总务部</OPTION> 
+              <OPTION value=43>|—|—后勤部</OPTION> <OPTION 
+              value=44>|—|—行车部</OPTION> <OPTION value=45>|—|—财务部</OPTION> 
+              <OPTION value=46>|—|—招生办</OPTION> <OPTION 
+              value=47>|—|—人力资源部</OPTION> <OPTION value=48>|—|—直营事业部</OPTION> 
+              <OPTION value=49>|—|—|—北京地区中心</OPTION> <OPTION 
+              value=53>|—|—|—|—北京乐天幼儿园</OPTION> <OPTION 
+              value=50>|—|—|—西安地区中心</OPTION> <OPTION 
+              value=54>|—|—|—|—西安乐天幼儿园</OPTION> <OPTION 
+              value=55>|—|—|—|—兰州乐天幼儿园</OPTION></SELECT> 发送人:<INPUT 
+            style="WIDTH: 60px" id=fsr class=mytext name=fsr> <SELECT id=jsfa 
+            onchange="javascript:setTimeout('__doPostBack(\'jsfa\',\'\')', 0)" 
+            name=jsfa> <OPTION selected value=全部>全部邮件</OPTION> <OPTION 
+              value=0>未读邮件</OPTION> <OPTION value=1>已读邮件</OPTION> <OPTION 
+              value="">-------</OPTION> <OPTION value=重要>重要邮件</OPTION> <OPTION 
+              value=普通>普通邮件</OPTION></SELECT> <INPUT id=RecBtn class=mybtn name=RecBtn value=查询 type=submit> <INPUT id=DelBtn class=mybtn onclick="return confirm('确认要执行删除吗？');" name=DelBtn value=删除 type=submit> 
+          </TD></TR></TBODY></TABLE>
+      <DIV>
+      <TABLE 
+      style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 98%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+      id=GridView1 border=0 rules=all cellSpacing=0>
+        <TBODY>
+        <TR class=hkHeadStyle>
+          <TD style="WIDTH: 3%"><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            alt=序号 src="收件箱_files/refresh.gif"></TD>
+          <TD style="WIDTH: 3%"><INPUT style="WIDTH: 16px; HEIGHT: 16px" 
+            id=chkall title=全选或全不选 onclick=chkAll(); type=checkbox> </TD>
+          <TD style="WIDTH: 4%">状态</TD>
+          <TD style="WIDTH: 30%">标题</TD>
+          <TD style="WIDTH: 30%">全部收件人</TD>
+          <TD style="WIDTH: 4%"><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            alt=附件标志 src="收件箱_files/y.gif"></TD>
+          <TD style="WIDTH: 10%">发送人</TD>
+          <TD style="WIDTH: 10%">日期</TD>
+          <TD style="WIDTH: 6%">重要级别</TD></TR>
+        <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+          <TD style="HEIGHT: 18px" align=center><SPAN class=mybox><INPUT 
+            id=GridView1_ctl02_del name=GridView1$ctl02$del 
+            type=checkbox></SPAN> </TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/1.gif"></TD>
+          <TD><A class=gvlink 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/Viewyj.aspx?type=s&amp;id=192"><SPAN 
+            id=GridView1_ctl02_Labelnr>分享关于2014公司年会上的图片～</SPAN> </A></TD>
+          <TD>系统管理员,CRM管理员,EAM管理员,EAM用户1,EAM用户2,工作流用户,UsbKey用户,KMS管理员,KMS用户1,OA管理员,PMS管理员,PMS用户1,PMS用户2,PMS用户3,Por管理员,R05管理员,R08管理员,SCM管理员,VIP管理员,Web用户,</TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/n.gif"></TD>
+          <TD><SPAN id=GridView1_ctl02_Labelfs>KMS管理员</SPAN> </TD>
+          <TD align=center>2014-05-16</TD>
+          <TD align=center>普通</TD></TR>
+        <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+          <TD style="HEIGHT: 18px" align=center><SPAN class=mybox><INPUT 
+            id=GridView1_ctl03_del name=GridView1$ctl03$del 
+            type=checkbox></SPAN> </TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/1.gif"></TD>
+          <TD><A class=gvlink 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/Viewyj.aspx?type=s&amp;id=169"><SPAN 
+            id=GridView1_ctl03_Labelnr>关于Moto条码扫描设备的培训通知</SPAN> </A></TD>
+          <TD>***密送邮件***</TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/n.gif"></TD>
+          <TD><SPAN id=GridView1_ctl03_Labelfs>EAM管理员</SPAN> </TD>
+          <TD align=center>2014-05-16</TD>
+          <TD align=center>重要</TD></TR>
+        <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl04_Label1>3</SPAN> </TD>
+          <TD style="HEIGHT: 18px" align=center><SPAN class=mybox><INPUT 
+            id=GridView1_ctl04_del name=GridView1$ctl04$del 
+            type=checkbox></SPAN> </TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/0.gif"></TD>
+          <TD><A class=gvlink 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/Viewyj.aspx?type=s&amp;id=136"><SPAN 
+            id=GridView1_ctl04_Labelnr>请尽快提交本月的考勤数据，谢谢</SPAN> </A></TD>
+          <TD>系统管理员,CRM管理员,EAM管理员,EAM用户1,EAM用户2,工作流用户,UsbKey用户,KMS管理员,KMS用户1,OA管理员,PMS管理员,PMS用户1,PMS用户2,PMS用户3,Por管理员,R05管理员,R08管理员,SCM管理员,VIP管理员,Web用户,</TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/y.gif"></TD>
+          <TD><SPAN id=GridView1_ctl04_Labelfs>EAM管理员</SPAN> </TD>
+          <TD align=center>2014-05-16</TD>
+          <TD align=center>普通</TD></TR>
+        <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl05_Label1>4</SPAN> </TD>
+          <TD style="HEIGHT: 18px" align=center><SPAN class=mybox><INPUT 
+            id=GridView1_ctl05_del name=GridView1$ctl05$del 
+            type=checkbox></SPAN> </TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/0.gif"></TD>
+          <TD><A class=gvlink 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/Viewyj.aspx?type=s&amp;id=60"><SPAN 
+            id=GridView1_ctl05_Labelnr>请确认此配置的PC是否可以满足工作需要</SPAN> </A></TD>
+          <TD>***密送邮件***</TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/y.gif"></TD>
+          <TD><SPAN id=GridView1_ctl05_Labelfs>PMS管理员</SPAN> </TD>
+          <TD align=center>2014-05-16</TD>
+          <TD align=center>重要</TD></TR>
+        <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl06_Label1>5</SPAN> </TD>
+          <TD style="HEIGHT: 18px" align=center><SPAN class=mybox><INPUT 
+            id=GridView1_ctl06_del name=GridView1$ctl06$del 
+            type=checkbox></SPAN> </TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/1.gif"></TD>
+          <TD><A class=gvlink 
+            href="http://hkoffice.uicp.net:91/portal/yjgl/Viewyj.aspx?type=s&amp;id=24"><SPAN 
+            id=GridView1_ctl06_Labelnr>新采购的办公桌椅，提前请大家欣赏下：）</SPAN> </A></TD>
+          <TD>人事专员,系统管理员,曹操,CRM管理员,貂禅,EAM管理员,EAM用户1,EAM用户2,诸葛经理,工作流用户,关羽,UsbKey用户,KMS管理员,龙采购,夏财务,田主管,段主管,李园长,云总裁,林总监,KMS用户1,刘备,OA管理员,PMS管理员,PMS用户1,PMS用户2,PMS用户3,Por管理员,R05管理员,R08管理员,SCM管理员,孙权,VIP管理员,Web用户,徐晃,张飞,</TD>
+          <TD align=center><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            src="收件箱_files/y.gif"></TD>
+          <TD><SPAN id=GridView1_ctl06_Labelfs>OA管理员</SPAN> </TD>
+          <TD align=center>2014-05-16</TD>
+          <TD align=center>普通</TD></TR></TBODY></TABLE></DIV></TD></TR>
+  <TR>
+    <TD style="HEIGHT: 22px"><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --><!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！--><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

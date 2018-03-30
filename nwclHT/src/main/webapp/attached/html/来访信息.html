@@ -1,0 +1,91 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/bagl/lfgl.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>来访信息</title>
+    
+    <link href="./来访信息_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./来访信息_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./来访信息_files/来访信息.html" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDY3MTg2NzkzD2QWAgIBD2QWBAIJDzwrABECAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIBZAEQFgAWABYAFgJmD2QWBAIBDw9kFgIeB29uY2xpY2sFGWphdmFzY3JpcHQ6Y2hhbmdlQmcodGhpcykWFmYPZBYCAgEPDxYCHgRUZXh0BQExZGQCAg8PFgIfAwUP5rW35reA5a2Q5YWs5Y+4ZGQCAw9kFgRmDxUBATFkAgEPDxYCHwMFCeWPuOmprOaHv2RkAgQPDxYCHwMFEDIwMTEtMDEtMjAgMDA6MDBkZAIFDw8WAh8DBRAyMDExLTAxLTIwIDAwOjAwZGQCBg8PFgIfAwURMTUyNjMzMTk2MDA4MTIxMTFkZAIHDw8WAh8DBQnor7jokZvkuq5kZAIIDw8WAh8DBQZBMTExMDFkZAIJDw8WAh8DBQzllYbliqHosIjliKRkZAIKDw8WAh8DBQnor7jokZvkuq5kZAILD2QWAgIBDw8WAh8DBQExZGQCAg8PFgIeB1Zpc2libGVoZGQCCw8PFgQeCFBhZ2VTaXplAg8eC1JlY29yZGNvdW50AgFkZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUTR3JpZFZpZXcxJGN0bDAyJGRlbAUJR3JpZFZpZXcxDzwrAAwDBhUBAmlkBxQrAAEUKwABAgEIAgFkdgR7TmK/gJtvSgBo3OJcb4ZIxuml/4RYDxP3MCx+XGs=">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="115FDC2C">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            来访管理
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px;">
+                            快速检索：<select name="query_tj" id="query_tj">
+	<option selected="selected" value="lfr">来访人</option>
+	<option value="bfr">被访人</option>
+	<option value="bfraddr">所住单元</option>
+	<option value="zbr">值班人</option>
+
+</select>
+                            <input name="query_content" type="text" id="query_content" class="mytext" style="width:100px;">
+                        </td>
+                        <td align="right">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="button" name="AddBtn" value="增加" class="mybtn" onclick="javascript:popAdd(&#39;lfgl_view.aspx&#39;);">
+                            <input type="submit" name="DelBtn" value="删除" onclick="return confirm(&#39;确认要执行删除吗？&#39;);" id="DelBtn" class="mybtn">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 7px; padding-right: 7px" height="25" colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./来访信息_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:30px;">
+                                <input id="chkall" type="checkbox" onclick="chkAll();" title="全选或全不选" style="width: 16;
+                                    height: 16">
+                            </td><td>所属公司</td><td style="width:50px;">来访人</td><td style="width:120px;">来访时间</td><td style="width:120px;">离开时间</td><td style="width:120px;">身份证号</td><td style="width:70px;">被访人</td><td style="width:60px;">所住单元</td><td>来访事由</td><td>值班人</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl02_Label1">1</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl02_del" type="checkbox" name="GridView1$ctl02$del"></span>
+                            </td><td>海淀子公司</td><td align="center">
+                                <a href="http://hkoffice.uicp.net:91/pms/bagl/lfgl.aspx#" onclick="javascript:popMod(&#39;lfgl_view.aspx?id=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl02_Labelsdate">司马懿</span></a>
+                            </td><td align="center">2011-01-20 00:00</td><td align="center">2011-01-20 00:00</td><td align="center">15263319600812111</td><td>诸葛亮</td><td>A11101</td><td>商务谈判</td><td>诸葛亮</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

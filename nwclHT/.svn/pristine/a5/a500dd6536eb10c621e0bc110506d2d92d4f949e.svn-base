@@ -1,0 +1,92 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/bjgl/lhjc.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>绿化检查</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="绿化检查_files/Main.css">
+<SCRIPT type=text/javascript src="绿化检查_files/MyJs.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=Form1 method=post name=Form1 action=lhjc.aspx>
+<DIV><INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=/wEPDwULLTExMDMxMjAwOTMPZBYCAgEPZBYEAgkPPCsAEQIADxYEHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AgJkARAWABYAFgAWAmYPZBYGAgEPD2QWAh4Hb25jbGljawUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYSZg9kFgICAQ8PFgIeBFRleHQFATFkZAICDw8WAh8DBQ/mtbfmt4DlrZDlhazlj7hkZAIDD2QWBGYPFQEBMmQCAQ8PFgIfAwUDMDAyZGQCBA9kFgICAQ8PFgIfAwUK57u/5YyWQuWMumRkAgUPDxYCHwMFCjIwMDUtMTItMDFkZAIGDw8WAh8DBRvojYnlnLDovoPkuLrohI/vvIzojYnlpKrpq5hkZAIHDw8WAh8DBRjlv4Xpobvlj4rml7bov5vooYzkv67mlbRkZAIIDw8WAh8DBQnor7jokZvkuq5kZAIJD2QWAgIBDw8WAh8DBQEyZGQCAg8PZBYCHwIFGWphdmFzY3JpcHQ6Y2hhbmdlQmcodGhpcykWEmYPZBYCAgEPDxYCHwMFATJkZAICDw8WAh8DBQ/mtbfmt4DlrZDlhazlj7hkZAIDD2QWBGYPFQEBMWQCAQ8PFgIfAwUDMDAxZGQCBA9kFgICAQ8PFgIfAwUK57u/5YyWQeWMumRkAgUPDxYCHwMFCjIwMDUtMTItMDFkZAIGDw8WAh8DBR7nu7/ljJbmg4XlhrXoia/lpb3vvIzml6Dpl67pophkZAIHDw8WAh8DBRXov5vkuIDmraXkv53mjIHljavnlJ9kZAIIDw8WAh8DBQnor7jokZvkuq5kZAIJD2QWAgIBDw8WAh8DBQExZGQCAw8PFgIeB1Zpc2libGVoZGQCCw8PFgQeCFBhZ2VTaXplAg8eC1JlY29yZGNvdW50AgJkZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUTR3JpZFZpZXcxJGN0bDAyJGRlbAUTR3JpZFZpZXcxJGN0bDAzJGRlbAUJR3JpZFZpZXcxDzwrAAwDBhUBAmlkBxQrAAIUKwABAgIUKwABAgEIAgFkgPiC9eOlUFTc6noN364Niz3AJBE3PJExfP30OMBY+DI= 
+type=hidden> </DIV>
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=3256C87F 
+type=hidden> </DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" align=center>
+  <TBODY>
+  <TR>
+    <TD style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px" 
+    colSpan=2>
+      <TABLE style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 
+width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>绿化检查 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%" align=center>
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 40px">快速检索：<SELECT id=query_tj name=query_tj> 
+              <OPTION selected value=lhcode>绿化编码</OPTION> <OPTION 
+              value=name>绿化名称</OPTION> <OPTION value=jc>检查情况</OPTION> <OPTION 
+              value=cl>处理情况</OPTION> <OPTION value=jcr>检查人</OPTION></SELECT> 
+            <INPUT style="WIDTH: 100px" id=query_content class=mytext 
+            name=query_content> </TD>
+          <TD align=right><INPUT id=QueryBtn class=mybtn name=QueryBtn value=查询 type=submit> 
+<INPUT class=mybtn onclick="javascript:popAdd('lhjc_view.aspx');" name=AddBtn value=增加 type=button> 
+<INPUT id=DelBtn class=mybtn onclick="return confirm('确认要执行删除吗？');" name=DelBtn value=删除 type=submit> 
+          </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD style="PADDING-LEFT: 7px; PADDING-RIGHT: 7px" height=25 colSpan=2>
+      <DIV>
+      <TABLE 
+      style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+      id=GridView1 border=0 rules=all cellSpacing=0>
+        <TBODY>
+        <TR class=hkHeadStyle>
+          <TD style="WIDTH: 30px"><IMG 
+            style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+            alt=序号 src="绿化检查_files/refresh.gif"></TD>
+          <TD style="WIDTH: 30px"><INPUT style="WIDTH: 16px; HEIGHT: 16px" 
+            id=chkall title=全选或全不选 onclick=chkAll(); type=checkbox> </TD>
+          <TD>所属公司</TD>
+          <TD style="WIDTH: 70px">绿化编码</TD>
+          <TD>绿化名称</TD>
+          <TD style="WIDTH: 90px">检查时间</TD>
+          <TD>检查情况</TD>
+          <TD>处理情况</TD>
+          <TD style="WIDTH: 60px">检查人</TD></TR>
+        <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl02_del name=GridView1$ctl02$del 
+            type=checkbox></SPAN> </TD>
+          <TD>海淀子公司</TD>
+          <TD><A class=gvlink 
+            onclick="javascript:popMod('lhjc_view.aspx?id=2')" 
+            href="http://hkoffice.uicp.net:91/pms/bjgl/lhjc.aspx#"><SPAN 
+            id=GridView1_ctl02_Labelzbbm>002</SPAN></A> </TD>
+          <TD><SPAN id=GridView1_ctl02_Labelyjje>绿化B区</SPAN> </TD>
+          <TD align=center>2005-12-01</TD>
+          <TD>草地较为脏，草太高</TD>
+          <TD>必须及时进行修整</TD>
+          <TD>诸葛亮</TD></TR>
+        <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+          <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+          <TD style="WIDTH: 30px; HEIGHT: 18px" align=center><SPAN 
+            class=mybox><INPUT id=GridView1_ctl03_del name=GridView1$ctl03$del 
+            type=checkbox></SPAN> </TD>
+          <TD>海淀子公司</TD>
+          <TD><A class=gvlink 
+            onclick="javascript:popMod('lhjc_view.aspx?id=1')" 
+            href="http://hkoffice.uicp.net:91/pms/bjgl/lhjc.aspx#"><SPAN 
+            id=GridView1_ctl03_Labelzbbm>001</SPAN></A> </TD>
+          <TD><SPAN id=GridView1_ctl03_Labelyjje>绿化A区</SPAN> </TD>
+          <TD align=center>2005-12-01</TD>
+          <TD>绿化情况良好，无问题</TD>
+          <TD>进一步保持卫生</TD>
+          <TD>诸葛亮</TD></TR></TBODY></TABLE></DIV></TD></TR>
+  <TR>
+    <TD style="HEIGHT: 22px" colSpan=2><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --><!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！--><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

@@ -1,0 +1,97 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/bagl/baap.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>保安安排</title>
+    
+    <link href="./保安安排_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./保安安排_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./保安安排_files/保安安排.html" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA4MDk2MzAxOQ9kFgICAQ9kFgQCCQ9kFgICAQ88KwARAgAPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAWQBEBYAFgAWABYCZg9kFgQCAQ8PZBYCHgdvbmNsaWNrBRlqYXZhc2NyaXB0OmNoYW5nZUJnKHRoaXMpFhRmD2QWAgIBDw8WAh4EVGV4dAUBMWRkAgIPDxYCHwMFD+a1t+a3gOWtkOWFrOWPuGRkAgMPZBYEZg8VAQExZAIBDw8WAh8DBQoyMDExLTAxLTAxZGQCBA9kFgRmDxUBATFkAgEPDxYCHwMFCjIwMTEtMDEtMzFkZAIFDw8WAh8DBQnkuIvljYjnj61kZAIGDw8WAh8DBQsxMjowMH4xNjowMGRkAgcPDxYCHwMFDOWwj+WMuuWMl+mXqGRkAggPDxYCHwMFBiZuYnNwO2RkAgkPDxYCHwMFG+WFs+S6kemVv+OAgemtj+W7tuOAgem7hOW/oGRkAgoPZBYCAgEPDxYCHwMFATFkZAICDw8WAh4HVmlzaWJsZWhkZAILDw8WBB4IUGFnZVNpemUCDx4LUmVjb3JkY291bnQCAWRkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBRNHcmlkVmlldzEkY3RsMDIkZGVsBQlHcmlkVmlldzEPPCsADAMGFQECaWQHFCsAARQrAAECAQgCAWT4qM3i+f1t39uL93XsGzGjP9ShNdRwH+Qo4IcRPLw2xA==">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="525D8581">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            保安安排
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px;">
+                            快速检索：<select name="query_tj" id="query_tj">
+	<option selected="selected" value="bc">班次</option>
+	<option value="dd">地段</option>
+	<option value="zbr">值班人员</option>
+
+</select>
+                            <input name="query_content" type="text" id="query_content" class="mytext" style="width:100px;">
+                        </td>
+                        <td align="right">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="button" name="AddBtn" value="增加" class="mybtn" onclick="javascript:popAdd(&#39;baap_view.aspx&#39;);">
+                            <input type="submit" name="DelBtn" value="删除" onclick="return confirm(&#39;确认要执行删除吗？&#39;);" id="DelBtn" class="mybtn">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 7px; padding-right: 7px" height="25" colspan="2">
+                <div id="Panel1" style="overflow:auto;">
+	
+                    <div>
+		<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+			<tbody><tr class="hkHeadStyle">
+				<td style="width:30px;"><img src="./保安安排_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:30px;">
+                                    <input id="chkall" type="checkbox" onclick="chkAll();" title="全选或全不选" style="width: 16;
+                                        height: 16">
+                                </td><td>所属公司</td><td>开始日期</td><td>结束日期</td><td style="width:70px;">班次</td><td>时段</td><td>地段</td><td>岗位</td><td>值班人员</td>
+			</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+				<td align="center">
+                                    <span id="GridView1_ctl02_Label1">1</span>
+                                </td><td align="center" style="height:18px;width:30px;">
+                                    <span class="mybox"><input id="GridView1_ctl02_del" type="checkbox" name="GridView1$ctl02$del"></span>
+                                </td><td>海淀子公司</td><td align="center">
+                                    <a href="http://hkoffice.uicp.net:91/pms/bagl/baap.aspx#" onclick="javascript:popMod(&#39;baap_view.aspx?id=1&#39;)" class="gvlink">
+                                        <span id="GridView1_ctl02_Labelsdate">2011-01-01</span></a>
+                                </td><td align="center">
+                                    <a href="http://hkoffice.uicp.net:91/pms/bagl/baap.aspx#" onclick="javascript:popMod(&#39;baap_view.aspx?id=1&#39;)" class="gvlink">
+                                        <span id="GridView1_ctl02_Labeledate">2011-01-31</span></a>
+                                </td><td>下午班</td><td align="center">12:00~16:00</td><td>小区北门</td><td>&nbsp;</td><td>关云长、魏延、黄忠</td>
+			</tr>
+		</tbody></table>
+	</div>
+                
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

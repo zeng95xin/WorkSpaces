@@ -1,0 +1,141 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0053)http://hkoffice.uicp.net:91/portal/grbg/MyReport.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>我的驾驶舱</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="我的驾驶舱_files/Main.css">
+<SCRIPT type=text/javascript src="我的驾驶舱_files/MyJs.js"></SCRIPT>
+
+<SCRIPT language=JavaScript src="我的驾驶舱_files/FlashCharts.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=Form1 method=post name=Form1 action=MyReport.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=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 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=5ECEFE4E 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD 
+      style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px"><TABLE 
+      style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>我的驾驶舱 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD align=center>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 28px" 
+            background=我的驾驶舱_files/title_bg.gif>&nbsp;&nbsp;提示：您必须安装了Adobe 
+            FlashPlayer才能正常浏览以下报表，<A class=blue 
+            href="http://get.adobe.com/cn/flashplayer" target=_blank>点击下载</A> 
+</TD>
+          <TD background=我的驾驶舱_files/title_bg.gif 
+      align=right></TD></TR></TBODY></TABLE>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%">
+        <TBODY>
+        <TR>
+          <TD vAlign=top><!--年度访问次数最多的前10名模块-->
+            <DIV style="OVERFLOW: auto" id=panel1><BR>
+            <TABLE border=0 cellSpacing=0 cellPadding=0 width=700>
+              <TBODY>
+              <TR>
+                <TD height=24 background=我的驾驶舱_files/head_bg_m.gif 
+                  width=5><IMG src="我的驾驶舱_files/head_bg_l.gif"> </TD>
+                <TD height=24 background=我的驾驶舱_files/head_bg_m.gif 
+                  colSpan=2><IMG src="我的驾驶舱_files/arrow.gif">&nbsp;<A 
+                  style="TEXT-DECORATION: none" id=hl1 title=查看详细访问日志 
+                  href="http://hkoffice.uicp.net:91/portal/xtrz/rzcx.aspx"><SPAN 
+                  style="COLOR: #36434e; FONT-WEIGHT: bold" 
+                  id=title1>年度前10名最常访问的模块(单位:次)</SPAN></A> <SELECT 
+                  id=ChangeChart1 
+                  onchange="javascript:setTimeout('__doPostBack(\'ChangeChart1\',\'\')', 0)" 
+                  name=ChangeChart1> <OPTION selected 
+                    value=FCF_Column2D.swf>2D柱型图</OPTION> <OPTION 
+                    value=FCF_Column3D.swf>3D柱型图</OPTION> <OPTION 
+                    value=FCF_Bar2D.swf>2D条型图</OPTION> <OPTION 
+                    value=FCF_Line.swf>2D线型图</OPTION> <OPTION 
+                    value=FCF_Pie2D.swf>2D饼型图</OPTION> <OPTION 
+                    value=FCF_Pie3D.swf>3D饼型图</OPTION> <OPTION 
+                    value=FCF_Area2D.swf>2D面积图</OPTION> <OPTION 
+                    value=FCF_Doughnut2D.swf>2D环型图</OPTION> <OPTION 
+                    value=FCF_Funnel.swf>漏斗图</OPTION></SELECT> </TD>
+                <TD background=我的驾驶舱_files/head_bg_m.gif align=right><IMG 
+                  src="我的驾驶舱_files/head_bg_r.gif"> </TD></TR>
+              <TR>
+                <TD 
+                style="BORDER-BOTTOM: #a8c8e3 1px solid; BORDER-LEFT: #a8c8e3 1px solid; BORDER-TOP: #a8c8e3 1px solid; BORDER-RIGHT: #a8c8e3 1px solid" 
+                bgColor=#ffffff vAlign=top colSpan=4><!-- START Script Block for Chart MyReport1 -->
+                  <DIV id=MyReport1Div align=center>Chart. </DIV>
+                  <SCRIPT type=text/javascript>
+var chart_MyReport1 = new FusionCharts("../../Charts/FCF_Column2D.swf", "MyReport1", "500", "250", "0", "0");
+chart_MyReport1.setDataXML("<graph decimalPrecision='0' formatNumberScale='0' showNames='1' baseFontSize='12' showValues='0' baseFontColor='333333' useRoundEdges='1' showAlternateHGridColor='1' rotateNames='1'><set name='常规费项设置' value='20' color='AFD8F8' /><set name='车辆进出' value='17' color='F6BD0F' /><set name='保安安排' value='16' color='8BBA00' /><set name='抄表数据导入' value='14' color='FF8E46' /><set name='常规台帐修改' value='13' color='008E8E' /><set name='常规台帐复制' value='10' color='D64646' /><set name='参数选项' value='5' color='8E468E' /><set name='常用短信' value='3' color='588526' /><set name='常规收费修改' value='3' color='B3AA00' /><set name='部门管理' value='1' color='008ED6' /></graph>");
+chart_MyReport1.render("MyReport1Div");
+</SCRIPT>
+<!-- END Script Block for Chart MyReport1 --></TD></TR></TBODY></TABLE></DIV></TD></TR>
+        <TR>
+          <TD vAlign=top><!--资产分类库存前10名--></TD></TR>
+        <TR>
+          <TD vAlign=top><!--截止目前销售前10名供应商--></TD></TR>
+        <TR>
+          <TD vAlign=top><!--Top10会员销售--></TD></TR>
+        <TR>
+          <TD vAlign=top><!--全部欠缴的物业费-->
+            <DIV style="OVERFLOW: auto" id=panel5><BR>
+            <TABLE border=0 cellSpacing=0 cellPadding=0 width=700>
+              <TBODY>
+              <TR>
+                <TD height=24 background=我的驾驶舱_files/head_bg_m.gif 
+                  width=5><IMG src="我的驾驶舱_files/head_bg_l.gif"> </TD>
+                <TD height=24 background=我的驾驶舱_files/head_bg_m.gif 
+                  colSpan=2><IMG src="我的驾驶舱_files/arrow.gif">&nbsp;<A 
+                  style="TEXT-DECORATION: none" id=hl5 title=查看详细物业费信息 
+                  href="http://hkoffice.uicp.net:91/pms/bbcx/qfcx.aspx"><SPAN 
+                  style="COLOR: #36434e; FONT-WEIGHT: bold" 
+                  id=title5>截止目前所欠的物业费(单位:元)</SPAN></A> <SELECT id=ChangeChart5 
+                  onchange="javascript:setTimeout('__doPostBack(\'ChangeChart5\',\'\')', 0)" 
+                  name=ChangeChart5> <OPTION 
+                    value=FCF_Column2D.swf>2D柱型图</OPTION> <OPTION 
+                    value=FCF_Column3D.swf>3D柱型图</OPTION> <OPTION 
+                    value=FCF_Bar2D.swf>2D条型图</OPTION> <OPTION 
+                    value=FCF_Line.swf>2D线型图</OPTION> <OPTION 
+                    value=FCF_Pie2D.swf>2D饼型图</OPTION> <OPTION 
+                    value=FCF_Pie3D.swf>3D饼型图</OPTION> <OPTION 
+                    value=FCF_Area2D.swf>2D面积图</OPTION> <OPTION 
+                    value=FCF_Doughnut2D.swf>2D环型图</OPTION> <OPTION selected 
+                    value=FCF_Funnel.swf>漏斗图</OPTION></SELECT> </TD>
+                <TD background=我的驾驶舱_files/head_bg_m.gif align=right><IMG 
+                  src="我的驾驶舱_files/head_bg_r.gif"> </TD></TR>
+              <TR>
+                <TD 
+                style="BORDER-BOTTOM: #a8c8e3 1px solid; BORDER-LEFT: #a8c8e3 1px solid; BORDER-TOP: #a8c8e3 1px solid; BORDER-RIGHT: #a8c8e3 1px solid" 
+                bgColor=#ffffff vAlign=top colSpan=4><!-- START Script Block for Chart MyReport4 -->
+                  <DIV id=MyReport4Div align=center>Chart. </DIV>
+                  <SCRIPT type=text/javascript>
+var chart_MyReport4 = new FusionCharts("../../Charts/FCF_Funnel.swf", "MyReport4", "500", "250", "0", "0");
+chart_MyReport4.setDataXML("<graph decimalPrecision='0' formatNumberScale='0' showNames='1' baseFontSize='12' showValues='0' baseFontColor='333333' useRoundEdges='1' showAlternateHGridColor='1' rotateNames='1'><set name='污水处理费' value='2877.3500' color='AFD8F8' /><set name='车位管理费' value='5249.9700' color='F6BD0F' /><set name='车库管理费' value='34600.0000' color='8BBA00' /><set name='加建采暖费' value='1620.5000' color='FF8E46' /><set name='阁楼采暖费' value='348.0000' color='008E8E' /><set name='电费(公摊)' value='2693.0864' color='D64646' /><set name='电费(普通按月)' value='57.2000' color='8E468E' /><set name='水费(普通按月)' value='752.6274' color='588526' /><set name='取暖费' value='15364.3500' color='B3AA00' /><set name='其它费用' value='48.7900' color='008ED6' /></graph>");
+chart_MyReport4.render("MyReport4Div");
+</SCRIPT>
+<!-- END Script Block for Chart MyReport4 --></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

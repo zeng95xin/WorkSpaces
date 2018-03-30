@@ -1,0 +1,466 @@
+﻿
+<!-- saved from url=(0048)http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>退款单据审核</title>
+    
+    <link href="./退款单据审核_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./退款单据审核_files/MyJs.js"></script>
+    <script type="text/javascript" src="./退款单据审核_files/WebCalendar.js"></script>
+</head>
+<body class="main" onload="chkBrowser();">
+    <form name="Form1" method="post" action="./退款单据审核_files/退款单据审核.html" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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MjAxMS0xMS0wM2RkAgUPDxYCHwMFDkEwMVNGMTExMTAzMDAxZGQCBg8PFgIfAwUKc2oyMDEzMDAwMmRkAgcPDxYCHwMFCeWPluaalui0uWRkAggPDxYCHwMFCjIwMTEtMTAtMDFkZAIJDw8WAh8DBQoyMDEyLTA0LTAxZGQCCg9kFggCAQ8PFgIfAwUM5Lit5Lic6aaW5bqnZGQCAw8PFgIfAwUHMeWPt+alvGRkAgUPDxYCHwMFBzHljZXlhYNkZAIHDw8WAh8DBQYxMDHlrqRkZAILDw8WAh8DBQbotbXkupFkZAIMDw8WAh8DBQgxNTM2NC4zNWRkAg0PDxYCHwMFCDE1MzY0LjM1ZGQCDg8PFgIfAwUEMC4wMGRkAg8PDxYCHwMFBDAuMDBkZAIQDw8WAh8DBQbnjrDph5FkZAIRDw8WAh8DBQbluLjop4RkZAISDw8WAh8DBQNwbXNkZAITDw8WAh8DBQnmnKrlrqHmoLhkZAIUDw8WAh8DBQzmk43kvZzplJnor69kZAIQD2QWCAIMDw8WAh8DBQgzMTM5MS41NmRkAg0PDxYCHwMFCDIxNjM1LjA1ZGQCDg8PFgIfAwUHOTc1Ni4zMmRkAg8PDxYCHwMFBDAuMDBkZAI5Dw8WBB4IUGFnZVNpemUCDx4LUmVjb3JkY291bnQCGWRkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYPBRNHcmlkVmlldzEkY3RsMDIkZGVsBRNHcmlkVmlldzEkY3RsMDMkZGVsBRNHcmlkVmlldzEkY3RsMDQkZGVsBRNHcmlkVmlldzEkY3RsMDUkZGVsBRNHcmlkVmlldzEkY3RsMDYkZGVsBRNHcmlkVmlldzEkY3RsMDckZGVsBRNHcmlkVmlldzEkY3RsMDgkZGVsBRNHcmlkVmlldzEkY3RsMDkkZGVsBRNHcmlkVmlldzEkY3RsMTAkZGVsBRNHcmlkVmlldzEkY3RsMTEkZGVsBRNHcmlkVmlldzEkY3RsMTIkZGVsBRNHcmlkVmlldzEkY3RsMTMkZGVsBRNHcmlkVmlldzEkY3RsMTQkZGVsBRNHcmlkVmlldzEkY3RsMTUkZGVsBRNHcmlkVmlldzEkY3RsMTYkZGVsBQlHcmlkVmlldzEPPCsADAMGFQEEdGswMQcUKwAPFCsAAQUOQTAxVEsxNjEyMDMwMDMUKwABBQ5BMDFUSzE2MTIwMzAwMhQrAAEFDkEwMVRLMTYxMjAzMDAxFCsAAQUOQTAxVEsxNDExMjYwMDUUKwABBQ5BMDFUSzE0MTEyNjAwNBQrAAEFDkEwMVRLMTQxMTI2MDAzFCsAAQUOQTAxVEsxNDExMjYwMDIUKwABBQ5BMDFUSzE0MTEyNjAwMRQrAAEFDkEwMVRLMTQwODEyMDAxFCsAAQUOQTAxVEsxNDA4MTIwMDEUKwABBQ5BMDFUSzE0MDMyMTAwMRQrAAEFDkEwMVRLMTMxMTE3MDAxFCsAAQUOQTAxVEsxMzEwMjEwMDIUKwABBQ5BMDFUSzEzMTAyMTAwMhQrAAEFDkEwMVRLMTMxMDIxMDAxCAIBZPxffMK8bI/f1+TjBAsFKM0uuiy3O1uWrSjht/t30GkL">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0705F6C3">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            退款单据审核
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table cellspacing="0" cellpadding="0" width="850" border="0">
+                    <tbody><tr>
+                        <td colspan="8" style="height: 5px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            选择房产:
+                        </td>
+                        <td>
+                            <select name="xq" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;xq\&#39;,\&#39;\&#39;)&#39;, 0)" id="xq" title="选择房产" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="1">中东首座</option>
+	<option value="2">盈科大厦</option>
+	<option value="3">孔雀英国宫</option>
+	<option value="4">电子大厦</option>
+	<option value="8">菜批市场</option>
+	<option value="19">东风仓库</option>
+	<option value="20">地下车库</option>
+	<option value="23">asdas</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            楼宇:
+                        </td>
+                        <td>
+                            <select name="ly" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ly\&#39;,\&#39;\&#39;)&#39;, 0)" id="ly" style="width:110px;">
+
+</select>
+                        </td>
+                        <td align="right">
+                            单元/楼层:
+                        </td>
+                        <td>
+                            <select name="dy" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;dy\&#39;,\&#39;\&#39;)&#39;, 0)" id="dy" style="width:110px;">
+
+</select>
+                        </td>
+                        <td align="right">
+                            房间:
+                        </td>
+                        <td>
+                            <select name="cellname" id="cellname" class="mytext" style="width:110px;">
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            退款单号:
+                        </td>
+                        <td>
+                            <input name="tkdh" type="text" id="tkdh" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            退款人:
+                        </td>
+                        <td>
+                            <select name="tkr" id="tkr" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="crm">CRM管理员</option>
+	<option value="oa">OA管理员</option>
+	<option value="portal">Portal管理员</option>
+	<option value="report8">Report管理员</option>
+	<option value="report5">Report管理员2</option>
+	<option value="scm">SCM管理员</option>
+	<option value="key">UsbKey用户</option>
+	<option value="vip">VIP管理员</option>
+	<option value="web">Web用户</option>
+	<option value="1006">渤海物流</option>
+	<option value="cc">曹操</option>
+	<option value="dc">貂禅</option>
+	<option value="kms_dqzx2">段主管</option>
+	<option value="flow">工作流用户</option>
+	<option value="new">供应商</option>
+	<option value="gy">关羽</option>
+	<option value="1099">汉兴纸业</option>
+	<option value="1009">黄金纸业</option>
+	<option value="1002">建荣百货</option>
+	<option value="1005">李国锋</option>
+	<option value="kms_yey">李园长</option>
+	<option value="kms_zysyb">林总监</option>
+	<option value="lb">刘备</option>
+	<option value="kms_cgy">龙采购</option>
+	<option value="10001">人事专员</option>
+	<option value="1010">三丰商贸</option>
+	<option value="1003">诗雨商贸</option>
+	<option value="1001">顺馨商贸</option>
+	<option value="sq">孙权</option>
+	<option value="kms_dqzx">田主管</option>
+	<option value="pms">物业系统管理员</option>
+	<option value="pms1">物业用户1</option>
+	<option value="pms2">物业用户2</option>
+	<option value="pms3">物业用户3</option>
+	<option value="kms_xa">西安幼儿园园长</option>
+	<option value="admin">系统管理员</option>
+	<option value="kms_cwb">夏财务</option>
+	<option value="1004">祥玉商贸</option>
+	<option value="xh">徐晃</option>
+	<option value="1007">亿佳欣商贸</option>
+	<option value="kms1">幼儿园标准版用户</option>
+	<option value="kms">幼儿园系统管理员</option>
+	<option value="kms_zc">云总裁</option>
+	<option value="zf">张飞</option>
+	<option value="fgsjl">诸葛经理</option>
+	<option value="eam2">资产标准版用户</option>
+	<option value="eam1">资产简化版用户</option>
+	<option value="eam">资产系统管理员</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            退款原因:
+                        </td>
+                        <td>
+                            <input name="tkyy" type="text" id="tkyy" class="mytext" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            退款类型:
+                        </td>
+                        <td>
+                            <select name="tklx" id="tklx" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="常规">常规</option>
+	<option value="临时">临时</option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            收款单号:
+                        </td>
+                        <td>
+                            <input name="skdh" type="text" id="skdh" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            物业类型:
+                        </td>
+                        <td>
+                            <select name="fjlx" id="fjlx" style="width:110px;">
+	<option selected="selected" value=""></option>
+	<option value="406">B类-贵宾</option>
+	<option value="407">C类-免缴费</option>
+	<option value="408">D类-自用</option>
+	<option value="409">E类-其它</option>
+	<option value="591">A类-标准</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            业主姓名:
+                        </td>
+                        <td>
+                            <input name="yzxm" type="text" id="yzxm" class="mytext" style="width:110px;">
+                        </td>
+                        <td align="right">
+                            审核状态:
+                        </td>
+                        <td>
+                            <select name="tkshzt" id="tkshzt" style="width:110px;">
+	<option value=""></option>
+	<option selected="selected" value="未审核">未审核</option>
+	<option value="审核成功">审核成功</option>
+	<option value="审核失败">审核失败</option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            退费日期:
+                        </td>
+                        <td colspan="7">
+                            <input name="txtSdate" type="text" value="2001-01-01" id="txtSdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:70px;">至<input name="txtEdate" type="text" value="2017-03-23" id="txtEdate" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:70px;">
+                            费项起期:<input name="ksrq1" type="text" id="ksrq1" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:70px;">至<input name="jzrq1" type="text" id="jzrq1" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:70px;">
+                            费项止期:<input name="ksrq2" type="text" id="ksrq2" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:70px;">至<input name="jzrq2" type="text" id="jzrq2" class="mytext" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" style="width:70px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            收据号：
+                        </td>
+                        <td colspan="7">
+                            <input name="sjh" type="text" id="sjh" class="mytext" style="width:110px;">
+                            费用金额:<select name="mid" id="mid" style="width:80px;">
+	<option value="=">等于</option>
+	<option selected="selected" value="&gt;">大于</option>
+	<option value="&lt;">小于</option>
+	<option value="&lt;&gt;">不等于</option>
+	<option value="&gt;=">大于等于</option>
+	<option value="&lt;=">小于等于</option>
+
+</select>
+                            <input name="fyje" type="text" id="fyje" class="mytext" style="width:60px;">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="submit" name="Button1" value="清空" id="Button1" class="mybtn">
+                            <input type="submit" name="PassBtn" value="审核成功" onclick="return confirm(&#39;确认要执行审核成功吗？&#39;);" id="PassBtn" class="mybtn" style="width: 70">
+                            <input type="submit" name="StopBtn" value="审核失败" onclick="return confirm(&#39;确认要执行审核失败吗？&#39;);" id="StopBtn" class="mybtn" style="width: 70">
+                            <input type="submit" name="BackBtn" value="反审核" onclick="return confirm(&#39;确认要执行反审核吗？&#39;);" id="BackBtn" class="mybtn" style="width: 70">
+                            <input type="submit" name="ExpBtn" value="导出" id="ExpBtn" class="mybtn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="8" style="height: 5px">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:1650px;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./退款单据审核_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:30px;">
+                                <input id="chkall" type="checkbox" onclick="chkAll();" title="全选或全不选" style="width: 16;
+                                    height: 16">
+                            </td><td style="width:80px;">退费日期</td><td>退款单号</td><td style="width:80px;">原收费日期</td><td>原收款单号</td><td>原收据号</td><td>费项名称</td><td style="width:80px;">费项起期</td><td style="width:80px;">费项止期</td><td>房产名称</td><td>业主</td><td style="width:70px;">退费金额</td><td style="width:70px;">原费用金额</td><td style="width:70px;">原滞纳金</td><td style="width:70px;">原费用减免</td><td>原收款方式</td><td>退款类型</td><td>退款人</td><td style="width:60px;">审核状态</td><td>退款原因</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl02_Label1">1</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl02_del" type="checkbox" name="GridView1$ctl02$del"></span>
+                            </td><td align="center">2016-12-03</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK161203003&amp;fjid=2&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl02_Labelyjje">A01TK161203003</span></a>
+                            </td><td align="center">2016-12-03</td><td>A01SF16120300002</td><td>21125120190816</td><td>储藏室管理费</td><td align="center">2015-01-01</td><td align="center">2015-01-31</td><td>
+                                <span id="GridView1_ctl02_lblfcmc">中东首座</span>#<span id="GridView1_ctl02_Label2">1号楼</span>#<span id="GridView1_ctl02_Label3">1单元</span>#<span id="GridView1_ctl02_Label4">102室</span>
+                            </td><td>黄盖</td><td align="right">131.78</td><td align="right">32.70</td><td align="right">99.08</td><td align="right">0.00</td><td align="center">预收款</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl03_Label1">2</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl03_del" type="checkbox" name="GridView1$ctl03$del"></span>
+                            </td><td align="center">2016-12-03</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK161203002&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl03_Labelyjje">A01TK161203002</span></a>
+                            </td><td align="center">2016-12-03</td><td>A01SF16120300001</td><td>21125120180716</td><td>车位管理费</td><td align="center">2015-09-01</td><td align="center">2015-09-30</td><td>
+                                <span id="GridView1_ctl03_lblfcmc">中东首座</span>#<span id="GridView1_ctl03_Label2">1号楼</span>#<span id="GridView1_ctl03_Label3">1单元</span>#<span id="GridView1_ctl03_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">262.85</td><td align="right">99.00</td><td align="right">163.85</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl04_Label1">3</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl04_del" type="checkbox" name="GridView1$ctl04$del"></span>
+                            </td><td align="center">2016-12-03</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK161203001&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl04_Labelyjje">A01TK161203001</span></a>
+                            </td><td align="center">2016-12-03</td><td>A01LS16120300001</td><td>20125120175616</td><td>停车费</td><td align="center">2001-01-01</td><td align="center">2016-12-03</td><td>
+                                <span id="GridView1_ctl04_lblfcmc">中东首座</span>#<span id="GridView1_ctl04_Label2">1号楼</span>#<span id="GridView1_ctl04_Label3">1单元</span>#<span id="GridView1_ctl04_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">100.00</td><td align="right">100.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">预收款</td><td align="center">临时</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl05_Label1">4</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl05_del" type="checkbox" name="GridView1$ctl05$del"></span>
+                            </td><td align="center">2014-11-26</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK141126005&amp;fjid=12&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl05_Labelyjje">A01TK141126005</span></a>
+                            </td><td align="center">2014-11-26</td><td>A01SF14112600001</td><td>&nbsp;</td><td>卫生费</td><td align="center">2014-06-01</td><td align="center">2014-06-30</td><td>
+                                <span id="GridView1_ctl05_lblfcmc">中东首座</span>#<span id="GridView1_ctl05_Label2">1号楼</span>#<span id="GridView1_ctl05_Label3">1单元</span>#<span id="GridView1_ctl05_Label4">602室</span>
+                            </td><td>&nbsp;</td><td align="right">18.40</td><td align="right">10.70</td><td align="right">7.65</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>金额输入错误</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl06_Label1">5</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl06_del" type="checkbox" name="GridView1$ctl06$del"></span>
+                            </td><td align="center">2014-11-26</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK141126004&amp;fjid=12&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl06_Labelyjje">A01TK141126004</span></a>
+                            </td><td align="center">2014-11-26</td><td>A01SF14112600002</td><td>&nbsp;</td><td>卫生费</td><td align="center">2014-10-01</td><td align="center">2014-10-31</td><td>
+                                <span id="GridView1_ctl06_lblfcmc">中东首座</span>#<span id="GridView1_ctl06_Label2">1号楼</span>#<span id="GridView1_ctl06_Label3">1单元</span>#<span id="GridView1_ctl06_Label4">602室</span>
+                            </td><td>&nbsp;</td><td align="right">11.20</td><td align="right">11.20</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl07_Label1">6</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl07_del" type="checkbox" name="GridView1$ctl07$del"></span>
+                            </td><td align="center">2014-11-26</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK141126003&amp;fjid=12&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl07_Labelyjje">A01TK141126003</span></a>
+                            </td><td align="center">2014-11-26</td><td>A01SF14112600001</td><td>&nbsp;</td><td>卫生费</td><td align="center">2014-10-01</td><td align="center">2014-10-31</td><td>
+                                <span id="GridView1_ctl07_lblfcmc">中东首座</span>#<span id="GridView1_ctl07_Label2">1号楼</span>#<span id="GridView1_ctl07_Label3">1单元</span>#<span id="GridView1_ctl07_Label4">602室</span>
+                            </td><td>&nbsp;</td><td align="right">11.20</td><td align="right">11.20</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>金额输入错误</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl08_Label1">7</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl08_del" type="checkbox" name="GridView1$ctl08$del"></span>
+                            </td><td align="center">2014-11-26</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK141126002&amp;fjid=12&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl08_Labelyjje">A01TK141126002</span></a>
+                            </td><td align="center">2014-11-26</td><td>A01SF14112600002</td><td>&nbsp;</td><td>卫生费</td><td align="center">2014-06-01</td><td align="center">2014-06-30</td><td>
+                                <span id="GridView1_ctl08_lblfcmc">中东首座</span>#<span id="GridView1_ctl08_Label2">1号楼</span>#<span id="GridView1_ctl08_Label3">1单元</span>#<span id="GridView1_ctl08_Label4">602室</span>
+                            </td><td>&nbsp;</td><td align="right">18.40</td><td align="right">10.70</td><td align="right">7.65</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl09_Label1">8</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl09_del" type="checkbox" name="GridView1$ctl09$del"></span>
+                            </td><td align="center">2014-11-26</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK141126001&amp;fjid=24&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl09_Labelyjje">A01TK141126001</span></a>
+                            </td><td align="center">2014-11-26</td><td>A01SF14112600001</td><td>&nbsp;</td><td>卫生费</td><td align="center">2014-10-01</td><td align="center">2014-10-31</td><td>
+                                <span id="GridView1_ctl09_lblfcmc">中东首座</span>#<span id="GridView1_ctl09_Label2">1号楼</span>#<span id="GridView1_ctl09_Label3">2单元</span>#<span id="GridView1_ctl09_Label4">602室</span>
+                            </td><td>&nbsp;</td><td align="right">11.20</td><td align="right">11.20</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>金额输入错误</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl10_Label1">9</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl10_del" type="checkbox" name="GridView1$ctl10$del"></span>
+                            </td><td align="center">2014-08-12</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK140812001&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl10_Labelyjje">A01TK140812001</span></a>
+                            </td><td align="center">2014-08-12</td><td>A01SF14081200002</td><td>&nbsp;</td><td>卫生费</td><td align="center">2013-06-01</td><td align="center">2013-06-15</td><td>
+                                <span id="GridView1_ctl10_lblfcmc">中东首座</span>#<span id="GridView1_ctl10_Label2">1号楼</span>#<span id="GridView1_ctl10_Label3">1单元</span>#<span id="GridView1_ctl10_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">10.50</td><td align="right">5.00</td><td align="right">5.45</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl11_Label1">10</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl11_del" type="checkbox" name="GridView1$ctl11$del"></span>
+                            </td><td align="center">2014-08-12</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK140812001&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl11_Labelyjje">A01TK140812001</span></a>
+                            </td><td align="center">2014-08-12</td><td>A01SF14081200002</td><td>&nbsp;</td><td>卫生费</td><td align="center">2014-06-01</td><td align="center">2014-06-30</td><td>
+                                <span id="GridView1_ctl11_lblfcmc">中东首座</span>#<span id="GridView1_ctl11_Label2">1号楼</span>#<span id="GridView1_ctl11_Label3">1单元</span>#<span id="GridView1_ctl11_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">12.60</td><td align="right">10.60</td><td align="right">2.01</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl12_Label1">11</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl12_del" type="checkbox" name="GridView1$ctl12$del"></span>
+                            </td><td align="center">2014-03-21</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK140321001&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl12_Labelyjje">A01TK140321001</span></a>
+                            </td><td align="center">2011-11-15</td><td>A01LS111115001</td><td>&nbsp;</td><td>其它费用</td><td align="center">2011-11-15</td><td align="center">&nbsp;</td><td>
+                                <span id="GridView1_ctl12_lblfcmc">中东首座</span>#<span id="GridView1_ctl12_Label2">1号楼</span>#<span id="GridView1_ctl12_Label3">1单元</span>#<span id="GridView1_ctl12_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">100.00</td><td align="right">100.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">现金</td><td align="center">临时</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl13_Label1">12</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl13_del" type="checkbox" name="GridView1$ctl13$del"></span>
+                            </td><td align="center">2013-11-17</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK131117001&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl13_Labelyjje">A01TK131117001</span></a>
+                            </td><td align="center">2013-10-22</td><td>A01SF13102200001</td><td>&nbsp;</td><td>卫生费</td><td align="center">2011-01-01</td><td align="center">2011-01-31</td><td>
+                                <span id="GridView1_ctl13_lblfcmc">中东首座</span>#<span id="GridView1_ctl13_Label2">1号楼</span>#<span id="GridView1_ctl13_Label3">1单元</span>#<span id="GridView1_ctl13_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">59.50</td><td align="right">10.00</td><td align="right">49.45</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作失误</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl14_Label1">13</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl14_del" type="checkbox" name="GridView1$ctl14$del"></span>
+                            </td><td align="center">2013-10-21</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK131021002&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl14_Labelyjje">A01TK131021002</span></a>
+                            </td><td align="center">2013-05-24</td><td>A01LS130524001</td><td>&nbsp;</td><td>水费(插卡式)</td><td align="center">2001-01-01</td><td align="center">2013-05-24</td><td>
+                                <span id="GridView1_ctl14_lblfcmc">中东首座</span>#<span id="GridView1_ctl14_Label2">1号楼</span>#<span id="GridView1_ctl14_Label3">1单元</span>#<span id="GridView1_ctl14_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">100.00</td><td align="right">100.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">现金</td><td align="center">临时</td><td>pms</td><td align="center">未审核</td><td>金额错误</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl15_Label1">14</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl15_del" type="checkbox" name="GridView1$ctl15$del"></span>
+                            </td><td align="center">2013-10-21</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK131021002&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl15_Labelyjje">A01TK131021002</span></a>
+                            </td><td align="center">2013-05-24</td><td>A01LS130524001</td><td>&nbsp;</td><td>管道直饮水</td><td align="center">2001-01-01</td><td align="center">2013-05-24</td><td>
+                                <span id="GridView1_ctl15_lblfcmc">中东首座</span>#<span id="GridView1_ctl15_Label2">1号楼</span>#<span id="GridView1_ctl15_Label3">1单元</span>#<span id="GridView1_ctl15_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">500.00</td><td align="right">500.00</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">现金</td><td align="center">临时</td><td>pms</td><td align="center">未审核</td><td>金额错误</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl16_Label1">15</span>
+                            </td><td align="center" style="height:18px;width:30px;">
+                                <span class="mybox"><input id="GridView1_ctl16_del" type="checkbox" name="GridView1$ctl16$del"></span>
+                            </td><td align="center">2013-10-21</td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/fysq/Tkdjsh.aspx#" onclick="javascript:popMod(&#39;../bbcx/Tkcx_prn.aspx?id=A01TK131021001&amp;fjid=1&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl16_Labelyjje">A01TK131021001</span></a>
+                            </td><td align="center">2011-11-03</td><td>A01SF111103001</td><td>sj20130002</td><td>取暖费</td><td align="center">2011-10-01</td><td align="center">2012-04-01</td><td>
+                                <span id="GridView1_ctl16_lblfcmc">中东首座</span>#<span id="GridView1_ctl16_Label2">1号楼</span>#<span id="GridView1_ctl16_Label3">1单元</span>#<span id="GridView1_ctl16_Label4">101室</span>
+                            </td><td>赵云</td><td align="right">15364.35</td><td align="right">15364.35</td><td align="right">0.00</td><td align="right">0.00</td><td align="center">现金</td><td align="center">常规</td><td>pms</td><td align="center">未审核</td><td>操作错误</td>
+		</tr><tr class="hkBottomStyle">
+			<td>&nbsp;</td><td>&nbsp;</td><td align="center" style="font-weight:bold;">合计</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td align="right">31391.56</td><td align="right">21635.05</td><td align="right">9756.32</td><td align="right">0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px;" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<div id="AspNetPager1" class="page_text" showinputbox="Auto" inputboxclass="pagetext">
+<div class="page_text" style="width:250px;float:left;">
+	<font color="#333333">共 25 行/每页15行 第1/2页</font>
+</div><div class="page_text" style="float:left;">
+	<a disabled="disabled" style="margin-right:5px;">首页</a><a disabled="disabled" style="margin-right:5px;">上页</a><span style="margin-right:5px;font-weight:Bold;color:red;">1</span><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">2</a><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">下页</a><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">末页</a>
+</div>
+</div>
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

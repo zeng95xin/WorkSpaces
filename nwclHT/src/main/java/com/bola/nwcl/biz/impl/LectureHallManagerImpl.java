@@ -1,0 +1,186 @@
+package com.bola.nwcl.biz.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.bola.nwcl.api.model.jpush.JPushChatModel;
+import com.bola.nwcl.biz.BizUserManager;
+import com.bola.nwcl.biz.LectureHallManager;
+import com.bola.nwcl.common.manager.ManagerImpl;
+import com.bola.nwcl.common.util.DateUtils;
+import com.bola.nwcl.common.util.FileuploadHelper;
+import com.bola.nwcl.common.util.file.FileUploadDeleteUtil;
+import com.bola.nwcl.common.util.notify.JPushUtil_Buser;
+import com.bola.nwcl.common.util.notify.NotifyUtil;
+import com.bola.nwcl.dal.mybatis.mapper.IndexesImgMapper;
+import com.bola.nwcl.dal.mybatis.mapper.LectureHallMapper;
+import com.bola.nwcl.dal.mybatis.model.Admin;
+import com.bola.nwcl.dal.mybatis.model.BizUser;
+import com.bola.nwcl.dal.mybatis.model.BizUserExample;
+import com.bola.nwcl.dal.mybatis.model.IndexesImg;
+import com.bola.nwcl.dal.mybatis.model.IndexesImgExample;
+import com.bola.nwcl.dal.mybatis.model.LectureHall;
+import com.bola.nwcl.dal.mybatis.model.LectureHallExample;
+
+@Service
+public class LectureHallManagerImpl extends
+		ManagerImpl<LectureHall, LectureHallExample, Long> implements
+		LectureHallManager {
+
+	@SuppressWarnings("unused")
+	private LectureHallMapper lectureHallMapper;
+	@Autowired NotifyUtil notifyUtil;
+	@Autowired BizUserManager bizUserManager;
+	@Autowired private IndexesImgMapper indexesImgMapper;
+	private static final String imgDir = "/upload/files/lectureHall";
+
+	@Autowired
+	public LectureHallManagerImpl(LectureHallMapper lectureHallMapper) {
+		this.mapper = lectureHallMapper;
+		this.lectureHallMapper = lectureHallMapper;
+	}
+
+	@Override
+	@Transactional(rollbackFor = Exception.class)
+	public void insertGenId(HttpServletRequest request, LectureHall hall,
+			String push, String recommended, String pushContent, String endTime1,
+			Date activityEndTime1, MultipartFile img1) throws Exception {
+		String path1 = null;
+		if (null != img1 && !img1.isEmpty()) {
+			String imageMaxSize = "20";// 允许文件的最大 单位M
+			String imageType = "jpeg|jpg|png";// 允许的后缀格式
+			String FileName1 = System.currentTimeMillis() + "";// 无后缀的文件名
+																// 可按照时间戳生成一个
+			FileuploadHelper.validate(img1, imageType, imageMaxSize);
+			FileName1 = FileUploadDeleteUtil.upload(img1, request, imgDir,
+					FileName1);
+			path1 = FileName1;
+		}
+		LectureHall model = new LectureHall();
+		Admin user = (Admin) request.getSession().getAttribute("loginUser");
+		model.setPublishId(user.getId());
+		model.setTitle(hall.getTitle());
+		model.setContent(hall.getContent());
+		Date date = DateUtils
+				.strToDate(endTime1, DateUtils.YYYY_MM_DD_HH_MM_SS);
+		model.setActivityEndTime(activityEndTime1);
+		model.setEndTime(date);
+		model.setImgPath(path1);
+		model.setRowAddTime(new Date());
+		model.setCommunityId(hall.getCommunityId());
+		lectureHallMapper.insertGenId(model);
+
+		if ("1".equals(push)) {
+
+			Long connunityId;
+			connunityId = hall.getCommunityId();
+			push(connunityId, pushContent, model.getId(), user.getId());
+			
+		}
+		
+		if("1".equals(recommended)){
+			IndexesImg img = new IndexesImg();
+			img.setCommunityId(model.getCommunityId());
+			img.setAppTitle(model.getTitle());
+			img.setUrl("app:1:"+model.getId());
+			img.setType(5);
+			img.setImgPath(model.getImgPath());
+			img.setImgPathThumbnail(model.getImgPath());
+			indexesImgMapper.insert(img);
+		}
+
+	}
+
+	@Override
+	@Transactional(rollbackFor = Exception.class)
+	public void edit(HttpServletRequest request, LectureHall hall, String push, String recommended,String pushContent, String endTime1, Date activityEndTime1,
+			MultipartFile img1) throws Exception {
+		String path1 = null;
+		LectureHall model = lectureHallMapper.selectByPrimaryKey(hall.getId());
+		if (null != img1 && !img1.isEmpty()) {
+			String imageMaxSize = "20";// 允许文件的最大 单位M
+			String imageType = "jpeg|jpg|png";// 允许的后缀格式
+			String FileName1 = System.currentTimeMillis() + "";// 无后缀的文件名  可按照时间戳生成一个
+			FileuploadHelper.validate(img1, imageType, imageMaxSize);
+			FileName1 = FileUploadDeleteUtil.upload(img1, request, imgDir, FileName1);
+			path1 = FileName1;
+			
+			//删除原来的图片
+			String path = model.getImgPath();
+			FileUploadDeleteUtil.delete(path);
+			
+		}			
+		
+		Admin user = (Admin)request.getSession().getAttribute("loginUser");
+		model.setPublishId(user.getId());
+		model.setTitle(hall.getTitle());
+		model.setContent(hall.getContent());
+		model.setCommunityId(hall.getCommunityId());
+		model.setImgPath("");
+		
+		if (endTime1 != null) {
+			Date date = DateUtils.strToDate(endTime1, DateUtils.YYYY_MM_DD_HH_MM_SS);
+			model.setEndTime(date);
+		}
+		
+		model.setActivityEndTime(activityEndTime1);
+		if (path1!=null) {
+			model.setImgPath(path1);
+		}		
+		lectureHallMapper.updateByPrimaryKeySelective(model);
+		
+		
+		if ("1".equals(push)) {
+
+			Long connunityId;
+			if (user.getRoleId() == 1) {
+				connunityId = hall.getCommunityId();
+			} else {
+				connunityId = user.getCommunityId();
+			}
+
+			push(connunityId, pushContent, model.getId(), user.getId());
+			
+		}
+		
+		if("1".equals(recommended)){
+			IndexesImg img = new IndexesImg();
+			img.setCommunityId(hall.getCommunityId());
+			String url = "app:1:"+model.getId();
+			IndexesImgExample example_index_img = new IndexesImgExample();
+			example_index_img.or().andUrlEqualTo(url);
+			if(indexesImgMapper.countByExample(example_index_img) < 1){
+				img.setAppTitle(model.getTitle());
+				img.setUrl("app:1:"+model.getId());
+				img.setType(5);
+				img.setImgPath(model.getImgPath());
+				img.setImgPathThumbnail(model.getImgPath());
+				indexesImgMapper.insert(img);
+			}
+		}
+		
+	}
+	
+	@SuppressWarnings("unused")
+	private void push(Long connunityId,String pushContent,Long id,Long userId) {
+		BizUserExample bizUserExample = new BizUserExample();
+		bizUserExample.or().andCommunityIdEqualTo(connunityId);
+		List<BizUser> bizUser = bizUserManager.selectByExample(bizUserExample);
+		// 消息
+		notifyUtil.send("业主讲堂提示", pushContent, "11:" + id+ ":-1", userId, bizUser, null);
+		// 推送
+		JPushChatModel jPushChatModel = new JPushChatModel();
+		jPushChatModel.setType("11:" + id + ":-1");
+		jPushChatModel.setTitle("业主讲堂提示");
+		jPushChatModel.setContent(pushContent);
+		JPushUtil_Buser.sendToBuser(jPushChatModel, bizUser);
+	}
+
+}

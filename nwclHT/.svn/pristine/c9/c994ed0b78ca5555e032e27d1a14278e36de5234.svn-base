@@ -1,0 +1,80 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0047)http://hkoffice.uicp.net:91/pms/fxsz/gtffb.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>公摊费分布</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="公摊费分布_files/Main.css">
+<SCRIPT type=text/javascript src="公摊费分布_files/MyJs.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 method=post name=form1 action=gtffb.aspx>
+<DIV><INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=/wEPDwUKLTk0NDc3NjM0Mg9kFgICAQ9kFgQCAw88KwARAgAPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAmQBEBYAFgAWABYCZg9kFgYCAQ8PZBYCHgdvbmNsaWNrBRlqYXZhc2NyaXB0OmNoYW5nZUJnKHRoaXMpFhJmD2QWAgIBDw8WAh4EVGV4dAUBMWRkAgEPDxYCHwMFATFkZAICDw8WAh8DBQ/mtbfmt4DlrZDlhazlj7hkZAIDDw8WAh8DBQQwMDAxZGQCBA9kFgICAQ8PFgIfAwUO5rC06LS5KOWFrOaRiilkZAIFDw8WAh8DBQzmjInkvb/nlKjph49kZAIGDw8WAh8DBQYyLjEwMDBkZAIHDw8WAh8DBQExZGQCCA9kFgJmDxUDATEO5rC06LS5KOWFrOaRiikDQTA0ZAICDw9kFgIfAgUZamF2YXNjcmlwdDpjaGFuZ2VCZyh0aGlzKRYSZg9kFgICAQ8PFgIfAwUBMmRkAgEPDxYCHwMFATJkZAICDw8WAh8DBQ/mtbfmt4DlrZDlhazlj7hkZAIDDw8WAh8DBQQwMDAyZGQCBA9kFgICAQ8PFgIfAwUO55S16LS5KOWFrOaRiilkZAIFDw8WAh8DBQzmjInkvb/nlKjph49kZAIGDw8WAh8DBQYwLjU0ODBkZAIHDw8WAh8DBQExZGQCCA9kFgJmDxUDATIO55S16LS5KOWFrOaRiikDQTA0ZAIDDw8WAh4HVmlzaWJsZWhkZAIFDw8WBB4IUGFnZVNpemUCDx4LUmVjb3JkY291bnQCAmRkGAEFCUdyaWRWaWV3MQ88KwAMAwYVAQZmeHN6aWQHFCsAAhQrAAECARQrAAECAggCAWR2lM6LMZ7bi1eLTuel3itoc8MNnSgY3yU1PLdELV0ckw== 
+type=hidden> </DIV>
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=5A1E3B77 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD 
+      style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px"><TABLE 
+      style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>公摊费分布 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%" align=center>
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 40px">&nbsp;<FONT color=red>提示：下面列出了【按使用量 + 
+            公摊费类型】的费用项目</FONT> </TD>
+          <TD align=right><INPUT id=RecBtn class=mybtn name=RecBtn value=" 刷新 " type=submit> 
+          </TD></TR>
+        <TR>
+          <TD colSpan=2>
+            <DIV>
+            <TABLE 
+            style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+            id=GridView1 border=0 rules=all cellSpacing=0>
+              <TBODY>
+              <TR class=hkHeadStyle>
+                <TD style="WIDTH: 30px"><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  alt=序号 src="公摊费分布_files/refresh.gif"></TD>
+                <TD class=hidden>自动编码</TD>
+                <TD style="WIDTH: 150px">所属公司</TD>
+                <TD style="WIDTH: 80px">费项编号</TD>
+                <TD>费项名称</TD>
+                <TD style="WIDTH: 100px">收费方式</TD>
+                <TD style="WIDTH: 70px">单位价格</TD>
+                <TD style="WIDTH: 100px">收费周期(月)</TD>
+                <TD style="WIDTH: 70px">操作</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+                <TD class=hidden>1</TD>
+                <TD>海淀子公司</TD>
+                <TD>0001</TD>
+                <TD><SPAN id=GridView1_ctl02_Labelyjje>水费(公摊)</SPAN> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>2.1000</TD>
+                <TD align=right>1</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popMod('gtffb_view.aspx?fxid=1&amp;fxmc=水费(公摊)&amp;ssgs=A04')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/gtffb.aspx#">费用设置</A> 
+                </TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+                <TD class=hidden>2</TD>
+                <TD>海淀子公司</TD>
+                <TD>0002</TD>
+                <TD><SPAN id=GridView1_ctl03_Labelyjje>电费(公摊)</SPAN> </TD>
+                <TD align=center>按使用量</TD>
+                <TD align=right>0.5480</TD>
+                <TD align=right>1</TD>
+                <TD align=center><A class=gvlink 
+                  onclick="javascript:popMod('gtffb_view.aspx?fxid=2&amp;fxmc=电费(公摊)&amp;ssgs=A04')" 
+                  href="http://hkoffice.uicp.net:91/pms/fxsz/gtffb.aspx#">费用设置</A> 
+                </TD></TR></TBODY></TABLE></DIV></TD></TR>
+        <TR>
+          <TD style="HEIGHT: 22px" colSpan=2><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --><!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！--><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

@@ -1,0 +1,230 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>车位维护</title>
+    
+    <link href="./车位维护_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./车位维护_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="Form1" method="post" action="./车位维护_files/车位维护.html" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5D5D7A93">
+</div>
+    <table cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);" colspan="2">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            车位维护
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 40px;">
+                &nbsp;车位状态：<select name="status" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;status\&#39;,\&#39;\&#39;)&#39;, 0)" id="status">
+	<option selected="selected" value="">所有</option>
+	<option value="空闲">空闲</option>
+	<option value="已售">已售</option>
+	<option value="已租">已租</option>
+
+</select>
+                车位编号：<input name="cwbh" type="text" id="cwbh" class="mytext" style="width:150px;">
+                <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                <input type="button" name="AddBtn" value="增加" class="mybtn" onclick="javascript:popAdd(&#39;cwgl_view.aspx&#39;);">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 7px; padding-right: 7px" height="25" colspan="2">
+                <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./车位维护_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td>所属公司</td><td>房产</td><td>车位编号</td><td style="width:40px;">状态</td><td style="width:65px;">车位类别</td><td style="width:65px;">管理类别</td><td style="width:70px;">预售价格</td><td style="width:70px;">预租价格</td><td>位置</td><td>面积</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl02_Label1">1</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl02_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl02_Labelsdate">0001</span>
+                                </a>
+                            </td><td align="center">已租</td><td align="center">地上</td><td align="center">物业租赁</td><td align="right">50000.00</td><td align="right">800.00</td><td>1号楼东侧</td><td align="right">12.23</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl03_Label1">2</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl03_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0002&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl03_Labelsdate">0002</span>
+                                </a>
+                            </td><td align="center">已售</td><td align="center">地下</td><td align="center">业主自用</td><td align="right">50000.00</td><td align="right">800.00</td><td>1号楼东侧</td><td align="right">14.80</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl04_Label1">3</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl04_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0003&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl04_Labelsdate">0003</span>
+                                </a>
+                            </td><td align="center">已售</td><td align="center">地上</td><td align="center">业主自用</td><td align="right">60000.00</td><td align="right">1000.00</td><td>广场西侧</td><td align="right">12.00</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl05_Label1">4</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl05_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0004&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl05_Labelsdate">0004</span>
+                                </a>
+                            </td><td align="center">已租</td><td align="center">地下</td><td align="center">物业租赁</td><td align="right">60000.00</td><td align="right">1000.00</td><td>广场西侧</td><td align="right">11.98</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl06_Label1">5</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl06_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0005&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl06_Labelsdate">0005</span>
+                                </a>
+                            </td><td align="center">空闲</td><td align="center">地上</td><td align="center">物业自用</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">7.98</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl07_Label1">6</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl07_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0006&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl07_Labelsdate">0006</span>
+                                </a>
+                            </td><td align="center">已租</td><td align="center">地下</td><td align="center">代理租赁</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">0.00</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl08_Label1">7</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl08_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0007&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl08_Labelsdate">0007</span>
+                                </a>
+                            </td><td align="center">已租</td><td align="center">地上</td><td align="center">物业租赁</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">0.00</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl09_Label1">8</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl09_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0008&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl09_Labelsdate">0008</span>
+                                </a>
+                            </td><td align="center">已租</td><td align="center">地下</td><td align="center">物业租赁</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">0.00</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl10_Label1">9</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl10_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0009&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl10_Labelsdate">0009</span>
+                                </a>
+                            </td><td align="center">已租</td><td align="center">地上</td><td align="center">物业租赁</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">0.00</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl11_Label1">10</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl11_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0010&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl11_Labelsdate">0010</span>
+                                </a>
+                            </td><td align="center">已售</td><td align="center">地上</td><td align="center">业主自用</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">0.00</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl12_Label1">11</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl12_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0011&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl12_Labelsdate">0011</span>
+                                </a>
+                            </td><td align="center">已售</td><td align="center">地上</td><td align="center">业主自用</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">0.00</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl13_Label1">12</span>
+                            </td><td>海淀子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl13_Labelyjje">中东首座</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=0012&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl13_Labelsdate">0012</span>
+                                </a>
+                            </td><td align="center">空闲</td><td align="center">地上</td><td align="center">物业租赁</td><td align="right">0.00</td><td align="right">0.00</td><td>&nbsp;</td><td align="right">0.00</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl14_Label1">13</span>
+                            </td><td>宣武子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl14_Labelyjje">电子大厦</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=B001&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl14_Labelsdate">B001</span>
+                                </a>
+                            </td><td align="center">已售</td><td align="center">地上</td><td align="center">业主自用</td><td align="right">12000.00</td><td align="right">1200.00</td><td>1号楼东南角</td><td align="right">14.31</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                <span id="GridView1_ctl15_Label1">14</span>
+                            </td><td>宣武子公司</td><td style="white-space:nowrap;">
+                                <span id="GridView1_ctl15_Labelyjje">电子大厦</span>
+                            </td><td>
+                                <a href="http://hkoffice.uicp.net:91/pms/cwgl/cwgl.aspx#" onclick="javascript:popMod(&#39;Cwgl_View.aspx?&amp;id=B002&#39;)" class="gvlink">
+                                    <span id="GridView1_ctl15_Labelsdate">B002</span>
+                                </a>
+                            </td><td align="center">空闲</td><td align="center">地下</td><td align="center">业主自用</td><td align="right">118000.00</td><td align="right">1200.00</td><td>1号楼东北角</td><td align="right">10.57</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 22px" colspan="2">
+                
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

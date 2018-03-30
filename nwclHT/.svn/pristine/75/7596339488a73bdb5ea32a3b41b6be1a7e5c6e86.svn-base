@@ -1,0 +1,41 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd 
+			http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+	<!-- spring定时任务配置 	 -->
+	<bean id="chargeNotifyTimer" class="com.bola.nwcl.web.timer.NotificationTimer"></bean>
+	 <!-- 配置定时要定时的类 -->
+	<bean id="industryDynamicTimerAdd" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="chargeNotifyTimer"></property><!-- 调用的类 -->
+		<property name="targetMethod" value="sendNotification"></property><!-- 方法名 -->
+	</bean>
+	<!-- 定义触发时间 -->
+	<bean id="industryDynamicTimerAddStart" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="industryDynamicTimerAdd"></property>
+		<property name="cronExpression" value="0 0 6 27 * ?"> 
+		<!-- <property name="cronExpression" value="30 * * * * ?"> --></property><!-- 一个小时一次 -->
+	</bean>
+	<!-- 总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序  -->
+	<bean id="schedulerFactoryBean" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="industryDynamicTimerAddStart" />
+			</list>
+		</property>
+		<!-- 线程池线程个数 -->
+		<property name="quartzProperties">
+			<props>
+				<prop key="org.quartz.threadPool.threadCount">1</prop>
+			</props>
+		</property>
+	</bean>
+	
+</beans>

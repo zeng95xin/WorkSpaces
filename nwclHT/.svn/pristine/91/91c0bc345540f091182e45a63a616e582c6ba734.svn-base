@@ -1,0 +1,295 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>业主装修</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="业主装修_files/Main.css">
+<SCRIPT type=text/javascript src="业主装修_files/MyJs.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="业主装修_files/WebCalendar.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16737"></HEAD>
+<BODY class=main>
+<FORM id=form1 method=post name=form1 action=zhzx.aspx>
+<DIV><INPUT id=__EVENTTARGET name=__EVENTTARGET type=hidden> <INPUT 
+id=__EVENTARGUMENT name=__EVENTARGUMENT type=hidden> <INPUT id=__LASTFOCUS 
+name=__LASTFOCUS type=hidden> <INPUT id=__VIEWSTATE name=__VIEWSTATE 
+value=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 
+type=hidden> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__VIEWSTATEGENERATOR name=__VIEWSTATEGENERATOR value=880E9360 
+type=hidden> </DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD 
+      style="BACKGROUND-IMAGE: url(../../images/topic_li.gif); HEIGHT: 20px"><TABLE 
+      style="HEIGHT: 100%" border=0 cellSpacing=0 cellPadding=0 width=157>
+        <TBODY>
+        <TR>
+          <TD class=td_title align=center>业主装修 </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="98%" align=center>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE border=0 cellSpacing=0 cellPadding=2>
+              <TBODY>
+              <TR>
+                <TD align=right>选择房产： </TD>
+                <TD><SELECT style="WIDTH: 150px" id=xq 
+                  onchange="javascript:setTimeout('__doPostBack(\'xq\',\'\')', 0)" 
+                  name=xq> <OPTION selected value=""></OPTION> <OPTION 
+                    value=1>中东首座</OPTION> <OPTION value=2>盈科大厦</OPTION> <OPTION 
+                    value=3>孔雀英国宫</OPTION> <OPTION value=4>电子大厦</OPTION> <OPTION 
+                    value=8>菜批市场</OPTION> <OPTION value=19>东风仓库</OPTION> <OPTION 
+                    value=20>地下车库</OPTION> <OPTION value=23>asdas</OPTION> 
+                    <OPTION value=24>乐福小区</OPTION></SELECT> </TD>
+                <TD align=right>楼宇： </TD>
+                <TD><SELECT style="WIDTH: 150px" id=ly 
+                  onchange="javascript:setTimeout('__doPostBack(\'ly\',\'\')', 0)" 
+                  name=ly></SELECT> </TD>
+                <TD align=right>单元/楼层： </TD>
+                <TD><SELECT style="WIDTH: 150px" id=dy 
+                  onchange="javascript:setTimeout('__doPostBack(\'dy\',\'\')', 0)" 
+                  name=dy></SELECT> </TD></TR>
+              <TR>
+                <TD align=right>房间： </TD>
+                <TD><SELECT style="WIDTH: 150px" id=cellname class=mytext 
+                  name=cellname></SELECT> </TD>
+                <TD align=right>状态： </TD>
+                <TD><SELECT style="WIDTH: 150px" id=zt class=mytext name=zt> 
+                    <OPTION selected value=""></OPTION> <OPTION 
+                    value=待审批>待审批</OPTION> <OPTION value=审批通过>审批通过</OPTION> 
+                    <OPTION value=已验收>已验收</OPTION> <OPTION 
+                  value=已作废>已作废</OPTION></SELECT> </TD>
+                <TD align=right>申请人： </TD>
+                <TD><INPUT style="WIDTH: 150px" id=sqr class=mytext name=sqr> 
+                </TD></TR>
+              <TR>
+                <TD align=right>装修内容： </TD>
+                <TD><INPUT style="WIDTH: 150px" id=zxnr class=mytext 
+                  name=zxnr> </TD>
+                <TD align=right>申请日期： </TD>
+                <TD colSpan=3><INPUT style="WIDTH: 90px" id=sqrq_s 
+                  class=mytext onclick="SelectDate(this,'yyyy-MM-dd')" 
+                  name=sqrq_s>至<INPUT style="WIDTH: 90px" id=sqrq_e class=mytext 
+                  onclick="SelectDate(this,'yyyy-MM-dd')" name=sqrq_e> </TD></TR>
+              <TR>
+                <TD align=right>&nbsp; </TD>
+                <TD colSpan=5><INPUT id=QueryBtn class=mybtn name=QueryBtn value=查询 type=submit> 
+<INPUT id=ClearBtn class=mybtn name=ClearBtn value=清空 type=submit> 
+<INPUT class=mybtn onclick="javascript:popAdd('zhzx_add.aspx');" name=AddBtn value=增加 type=button> 
+<INPUT id=ExpBtn class=mybtn name=ExpBtn value=导出 type=submit> 
+                  关键词：<INPUT style="WIDTH: 50px" id=txtKeyText class=mytext 
+                  title=请输入房间名称,支持模糊定位 name=txtKeyText> <INPUT style="WIDTH: 70px" id=btnFind class=mybtn title=用于快速定位房间下拉框 name=btnFind value=定位房间 type=submit> 
+                </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV>
+            <TABLE 
+            style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: silver; WIDTH: 1250px; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+            id=GridView1 border=0 rules=all cellSpacing=0>
+              <TBODY>
+              <TR class=hkHeadStyle>
+                <TD style="WIDTH: 30px"><IMG 
+                  style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" 
+                  alt=序号 src="业主装修_files/refresh.gif"></TD>
+                <TD>所属公司</TD>
+                <TD>房产</TD>
+                <TD style="WIDTH: 70px">申请人</TD>
+                <TD style="WIDTH: 80px">申请日期</TD>
+                <TD style="WIDTH: 70px">装修保证金</TD>
+                <TD style="WIDTH: 70px">违约金</TD>
+                <TD style="WIDTH: 70px">状态</TD>
+                <TD>装修内容</TD>
+                <TD style="WIDTH: 80px">审批人</TD>
+                <TD style="WIDTH: 120px">审批时间</TD>
+                <TD style="WIDTH: 80px">标识</TD></TR>
+              <TR style="COLOR: gray" class=hkRowStyle 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl02_Label1>1</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=15&amp;cellid=14')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl02_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl02_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl02_Label3>2单元</SPAN>#<SPAN 
+                  id=GridView1_ctl02_Label4>102室</SPAN></A> </TD>
+                <TD align=center>蒋干</TD>
+                <TD align=center>2015-05-12</TD>
+                <TD align=right>500.00</TD>
+                <TD align=right>&nbsp;</TD>
+                <TD align=center>已作废</TD>
+                <TD>旧房改造</TD>
+                <TD align=center>物业系统管理员</TD>
+                <TD align=center>2015-05-12 22:03</TD>
+                <TD align=center>物业人员录入</TD></TR>
+              <TR style="COLOR: green" class=hkAltRowStyle 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl03_Label1>2</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=14&amp;cellid=14')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl03_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl03_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl03_Label3>2单元</SPAN>#<SPAN 
+                  id=GridView1_ctl03_Label4>102室</SPAN></A> </TD>
+                <TD align=center>蒋干</TD>
+                <TD align=center>2015-05-15</TD>
+                <TD align=right>500.00</TD>
+                <TD align=right>&nbsp;</TD>
+                <TD align=center>审批通过</TD>
+                <TD>旧房改造</TD>
+                <TD align=center>物业系统管理员</TD>
+                <TD align=center>2015-05-12 21:59</TD>
+                <TD align=center>物业人员录入</TD></TR>
+              <TR style="COLOR: green" class=hkRowStyle 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl04_Label1>3</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=11&amp;cellid=3')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl04_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl04_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl04_Label3>1单元</SPAN>#<SPAN 
+                  id=GridView1_ctl04_Label4>201室</SPAN></A> </TD>
+                <TD align=center>黄忠</TD>
+                <TD align=center>2013-01-01</TD>
+                <TD align=right>3000.00</TD>
+                <TD align=right>&nbsp;</TD>
+                <TD align=center>审批通过</TD>
+                <TD>申请重新翻修地板</TD>
+                <TD align=center>物业系统管理员</TD>
+                <TD align=center>2013-01-07 16:36</TD>
+                <TD align=center>物业人员录入</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl05_Label1>4</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=10&amp;cellid=2')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl05_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl05_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl05_Label3>1单元</SPAN>#<SPAN 
+                  id=GridView1_ctl05_Label4>102室</SPAN></A> </TD>
+                <TD align=center>黄盖</TD>
+                <TD align=center>2012-12-25</TD>
+                <TD align=right>3000.00</TD>
+                <TD align=right>500.00</TD>
+                <TD align=center>已验收</TD>
+                <TD>收房后整体装修</TD>
+                <TD align=center>物业系统管理员</TD>
+                <TD align=center>2012-12-25 16:06</TD>
+                <TD align=center>业主录入</TD></TR>
+              <TR style="COLOR: red" class=hkRowStyle 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl06_Label1>5</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=8&amp;cellid=1')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl06_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl06_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl06_Label3>1单元</SPAN>#<SPAN 
+                  id=GridView1_ctl06_Label4>101室</SPAN></A> </TD>
+                <TD align=center>阿易</TD>
+                <TD align=center>2011-09-08</TD>
+                <TD align=right>&nbsp;</TD>
+                <TD align=right>&nbsp;</TD>
+                <TD align=center>待审批</TD>
+                <TD>打一个隔断和作一个飘窗</TD>
+                <TD align=center>&nbsp;</TD>
+                <TD align=center>&nbsp;</TD>
+                <TD align=center>业主录入</TD></TR>
+              <TR class=hkAltRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl07_Label1>6</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=7&amp;cellid=1')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl07_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl07_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl07_Label3>1单元</SPAN>#<SPAN 
+                  id=GridView1_ctl07_Label4>101室</SPAN></A> </TD>
+                <TD align=center>阿易</TD>
+                <TD align=center>2011-09-08</TD>
+                <TD align=right>1000.00</TD>
+                <TD align=right>100.00</TD>
+                <TD align=center>已验收</TD>
+                <TD>申请对厨房翻修一下</TD>
+                <TD align=center>系统管理员</TD>
+                <TD align=center>2011-09-08 19:43</TD>
+                <TD align=center>业主录入</TD></TR>
+              <TR class=hkRowStyle onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl08_Label1>7</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=6&amp;cellid=1')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl08_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl08_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl08_Label3>1单元</SPAN>#<SPAN 
+                  id=GridView1_ctl08_Label4>101室</SPAN></A> </TD>
+                <TD align=center>阿易</TD>
+                <TD align=center>2011-09-08</TD>
+                <TD align=right>2000.00</TD>
+                <TD align=right>0.00</TD>
+                <TD align=center>已验收</TD>
+                <TD>申请对客厅和卫生间精装修一下</TD>
+                <TD align=center>系统管理员</TD>
+                <TD align=center>2011-09-08 19:43</TD>
+                <TD align=center>业主录入</TD></TR>
+              <TR style="COLOR: red" class=hkAltRowStyle 
+              onclick=javascript:changeBg(this)>
+                <TD align=center><SPAN id=GridView1_ctl09_Label1>8</SPAN> </TD>
+                <TD>海淀子公司</TD>
+                <TD><A class=gvlink 
+                  onclick="javascript:popView('zhzx_mod.aspx?id=3&amp;cellid=1')" 
+                  href="http://hkoffice.uicp.net:91/pms/yzgl/zhzx.aspx#"><SPAN 
+                  id=GridView1_ctl09_Labelyjje>中东首座</SPAN>#<SPAN 
+                  id=GridView1_ctl09_Label2>1号楼</SPAN>#<SPAN 
+                  id=GridView1_ctl09_Label3>1单元</SPAN>#<SPAN 
+                  id=GridView1_ctl09_Label4>101室</SPAN></A> </TD>
+                <TD align=center>刘备</TD>
+                <TD align=center>2008-06-19</TD>
+                <TD align=right>15000.00</TD>
+                <TD align=right>&nbsp;</TD>
+                <TD align=center>待审批</TD>
+                <TD>将客厅非承重墙打掉，增加采光</TD>
+                <TD align=center>&nbsp;</TD>
+                <TD align=center>2008-06-21 00:00</TD>
+                <TD align=center>物业人员录入</TD></TR>
+              <TR class=hkBottomStyle>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD style="FONT-WEIGHT: bold" align=center>合计</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD align=right>25000.00</TD>
+                <TD align=right>600.00</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD></TR></TBODY></TABLE></DIV></TD></TR>
+        <TR>
+          <TD style="HEIGHT: 22px"><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --><!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！--><!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) --></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></BODY></HTML>

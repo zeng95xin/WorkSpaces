@@ -1,0 +1,287 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <link href="./业主信息_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./业主信息_files/MyJs.js"></script>
+    <title>业主信息</title>
+</head>
+<body class="main">
+    <form name="form1" method="post" action="./业主信息_files/业主信息.html" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1EC943AC">
+</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            业主信息
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px">
+                            房间编码：<input name="fjbm" type="text" id="fjbm" class="mytext" style="width:100px;">
+                            快速检索：<select name="query_tj" id="query_tj">
+	<option selected="selected" value="a.code">业主编码</option>
+	<option value="a.name">业主姓名</option>
+	<option value="a.zjhm">证件号码</option>
+	<option value="a.gzdw">工作单位</option>
+	<option value="a.lxdh">手机号码</option>
+	<option value="a.lxdz">联系地址</option>
+	<option value="a.yhzh">银行帐号</option>
+	<option value="a.JJLXRXM">紧急联系人</option>
+	<option value="a.MEMO">备注</option>
+
+</select>
+                            <input name="query_content" type="text" id="query_content" class="mytext" style="width:120px;">
+                            <select name="yzlx" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;yzlx\&#39;,\&#39;\&#39;)&#39;, 0)" id="yzlx">
+	<option selected="selected" value="">全部业主</option>
+	<option value="正式业主">正式业主</option>
+	<option value="临时业主">临时业主</option>
+
+</select>
+                        </td>
+                        <td align="right">
+                            <input type="submit" name="QueryBtn" value="查询" id="QueryBtn" class="mybtn">
+                            <input type="button" name="AddBtn" value="增加" class="mybtn" onclick="javascript:popView(&#39;Yzxx_View.aspx&#39;);">
+                            <input type="submit" name="StopBtn" value="停用" onclick="return confirm(&#39;确认要执行停用吗？&#39;);" id="StopBtn" class="mybtn">
+                            <input type="submit" name="PassBtn" value="恢复" onclick="return confirm(&#39;确认要执行恢复吗？&#39;);" id="PassBtn" class="mybtn">
+                            <input type="submit" name="RefBtn" value="刷新" id="RefBtn" class="mybtn">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./业主信息_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:30px;">
+                                            <input id="chkall" type="checkbox" onclick="chkAll();" title="全选或全不选" style="width: 16;
+                                                height: 16">
+                                        </td><td>所属公司</td><td>业主编码</td><td style="width:70px;">姓名</td><td style="width:30px;">性别</td><td style="width:80px;">出生日期</td><td>证件号码</td><td>手机号码</td><td style="width:40px;">状态</td><td style="width:170px;">操作</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl02_Label1">1</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl02_del" type="checkbox" name="GridView1$ctl02$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=162&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl02_Labelyjje">A11101</span></a>
+                                        </td><td>赵云</td><td align="center">男</td><td align="center">1969-12-31</td><td>15043019500101101</td><td>13811223344</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=162&#39;)" class="gvlink">家庭成员(2)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=162&#39;)" class="gvlink">房产登记(2)</a>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl03_Label1">2</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl03_del" type="checkbox" name="GridView1$ctl03$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=163&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl03_Labelyjje">A11102</span></a>
+                                        </td><td>黄盖</td><td align="center">男</td><td align="center">1958-7-7</td><td>15043019580715101</td><td>13812321112</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=163&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=163&#39;)" class="gvlink">房产登记(2)</a>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl04_Label1">3</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl04_del" type="checkbox" name="GridView1$ctl04$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=164&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl04_Labelyjje">A11201</span></a>
+                                        </td><td>小乔</td><td align="center">女</td><td align="center">1972-12-30</td><td>15043019670704102</td><td>13812321113</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=164&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=164&#39;)" class="gvlink">房产登记(2)</a>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl05_Label1">4</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl05_del" type="checkbox" name="GridView1$ctl05$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=165&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl05_Labelyjje">A11202</span></a>
+                                        </td><td>大乔</td><td align="center">女</td><td align="center">1970-10-5</td><td>15043019630415102</td><td>13812321114</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=165&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=165&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl06_Label1">5</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl06_del" type="checkbox" name="GridView1$ctl06$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=166&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl06_Labelyjje">A11301</span></a>
+                                        </td><td>鲁子敬</td><td align="center">男</td><td align="center">1962-12-28</td><td>15043019600914101</td><td>13812321115</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=166&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=166&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl07_Label1">6</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl07_del" type="checkbox" name="GridView1$ctl07$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=167&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl07_Labelyjje">A11302</span></a>
+                                        </td><td>吕蒙</td><td align="center">男</td><td align="center">1977-4-2</td><td>15043019700101223</td><td>13588223322</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=167&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=167&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl08_Label1">7</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl08_del" type="checkbox" name="GridView1$ctl08$del"></span>
+                                        </td><td>朝阳子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=168&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl08_Labelyjje">B11101</span></a>
+                                        </td><td>马超</td><td align="center">男</td><td align="center">1965-11-23</td><td>15043019680701102</td><td>13812321116</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=168&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=168&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl09_Label1">8</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl09_del" type="checkbox" name="GridView1$ctl09$del"></span>
+                                        </td><td>朝阳子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=169&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl09_Labelyjje">B11102</span></a>
+                                        </td><td>夏侯敦</td><td align="center">男</td><td align="center">1970-9-14</td><td>15043019670704101</td><td>13812321117</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=169&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=169&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl10_Label1">9</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl10_del" type="checkbox" name="GridView1$ctl10$del"></span>
+                                        </td><td>朝阳子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=170&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl10_Labelyjje">B12201</span></a>
+                                        </td><td>貂禅</td><td align="center">女</td><td align="center">1975-8-8</td><td>15043019670704102</td><td>13812321118</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=170&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=170&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)" style="color:Red;">
+			<td align="center">
+                                            <span id="GridView1_ctl11_Label1">10</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl11_del" type="checkbox" name="GridView1$ctl11$del"></span>
+                                        </td><td>朝阳子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=171&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl11_Labelyjje">B12202</span></a>
+                                        </td><td>孟获</td><td align="center">男</td><td align="center">1958-2-11</td><td>15043019600914101</td><td>13812321119</td><td align="center">停用</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=171&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=171&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)" style="color:Red;">
+			<td align="center">
+                                            <span id="GridView1_ctl12_Label1">11</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl12_del" type="checkbox" name="GridView1$ctl12$del"></span>
+                                        </td><td>朝阳子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=172&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl12_Labelyjje">B13301</span></a>
+                                        </td><td>司马昭</td><td align="center">男</td><td align="center">1970-3-9</td><td>15043019670704101</td><td>13812321120</td><td align="center">停用</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=172&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=172&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl13_Label1">12</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl13_del" type="checkbox" name="GridView1$ctl13$del"></span>
+                                        </td><td>朝阳子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=176&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl13_Labelyjje">A11303</span></a>
+                                        </td><td>张辽</td><td align="center">男</td><td align="center">1965-11-23</td><td>150430196607073321</td><td>15811112222</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=176&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=176&#39;)" class="gvlink">房产登记(0)</a>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl14_Label1">13</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl14_del" type="checkbox" name="GridView1$ctl14$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=179&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl14_Labelyjje">A11305</span></a>
+                                        </td><td>郭嘉</td><td align="center">男</td><td align="center">1963/9/21</td><td>15043019700101223</td><td>13588223322</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=179&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=179&#39;)" class="gvlink">房产登记(0)</a>
+                                        </td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl15_Label1">14</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl15_del" type="checkbox" name="GridView1$ctl15$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=180&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl15_Labelyjje">A11304</span></a>
+                                        </td><td>华雄</td><td align="center">男</td><td align="center">1962-12-28</td><td>15043019600914101</td><td>13812321115</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=180&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=180&#39;)" class="gvlink">房产登记(0)</a>
+                                        </td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl16_Label1">15</span>
+                                        </td><td align="center" style="height:18px;width:30px;">
+                                            <span class="mybox"><input id="GridView1_ctl16_del" type="checkbox" name="GridView1$ctl16$del"></span>
+                                        </td><td>海淀子公司</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popView(&#39;Yzxx_View.aspx?id=182&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl16_Labelyjje">A01B-1U-2102</span></a>
+                                        </td><td>蒋干</td><td align="center">&nbsp;</td><td align="center">&nbsp;</td><td>15043019650101201</td><td>13811223355</td><td align="center">正常</td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Jtcy.aspx?ownerid=182&#39;)" class="gvlink">家庭成员(0)</a>&nbsp;<a href="http://hkoffice.uicp.net:91/pms/yzgl/yzxx.aspx#" onclick="javascript:popMod(&#39;Yzxx_Fcdj.aspx?ownerid=182&#39;)" class="gvlink">房产登记(1)</a>
+                                        </td>
+		</tr>
+	</tbody></table>
+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 22px">
+                            
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<div id="AspNetPager1" class="page_text" showinputbox="Auto" inputboxclass="pagetext">
+<div class="page_text" style="width:250px;float:left;">
+	<font color="#333333">共 17 行/每页15行 第1/2页</font>
+</div><div class="page_text" style="float:left;">
+	<a disabled="disabled" style="margin-right:5px;">首页</a><a disabled="disabled" style="margin-right:5px;">上页</a><span style="margin-right:5px;font-weight:Bold;color:red;">1</span><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">2</a><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">下页</a><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">末页</a>
+</div>
+</div>
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

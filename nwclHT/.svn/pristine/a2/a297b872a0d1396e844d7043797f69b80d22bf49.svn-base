@@ -1,0 +1,126 @@
+
+<!-- saved from url=(0047)http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <link href="./滞纳金设置(车位)_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./滞纳金设置(车位)_files/MyJs.js"></script>
+    <title>滞纳金设置(车位)</title>
+</head>
+<body class="main">
+    <form name="form1" method="post" action="./滞纳金设置(车位)_files/滞纳金设置(车位).html" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2D7CF07C">
+</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            滞纳金设置(车位)
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td style="height: 40px">
+                            <font color="red">滞纳金公式 = 应收费用 * 滞纳金比率 * 超期天数</font>
+                        </td>
+                        <td align="right">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div>
+	<table cellspacing="0" rules="all" border="0" id="GridView1" style="background-color:Silver;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+		<tbody><tr class="hkHeadStyle">
+			<td style="width:30px;"><img src="./滞纳金设置(车位)_files/refresh.gif" alt="序号" style="border-width:0px;"></td><td style="width:80px;">房产编码</td><td style="width:180px;">房产名称</td><td>所属公司</td><td style="width:160px;">车位滞纳金比率(‰)</td><td style="width:160px;">超期日期(天)</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl02_Label1">1</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=1&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl02_Label1_code">A01</span></a>
+                                        </td><td>中东首座</td><td>海淀子公司</td><td align="right">5.00</td><td align="right">15</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl03_Label1">2</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=2&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl03_Label1_code">B01</span></a>
+                                        </td><td>盈科大厦</td><td>朝阳子公司</td><td align="right">12.00</td><td align="right">15</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl04_Label1">3</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=3&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl04_Label1_code">A02</span></a>
+                                        </td><td>孔雀英国宫</td><td>宣武子公司</td><td align="right">5.00</td><td align="right">7</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl05_Label1">4</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=4&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl05_Label1_code">B02</span></a>
+                                        </td><td>电子大厦</td><td>宣武子公司</td><td align="right">12.00</td><td align="right">15</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl06_Label1">5</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=8&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl06_Label1_code">C01</span></a>
+                                        </td><td>菜批市场</td><td>海淀子公司</td><td align="right">5.00</td><td align="right">0</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl07_Label1">6</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=19&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl07_Label1_code">D01</span></a>
+                                        </td><td>东风仓库</td><td>海淀子公司</td><td align="right">5.00</td><td align="right">0</td>
+		</tr><tr class="hkRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl08_Label1">7</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=20&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl08_Label1_code">E01</span></a>
+                                        </td><td>地下车库</td><td>海淀子公司</td><td align="right">5.00</td><td align="right">0</td>
+		</tr><tr class="hkAltRowStyle" onclick="javascript:changeBg(this)">
+			<td align="center">
+                                            <span id="GridView1_ctl09_Label1">8</span>
+                                        </td><td align="center">
+                                            <a href="http://hkoffice.uicp.net:91/pms/fxsz/znjsz.aspx#" onclick="javascript:popMod(&#39;Znjsz_View.aspx?id=23&#39;)" class="gvlink">
+                                                <span id="GridView1_ctl09_Label1_code">sfsds</span></a>
+                                        </td><td>asdas</td><td>海淀子公司</td><td align="right">0.00</td><td align="right">0</td>
+		</tr>
+	</tbody></table>
+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 22px">
+                            
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+<!-- AspNetPager 7.5 Copyright:2003-2015 Webdiyer (www.webdiyer.com) -->
+
+
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    </form>
+
+
+</body></html>

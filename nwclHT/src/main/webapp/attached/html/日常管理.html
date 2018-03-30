@@ -1,0 +1,310 @@
+﻿
+<!-- saved from url=(0046)http://hkoffice.uicp.net:91/pms/bbcx/rcgl.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <title>日常管理</title>
+    <link href="./日常管理_files/Main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./日常管理_files/MyJs.js"></script>
+</head>
+<body class="main">
+    <form name="form1" method="post" action="./日常管理_files/日常管理.html" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTcwNDU0NDg3MA9kFgICAQ9kFhACCA8QZGQWAGQCFg8PFgIeB0VuYWJsZWRnZGQCFw8PFgIfAGdkZAIYDzwrABEBARAWABYAFgBkAhkPPCsAEQEBEBYAFgAWAGQCGg88KwARAQEQFgAWABYAZAIbDzwrABEBARAWABYAFgBkAhwPPCsAEQEBEBYAFgAWAGQYBQUJR3JpZFZpZXc0DzwrAAwCBhUBBmNlbGxpZAgC/////w9kBQlHcmlkVmlldzUPPCsADAIGFQECaWQIAv////8PZAUJR3JpZFZpZXcyDzwrAAwCBhUBAmlkCAL/////D2QFCUdyaWRWaWV3Mw88KwAMAgYVAQRjd2JoCAL/////D2QFCUdyaWRWaWV3MQ88KwAMAgYVAQNmaWQIAv////8PZPcYHdDEJwSqx5lw88t5jd4zhybmYVuKLoz0KTP4sPEg">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./日常管理_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./日常管理_files/WebResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1B6C3AF3">
+</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td style="height: 20px; background-image: url(../../images/topic_li.gif);">
+                <table width="157" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td align="center" class="td_title">
+                            日常管理
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <table cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
+                    <tbody><tr>
+                        <td height="30">
+                            请输入业主姓名、证件号码或电话：<input name="cx" type="text" value="赵云" id="cx" class="mytext" style="width:150px;">
+                            <input type="submit" name="CxBtn" value="查询[F]" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;CxBtn&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="CxBtn" class="mybtn" style="width: 80">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1">
+                                <tbody><tr>
+                                    <td colspan="6" style="height: 1px; background-color: #C0C0C0">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 12%" height="25">
+                                        <b>业主编号：</b>
+                                    </td>
+                                    <td style="width: 22%">
+                                        <span id="zhbh" style="color:Blue;"></span>
+                                    </td>
+                                    <td style="width: 12%">
+                                        <b>业主姓名：</b>
+                                    </td>
+                                    <td style="width: 21%">
+                                        <span id="yzxm" style="color:Blue;"></span>
+                                    </td>
+                                    <td style="width: 12%">
+                                        <b>联系电话：</b>
+                                    </td>
+                                    <td style="width: 21%">
+                                        <span id="lxdh" style="color:Blue;"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25">
+                                        <b>出生日期：</b>
+                                    </td>
+                                    <td>
+                                        <span id="birdate" style="color:Blue;"></span>
+                                    </td>
+                                    <td>
+                                        <b>证件号码：</b>
+                                    </td>
+                                    <td>
+                                        <span id="sfzh" style="color:Blue;"></span>
+                                    </td>
+                                    <td>
+                                        <b>所属公司：</b>
+                                    </td>
+                                    <td>
+                                        <span id="ssgs" style="color:Blue;"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6" style="height: 1px; background-color: #C0C0C0">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25">
+                                        选择房产：
+                                    </td>
+                                    <td>
+                                        <select name="ddlFc" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlFc\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlFc" style="width:90%;">
+
+</select>
+                                    </td>
+                                    <td>
+                                        物业类型：
+                                    </td>
+                                    <td>
+                                        <span id="fjlx" style="color:Blue;"></span>
+                                    </td>
+                                    <td>
+                                        房屋户型：
+                                    </td>
+                                    <td>
+                                        <span id="fwhx" style="color:Blue;"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25">
+                                        建筑面积：
+                                    </td>
+                                    <td>
+                                        <span id="fwmj" style="color:Blue;"></span>
+                                    </td>
+                                    <td>
+                                        房间状态：
+                                    </td>
+                                    <td>
+                                        <span disabled="disabled"><input id="ckynSale" type="checkbox" name="ckynSale" disabled="disabled"><label for="ckynSale">已售</label></span>
+                                        <span disabled="disabled"><input id="ckynRent" type="checkbox" name="ckynRent" disabled="disabled"><label for="ckynRent">已租</label></span>
+                                    </td>
+                                    <td>
+                                        房屋朝向：
+                                    </td>
+                                    <td>
+                                        <span id="fwcx" style="color:Blue;"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25">
+                                        使用状态：
+                                    </td>
+                                    <td>
+                                        <span id="syzt" style="color:Blue;"></span>
+                                    </td>
+                                    <td>
+                                        入住时间：
+                                    </td>
+                                    <td>
+                                        <span id="rzrq" style="color:Blue;"></span>
+                                    </td>
+                                    <td>
+                                        装修时间：
+                                    </td>
+                                    <td>
+                                        <span id="zxsj" style="color:Blue;"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6" style="height: 1px; background-color: #C0C0C0">
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tbody><tr>
+                                    <td height="2" colspan="7">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width: 91; background-image: url(../../images/tab_b_y.gif)">
+                                        <a id="fyxx" class="black" href="javascript:__doPostBack('fyxx','')">费用信息</a>
+                                    </td>
+                                    <td align="center" style="width: 91; height: 21; background-image: url(../../images/tab_b_n.gif)">
+                                        <a id="tsyj" class="black" href="javascript:__doPostBack('tsyj','')">投诉意见</a>
+                                    </td>
+                                    <td align="center" style="width: 91; background-image: url(../../images/tab_b_n.gif)">
+                                        <a id="cwxx" class="black" href="javascript:__doPostBack('cwxx','')">车位信息</a>
+                                    </td>
+                                    <td align="center" style="width: 91; background-image: url(../../images/tab_b_n.gif)">
+                                        <a id="xsht" class="black" href="javascript:__doPostBack('xsht','')">销售合同</a>
+                                    </td>
+                                    <td align="center" style="width: 91; background-image: url(../../images/tab_b_n.gif)">
+                                        <a id="qxgl" class="black" href="javascript:__doPostBack('qxgl','')">请修信息</a>
+                                    </td>
+                                    <td align="center" style="width: 91; background-image: url(../../images/tab_b_n.gif)">
+                                        <a id="bz" class="black" href="javascript:__doPostBack('bz','')">备注</a>
+                                    </td>
+                                    <td align="right">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="7" style="height: 1px; background-color: #C0C0C0">
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" align="center">
+                <!--费用信息-->
+                <div>
+
+</div>
+                <!--投诉意见-->
+                <div>
+
+</div>
+                <!--车位信息-->
+                <div>
+
+</div>
+                <!--销售合同-->
+                <div>
+
+</div>
+                <!--请修管理-->
+                <div>
+
+</div>
+                <!--备注-->
+                <textarea name="txtbz" rows="5" cols="20" readonly="readonly" id="txtbz" class="mytextarea" style="width:98%;"></textarea>
+            </td>
+        </tr>
+    </tbody></table>
+    
+    <div id="ValidationSummary2" style="color:Red;display:none;">
+
+</div>
+    <span id="RequiredFieldValidator5" style="color:Red;visibility:hidden;">&nbsp;
+    </span>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary2"));
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator5"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ValidationSummary2 = document.all ? document.all["ValidationSummary2"] : document.getElementById("ValidationSummary2");
+ValidationSummary2.showmessagebox = "True";
+ValidationSummary2.showsummary = "False";
+var RequiredFieldValidator5 = document.all ? document.all["RequiredFieldValidator5"] : document.getElementById("RequiredFieldValidator5");
+RequiredFieldValidator5.controltovalidate = "cx";
+RequiredFieldValidator5.errormessage = "请先输入条件再查询";
+RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator5.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+
+
+</body></html>

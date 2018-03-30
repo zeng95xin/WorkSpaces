@@ -1,0 +1,6 @@
+#database config
+database.userName = root
+#database.url = jdbc\:mysql\://10.47.169.31\:3306/nwcl?useUnicode\=true&characterEncoding\=UTF8&zeroDateTimeBehavior\=convertToNull&autoReconnect\=true&failOverReadOnly\=false&maxReconnects\=10
+#database.password = wj19840113
+database.url = jdbc\:mysql\://127.0.0.1\:3306/ruihao?useUnicode\=true&characterEncoding\=UTF8&zeroDateTimeBehavior\=convertToNull&autoReconnect\=true&failOverReadOnly\=false&maxReconnects\=10
+database.password =*&^Wj19840113

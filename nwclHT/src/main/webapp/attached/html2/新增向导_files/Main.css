@@ -1,0 +1,157 @@
+/* Body样式 */
+body{background-repeat: no-repeat;margin:0px;font-size:10pt;margin-top:0px;margin-left:0px;margin-right:0px;}
+body.main{background-color:#ecece8;}
+body.msg{background-image: url(../images/msgbg.jpg);}/*Top页Msg背景*/
+
+/* Frameset样式 */
+.fr{border-top: 2px solid #8CA1AE;border-left: 3px solid #8CA1AE;}
+
+/* GridView样式-常规 */
+tr.hkHeadStyle
+  { /*表头*/
+	height: 23px;
+	background-color: #cae2eb;
+	color:#000000;
+    font-weight:bold;
+    text-align:center;
+  }
+tr.hkHeadStyle td{
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+  }
+tr.hkRowStyle
+  { /*表体*/
+  	height: 19px;
+  	background-color: #ffffff;
+  }
+tr.hkRowStyle td{
+  	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+  }
+tr.hkAltRowStyle
+  { /*交叉行*/
+	height: 19px;
+  	background-color: #ebfbf0;
+  	color: #000000;
+  }
+tr.hkAltRowStyle td{
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+  }
+tr.hkEmpRowStyle{height: 25px;background-color: #ffffff;color: #FF0000;}/*无数据行*/
+tr.hkEmpRowStyle td{padding-left: 6px;}
+tr.hkBottomStyle{padding-left: 5px;padding-right: 5px;height: 24px;background-color: #e0e0e0;border-collapse:collapse;}/*总计行*/
+tr.hkBottomStyle td{border-bottom: 1px solid #c0c0c0;border-left: 1px solid #c0c0c0;border-right: 1px solid #c0c0c0;}
+tr.pagebottom{padding-left: 5px;padding-right: 5px;height: 24px;background-color: #ecece8;border-collapse:collapse;}/*gv自带分页的行*/
+tr.pagebottom td{border-bottom: 1px solid #a1a7ab;} 
+ 
+.hidden { display:none;}/*隐藏列*/
+
+/* GridView样式-打印 */
+tr.print_title{
+	height: 22px;
+	background-color: #FFFFFF;
+    font-weight:lighter;}
+tr.print_bottom{
+	height: 20px;
+	background-color: #CCCCCC;}
+tr.print_list_gray{
+	height: 20px;
+	background-color: #FFFFFF;}
+      
+/* Button样式 */
+input.mybtn{BORDER-RIGHT: #a8a8a8 1px outset; PADDING-RIGHT: 4px; BORDER-TOP: #a8a8a8 1px outset; DISPLAY: inline; PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../images/buttonbl_bg.gif); PADDING-BOTTOM: 2px; MARGIN: 1px 0px 0px; BORDER-LEFT: #a8a8a8 1px outset; LINE-HEIGHT: 15px; PADDING-TOP: 1px; BORDER-BOTTOM: #a8a8a8 1px outset; HEIGHT: 20px;}
+.pagebtn{ /*每页行数*/
+    BORDER-RIGHT: 1px solid #CCCCCC;BORDER-TOP: 1px solid #fff;BACKGROUND: #336699;MARGIN-LEFT: 2px;BORDER-LEFT: 1px solid #fff;WIDTH: 30px;
+	HEIGHT: 20px;PADDING-TOP: 2px;BORDER-BOTTOM: 1px solid #CCCCCC;LETTER-SPACING: normal;color: #FFFFFF;font-size: 10pt;}
+	
+/* TextBox样式 */ 
+input.mytext{border: 1px solid #B0C5E6;font: 12px;font-family: "Tahoma","宋体";}/*单行*/
+textArea.mytextarea{border: 1px solid #B0C5E6;font: 12px;font-family: "Tahoma","宋体";}/*多行*/
+input.pagetext{ /*每页N行*/
+    font-size: 10pt;background-color:#ffffff;border: solid 1px #b4b4b4;width: 40px;height:19px;padding:2px;}
+.wordtext{/*短信字数*/
+	border-right: 0px solid;border-top: 0px solid;font-size: 10pt;border-left: 0px solid;width: 23px;
+	border-bottom: 0px solid;height: auto;background-color:#e3e0dc;}
+input.logintext{border: 1px solid #525050;font: 14px;font-family: "Tahoma","宋体";}/*登录页*/
+.dj_text{/*单据类*/
+	font-size: 10pt;background-color:#f4f4f4;border-top-width:0px;BORDER-RIGHT: #D8D8D8 0px solid;
+	BORDER-BOTTOM: #D8D8D8 1px solid;border-left-width: 0px;font-family:宋体;}
+     
+/* 链接样式 */
+a.gvlink:link {COLOR: #3366ff; TEXT-DECORATION: underLine}/*GridView中文本*/
+a.gvlink:visited {COLOR: #3366ff; TEXT-DECORATION: underLine}
+a.gvlink:active {COLOR: #3366ff; TEXT-DECORATION: underLine}
+a.gvlink:hover {COLOR: #3366ff; TEXT-DECORATION: underLine;}
+a.top_text {font:10pt 宋体;COLOR: #000000;text-decoration: none;}/*Top导航菜单文本*/
+a.top_text:hover {COLOR: #000000;text-decoration: none;}
+a.top_text:active {COLOR: #000000}
+a.blue:link {font-size: 10pt;color: #000099;text-decoration: underline;}/*蓝色链接*/
+a.blue:visited {font-size: 10pt;color: #000099;text-decoration: underline;}
+a.blue:hover {font-size: 10pt;color: #000099;text-decoration: underline;}
+a.blue:active {font-size: 10pt;color: #000099;text-decoration: none;}
+a.black:link {font-size: 10pt;color: #000000;text-decoration: none;}/*黑色链接*/
+a.black:visited{font-size: 10pt;color: #000000;text-decoration: none;}
+a.black:hover{font-size: 10pt;color: #000000;text-decoration: none;}
+a.black:active{font-size: 10pt;color: #000000;text-decoration: none;}
+a.yellow:link {font-size: 10pt;color: yellow;text-decoration: none;}/*黄色链接*/
+a.yellow:visited{font-size: 10pt;color: yellow;text-decoration: none;}
+a.yellow:hover{font-size: 10pt;color: #DC143C;text-decoration: none;}
+a.yellow:active{font-size: 10pt;color: yellow;text-decoration: none;}
+.page_text {font:10pt 宋体;COLOR: #333333}/*翻页文本*/
+a.page_text {font:10pt 宋体;COLOR: #333333}
+a.page_text:hover {COLOR: #333333}
+a.page_text:active {COLOR: #333333}
+a.mail_top {font:10pt 宋体;COLOR: #FFFFFF;text-decoration: none;}/*分页标签文本*/
+a.mail_top:hover {COLOR: #FFFFFF;text-decoration: none;}
+a.mail_top:active {COLOR: #FFFFFF}
+
+/* Table 类*/
+table{font-size: 10pt;}/*默认table*/
+table.form td {border-bottom: 1px solid #C0C0C0;padding: 5px;}/*输入表单*/
+.form {border-top: 3px solid #CC6600;border-bottom: 1px solid #CC6600;background-color: #FFFFFF;border-collapse: collapse;} /*表格内表头*/
+.form-title {background-color: #EBFBF0;border-top: 1px solid #C0C0C0;border-left: 1px solid #C0C0C0;border-right: 1px solid #C0C0C0;}   /*表格内标题行*/
+.form-item {background-color: #EBFBF0;text-align: right;border-top: 1px solid #C0C0C0;border-left: 1px solid #C0C0C0;border-right: 1px solid #C0C0C0;}  /*表格内字段名*/
+.form-txt {padding: 9px;background-color: #FFFAF0;line-height: 150%} /*表格内字段值*/
+.td_title {FONT-SIZE: 12px; COLOR: #000000; BACKGROUND-COLOR: #4579B5; TEXT-ALIGN: center;BACKGROUND-IMAGE: url(../images/bg.gif);}/*主页面标题栏*/
+.td_base {PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #FFFFFF; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #4579B5; TEXT-DECORATION: none}/*弹出页面标题栏*/
+.tr_top{background-image: url(../images/top_line.jpg)}/*Top页背景*/
+
+/*菜单样式*/
+.bg {
+	background-image: url(../images/menu_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.topic {
+	font-weight: bold;
+	color: #000000;
+	padding-left: 12px;
+	background-color: #D7E9F8;
+}
+.table {
+	border-right:solid 1px #A1A7AB;
+	border-left:solid 1px #A1A7AB;
+}
+
+/*菜单竖向分隔线*/
+.line {
+	border-left: 1px solid #8f9396;
+	border-right: 1px solid #dad9d7;
+	width: 2px;
+	height: 17px;
+}
+
+/*hr水平线*/
+.hr1{border:none;background-color:#CCCCCC;color:#CCCCCC;height:1px;width:100%;}     /*同时支持显示和打印*/
+.hr2{ height:1px;border:none;border-top:1px dashed #0066CC;}    /*蓝色点线,部分浏览器不能打印*/
+.hr3{ height:1px;border:none;border-top:1px solid #555555;}     /*灰色实线,部分浏览器不能打印*/
+.hr4{ height:3px;border:none;border-top:3px double red;}        /*双行线,同时支持显示和打印*/
+.hr5{ height:5px;border:none;border-top:5px ridge green;}       /*上粗下窄,同时支持显示和打印*/
+.hr6{ height:10px;border:none;border-top:10px groove skyblue;}  /*等宽线,同时支持显示和打印*/
